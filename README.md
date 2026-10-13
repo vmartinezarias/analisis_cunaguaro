@@ -1,4 +1,6 @@
 # Diversidad de fauna - R 
+Para ingresar al aplicativo: https://vmartinezarias.github.io/analisis_cunaguaro/
+
 
 Primera versión para inventarios de aves, mamíferos, anfibios y reptiles. Carga Excel; compara comunidades; define muestras; analiza abundancia e incidencia; genera tablas ANLA y cruces de catálogos.
 
