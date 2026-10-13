@@ -1,4 +1,4 @@
-# Diversidad de fauna — R en GitHub Pages
+# Diversidad de fauna - R 
 
 Primera versión para inventarios de aves, mamíferos, anfibios y reptiles. Carga Excel; compara comunidades; define muestras; analiza abundancia e incidencia; genera tablas ANLA y cruces de catálogos.
 
