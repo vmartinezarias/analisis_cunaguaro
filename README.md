@@ -2,31 +2,6 @@
 
 Primera versión para inventarios de aves, mamíferos, anfibios y reptiles. Carga Excel; compara comunidades; define muestras; analiza abundancia e incidencia; genera tablas ANLA y cruces de catálogos.
 
-## Publicar en tu repositorio
-
-1. Crear un repositorio en GitHub y subir **el contenido** de esta carpeta, conservando `app/`, `app/data/`, `tests/`, `tools/` y `.github/workflows/pages.yml`. La carpeta oculta `.github` debe incluirse. No subir el ZIP como único archivo.
-2. En **Settings → Pages → Build and deployment → Source**, elegir **GitHub Actions**.
-3. Usar la rama `main`. Si tiene otro nombre, cambiarlo en `pages.yml`.
-4. En **Actions**, ejecutar o revisar «Validar y publicar GitHub Pages». Ejecuta los tests de R antes de exportar con Shinylive y publicar.
-5. La URL será `https://USUARIO.github.io/REPOSITORIO/`.
-
-Esta entrega es código fuente preparado para despliegue; no crea tu repositorio ni publica una página en tu cuenta. Los catálogos ya están incluidos: no hace falta subir los ZIP originales.
-
-## Carpeta data
-
-Está en **app/data/**, porque Shinylive debe incluir los archivos en el sistema de archivos del navegador. Su README identifica versiones y contenidos. Puedes sustituirlos manteniendo las columnas. No subir bases reales de campo al repositorio público; los visitantes las cargan localmente.
-
-## Ejecutar en R local
-
-Desde la raíz:
-
-```r
-install.packages(c("shiny","readxl","openxlsx","jsonlite","vegan","iNEXT","ggplot2","zip"))
-shiny::runApp("app")
-```
-
-Para ejecutar las verificaciones: `Rscript tests/test_core.R`.
-
 ## Uso
 
 1. Descargar la plantilla desde la aplicación. `BD` contiene registros y `Esfuerzo` las muestras realizadas. `Ejemplo` es únicamente ilustrativo.
