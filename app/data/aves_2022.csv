@@ -1,0 +1,1967 @@
+Secuencia2022,Orden2022,Familia2022,Nombre 2022,Estado2022
+1,Tinamiformes,Tinamidae,Nothocercus julius,Residente
+2,Tinamiformes,Tinamidae,Nothocercus bonapartei,Residente
+3,Tinamiformes,Tinamidae,Nothoprocta curvirostris,Residente
+4,Tinamiformes,Tinamidae,Tinamus tao,Residente
+5,Tinamiformes,Tinamidae,Tinamus osgoodi,Residente
+6,Tinamiformes,Tinamidae,Tinamus major,Residente
+7,Tinamiformes,Tinamidae,Tinamus guttatus,Residente
+8,Tinamiformes,Tinamidae,Crypturellus berlepschi,Residente
+9,Tinamiformes,Tinamidae,Crypturellus cinereus,Residente
+10,Tinamiformes,Tinamidae,Crypturellus soui,Residente
+11,Tinamiformes,Tinamidae,Crypturellus obsoletus,Residente
+12,Tinamiformes,Tinamidae,Crypturellus undulatus,Residente
+13,Tinamiformes,Tinamidae,Crypturellus duidae,Residente
+14,Tinamiformes,Tinamidae,Crypturellus erythropus,Residente
+15,Tinamiformes,Tinamidae,Crypturellus kerriae,Residente
+16,Tinamiformes,Tinamidae,Crypturellus variegatus,Residente
+17,Tinamiformes,Tinamidae,Crypturellus brevirostris,Hipotética
+18,Tinamiformes,Tinamidae,Crypturellus bartletti,Hipotética
+19,Tinamiformes,Tinamidae,Crypturellus casiquiare,Residente
+20,Anseriformes,Anhimidae,Anhima cornuta,Residente
+21,Anseriformes,Anhimidae,Chauna chavaria,Residente
+22,Anseriformes,Anatidae,Dendrocygna bicolor,Residente
+23,Anseriformes,Anatidae,Dendrocygna viduata,Residente
+24,Anseriformes,Anatidae,Dendrocygna autumnalis,Residente
+25,Anseriformes,Anatidae,Oressochen jubatus,Residente
+26,Anseriformes,Anatidae,Cairina moschata,Residente
+27,Anseriformes,Anatidae,Sarkidiornis sylvicola,Residente
+28,Anseriformes,Anatidae,Alopochen aegyptiaca,Exótica establecida
+29,Anseriformes,Anatidae,Amazonetta brasiliensis,Migratorio Austral? - Residente
+30,Anseriformes,Anatidae,Merganetta armata,Residente
+31,Anseriformes,Anatidae,Spatula puna,Hipotética
+32,Anseriformes,Anatidae,Spatula clypeata,Migratorio Boreal
+33,Anseriformes,Anatidae,Spatula discors,Migratorio Boreal - Residente
+34,Anseriformes,Anatidae,Spatula cyanoptera,Migratorio Boreal - Residente
+35,Anseriformes,Anatidae,Mareca americana,Migratorio Boreal
+36,Anseriformes,Anatidae,Anas bahamensis,Residente
+37,Anseriformes,Anatidae,Anas acuta,Migratorio Boreal
+38,Anseriformes,Anatidae,Anas georgica,Residente
+39,Anseriformes,Anatidae,Anas crecca,Errática
+40,Anseriformes,Anatidae,Anas andium,Residente
+41,Anseriformes,Anatidae,Mareca strepera,Errática
+42,Anseriformes,Anatidae,Netta erythrophthalma,Residente
+43,Anseriformes,Anatidae,Aythya collaris,Errática
+44,Anseriformes,Anatidae,Aythya affinis,Migratorio Boreal
+45,Anseriformes,Anatidae,Melanitta americana,Hipotética
+46,Anseriformes,Anatidae,Mergus serrator,Migratorio Boreal
+47,Anseriformes,Anatidae,Nomonyx dominicus,Residente
+48,Anseriformes,Anatidae,Oxyura jamaicensis,Migratorio Boreal? - Residente
+49,Galliformes,Cracidae,Chamaepetes goudotii,Residente
+50,Galliformes,Cracidae,Penelope argyrotis,Residente
+51,Galliformes,Cracidae,Penelope ortoni,Residente
+52,Galliformes,Cracidae,Penelope montagnii,Residente
+53,Galliformes,Cracidae,Penelope jacquacu,Residente
+54,Galliformes,Cracidae,Penelope purpurascens,Residente
+55,Galliformes,Cracidae,Penelope perspicax,Residente Endémica
+56,Galliformes,Cracidae,Pipile cumanensis,Residente
+57,Galliformes,Cracidae,Aburria aburri,Residente
+58,Galliformes,Cracidae,Ortalis cinereiceps,Residente
+59,Galliformes,Cracidae,Ortalis garrula,Residente Endémica
+60,Galliformes,Cracidae,Ortalis ruficauda,Residente
+61,Galliformes,Cracidae,Ortalis erythroptera,Residente
+62,Galliformes,Cracidae,Ortalis columbiana,Residente Endémica
+63,Galliformes,Cracidae,Ortalis guttata,Residente
+64,Galliformes,Cracidae,Ortalis motmot,Hipotética
+65,Galliformes,Cracidae,Nothocrax urumutum,Residente
+66,Galliformes,Cracidae,Crax rubra,Residente
+67,Galliformes,Cracidae,Crax alberti,Residente Endémica
+68,Galliformes,Cracidae,Crax daubentoni,Residente
+69,Galliformes,Cracidae,Crax alector,Residente
+70,Galliformes,Cracidae,Crax globulosa,Residente
+71,Galliformes,Cracidae,Mitu tomentosum,Residente
+72,Galliformes,Cracidae,Mitu salvini,Residente
+73,Galliformes,Cracidae,Mitu tuberosum,Residente
+74,Galliformes,Cracidae,Pauxi pauxi,Residente
+75,Galliformes,Odontophoridae,Rhynchortyx cinctus,Residente
+76,Galliformes,Odontophoridae,Colinus cristatus,Residente
+77,Galliformes,Odontophoridae,Odontophorus gujanensis,Residente
+78,Galliformes,Odontophoridae,Odontophorus atrifrons,Residente
+79,Galliformes,Odontophoridae,Odontophorus erythrops,Residente
+80,Galliformes,Odontophoridae,Odontophorus hyperythrus,Residente Endémica
+81,Galliformes,Odontophoridae,Odontophorus melanonotus,Residente
+82,Galliformes,Odontophoridae,Odontophorus speciosus,Residente
+83,Galliformes,Odontophoridae,Odontophorus dialeucos,Residente
+84,Galliformes,Odontophoridae,Odontophorus strophium,Residente Endémica
+85,Phoenicopteriformes,Phoenicopteridae,Phoenicopterus chilensis,Errática
+86,Phoenicopteriformes,Phoenicopteridae,Phoenicopterus ruber,Residente
+87,Podicipediformes,Podicipedidae,Tachybaptus dominicus,Residente
+88,Podicipediformes,Podicipedidae,Podilymbus podiceps,Residente
+89,Podicipediformes,Podicipedidae,Podiceps andinus,Residente Endémica - Extinta
+90,Podicipediformes,Podicipedidae,Podiceps occipitalis,Residente
+91,Columbiformes,Columbidae,Columba livia,Exótica establecida
+92,Columbiformes,Columbidae,Patagioenas leucocephala,Residente
+93,Columbiformes,Columbidae,Patagioenas speciosa,Residente
+94,Columbiformes,Columbidae,Patagioenas corensis,Residente
+95,Columbiformes,Columbidae,Patagioenas fasciata,Residente
+96,Columbiformes,Columbidae,Patagioenas cayennensis,Residente
+97,Columbiformes,Columbidae,Patagioenas plumbea,Residente
+98,Columbiformes,Columbidae,Patagioenas subvinacea,Residente
+99,Columbiformes,Columbidae,Patagioenas nigrirostris,Residente
+100,Columbiformes,Columbidae,Patagioenas goodsoni,Residente
+101,Columbiformes,Columbidae,Geotrygon purpurata,Residente
+102,Columbiformes,Columbidae,Geotrygon saphirina,Residente
+103,Columbiformes,Columbidae,Geotrygon montana,Residente
+104,Columbiformes,Columbidae,Geotrygon violacea,Residente
+105,Columbiformes,Columbidae,Leptotrygon veraguensis,Residente
+106,Columbiformes,Columbidae,Leptotila verreauxi,Residente
+107,Columbiformes,Columbidae,Leptotila cassinii,Residente
+108,Columbiformes,Columbidae,Leptotila conoveri,Residente Endémica
+109,Columbiformes,Columbidae,Leptotila jamaicensis,Residente
+110,Columbiformes,Columbidae,Leptotila plumbeiceps,Residente
+111,Columbiformes,Columbidae,Leptotila rufaxilla,Residente
+112,Columbiformes,Columbidae,Leptotila pallida,Residente
+113,Columbiformes,Columbidae,Zentrygon frenata,Residente
+114,Columbiformes,Columbidae,Zentrygon linearis,Residente
+115,Columbiformes,Columbidae,Zentrygon goldmani,Residente
+116,Columbiformes,Columbidae,Zenaida asiatica,Errática
+117,Columbiformes,Columbidae,Zenaida auriculata,Residente
+118,Columbiformes,Columbidae,Zenaida macroura,Errática
+119,Columbiformes,Columbidae,Claravis pretiosa,Residente
+120,Columbiformes,Columbidae,Paraclaravis mondetoura,Residente
+121,Columbiformes,Columbidae,Metriopelia melanoptera,Residente
+122,Columbiformes,Columbidae,Columbina passerina,Residente
+123,Columbiformes,Columbidae,Columbina minuta,Residente
+124,Columbiformes,Columbidae,Columbina talpacoti,Residente
+125,Columbiformes,Columbidae,Columbina buckleyi,Residente
+126,Columbiformes,Columbidae,Columbina squammata,Residente
+127,Columbiformes,Columbidae,Columbina picui,Migratorio Austral
+128,Columbiformes,Columbidae,Columbina cruziana,Residente
+129,Cuculiformes,Cuculidae,Crotophaga major,Residente
+130,Cuculiformes,Cuculidae,Crotophaga ani,Residente
+131,Cuculiformes,Cuculidae,Crotophaga sulcirostris,Residente
+132,Cuculiformes,Cuculidae,Tapera naevia,Residente
+133,Cuculiformes,Cuculidae,Dromococcyx phasianellus,Residente
+134,Cuculiformes,Cuculidae,Dromococcyx pavoninus,Residente
+135,Cuculiformes,Cuculidae,Neomorphus geoffroyi,Residente
+136,Cuculiformes,Cuculidae,Neomorphus radiolosus,Residente
+137,Cuculiformes,Cuculidae,Neomorphus rufipennis,Hipotética
+138,Cuculiformes,Cuculidae,Neomorphus pucheranii,Residente
+139,Cuculiformes,Cuculidae,Coccycua minuta,Residente
+140,Cuculiformes,Cuculidae,Coccycua pumila,Residente
+141,Cuculiformes,Cuculidae,Coccycua cinerea,Hipotética
+142,Cuculiformes,Cuculidae,Piaya cayana,Residente
+143,Cuculiformes,Cuculidae,Piaya melanogaster,Residente
+144,Cuculiformes,Cuculidae,Coccyzus melacoryphus,Residente
+145,Cuculiformes,Cuculidae,Coccyzus americanus,Migratorio Boreal
+146,Cuculiformes,Cuculidae,Coccyzus euleri,Errática
+147,Cuculiformes,Cuculidae,Coccyzus minor,Errática
+148,Cuculiformes,Cuculidae,Coccyzus erythropthalmus,Migratorio Boreal
+149,Cuculiformes,Cuculidae,Coccyzus lansbergi,Residente
+150,Steatornithiformes,Steatornithidae,Steatornis caripensis,Residente
+151,Nyctibiiformes,Nyctibiidae,Nyctibius grandis,Residente
+152,Nyctibiiformes,Nyctibiidae,Nyctibius aethereus,Residente
+153,Nyctibiiformes,Nyctibiidae,Nyctibius griseus,Residente
+154,Nyctibiiformes,Nyctibiidae,Nyctibius maculosus,Residente
+155,Nyctibiiformes,Nyctibiidae,Phyllaemulor bracteatus,Residente
+156,Nyctibiiformes,Nyctibiidae,Nyctibius leucopterus,Residente
+157,Caprimulgiformes,Caprimulgidae,Chordeiles nacunda,Residente
+158,Caprimulgiformes,Caprimulgidae,Chordeiles pusillus,Residente
+159,Caprimulgiformes,Caprimulgidae,Chordeiles rupestris,Residente
+160,Caprimulgiformes,Caprimulgidae,Chordeiles acutipennis,Migratorio Boreal - Residente
+161,Caprimulgiformes,Caprimulgidae,Chordeiles minor,Migratorio Boreal
+162,Caprimulgiformes,Caprimulgidae,Chordeiles gundlachii,Migratorio Boreal
+163,Caprimulgiformes,Caprimulgidae,Lurocalis semitorquatus,Residente
+164,Caprimulgiformes,Caprimulgidae,Lurocalis rufiventris,Residente
+165,Caprimulgiformes,Caprimulgidae,Nyctiprogne leucopyga,Residente
+166,Caprimulgiformes,Caprimulgidae,Nyctipolus nigrescens,Residente
+167,Caprimulgiformes,Caprimulgidae,Systellura longirostris,Residente
+168,Caprimulgiformes,Caprimulgidae,Nyctidromus albicollis,Residente
+169,Caprimulgiformes,Caprimulgidae,Uropsalis segmentata,Residente
+170,Caprimulgiformes,Caprimulgidae,Uropsalis lyra,Residente
+171,Caprimulgiformes,Caprimulgidae,Setopagis heterura,Residente
+172,Caprimulgiformes,Caprimulgidae,Hydropsalis cayennensis,Residente
+173,Caprimulgiformes,Caprimulgidae,Hydropsalis maculicaudus,Residente
+174,Caprimulgiformes,Caprimulgidae,Hydropsalis climacocerca,Residente
+175,Caprimulgiformes,Caprimulgidae,Nyctiphrynus rosenbergi,Residente
+176,Caprimulgiformes,Caprimulgidae,Nyctiphrynus ocellatus,Residente
+177,Caprimulgiformes,Caprimulgidae,Antrostomus carolinensis,Migratorio Boreal
+178,Caprimulgiformes,Caprimulgidae,Antrostomus rufus,Residente
+179,Apodiformes,Apodidae,Cypseloides cherriei,Residente
+180,Apodiformes,Apodidae,Cypseloides cryptus,Residente
+181,Apodiformes,Apodidae,Cypseloides niger,Migratorio Boreal
+182,Apodiformes,Apodidae,Cypseloides lemosi,Residente
+183,Apodiformes,Apodidae,Streptoprocne rutila,Residente
+184,Apodiformes,Apodidae,Streptoprocne zonaris,Residente
+185,Apodiformes,Apodidae,Chaetura cinereiventris,Residente
+186,Apodiformes,Apodidae,Chaetura spinicaudus,Residente
+187,Apodiformes,Apodidae,Chaetura egregia,Errática
+188,Apodiformes,Apodidae,Chaetura pelagica,Migratorio Boreal
+189,Apodiformes,Apodidae,Chaetura chapmani,Residente
+190,Apodiformes,Apodidae,Chaetura meridionalis,Migratorio Austral
+191,Apodiformes,Apodidae,Chaetura brachyura,Residente
+192,Apodiformes,Apodidae,Aeronautes montivagus,Residente
+193,Apodiformes,Apodidae,Tachornis furcata,Residente
+194,Apodiformes,Apodidae,Tachornis squamata,Residente
+195,Apodiformes,Apodidae,Panyptila cayennensis,Residente
+196,Apodiformes,Trochilidae,Topaza pyra,Residente
+197,Apodiformes,Trochilidae,Florisuga mellivora,Residente
+198,Apodiformes,Trochilidae,Eutoxeres aquila,Residente
+199,Apodiformes,Trochilidae,Eutoxeres condamini,Residente
+200,Apodiformes,Trochilidae,Glaucis aeneus,Residente
+201,Apodiformes,Trochilidae,Glaucis hirsutus,Residente
+202,Apodiformes,Trochilidae,Threnetes ruckeri,Residente
+203,Apodiformes,Trochilidae,Threnetes leucurus,Residente
+204,Apodiformes,Trochilidae,Phaethornis rupurumii,Residente
+205,Apodiformes,Trochilidae,Phaethornis atrimentalis,Residente
+206,Apodiformes,Trochilidae,Phaethornis striigularis,Residente
+207,Apodiformes,Trochilidae,Phaethornis griseogularis,Residente
+208,Apodiformes,Trochilidae,Phaethornis ruber,Residente
+209,Apodiformes,Trochilidae,Phaethornis augusti,Residente
+210,Apodiformes,Trochilidae,Phaethornis anthophilus,Residente
+211,Apodiformes,Trochilidae,Phaethornis hispidus,Residente
+212,Apodiformes,Trochilidae,Phaethornis yaruqui,Residente
+213,Apodiformes,Trochilidae,Phaethornis guy,Residente
+214,Apodiformes,Trochilidae,Phaethornis syrmatophorus,Residente
+215,Apodiformes,Trochilidae,Phaethornis bourcieri,Residente
+216,Apodiformes,Trochilidae,Phaethornis longirostris,Residente
+217,Apodiformes,Trochilidae,Phaethornis malaris,Residente
+218,Apodiformes,Trochilidae,Doryfera ludovicae,Residente
+219,Apodiformes,Trochilidae,Doryfera johannae,Residente
+220,Apodiformes,Trochilidae,Schistes albogularis,Residente
+221,Apodiformes,Trochilidae,Schistes geoffroyi,Residente
+222,Apodiformes,Trochilidae,Colibri delphinae,Residente
+223,Apodiformes,Trochilidae,Colibri cyanotus,Residente
+224,Apodiformes,Trochilidae,Colibri coruscans,Residente
+225,Apodiformes,Trochilidae,Androdon aequatorialis,Residente
+226,Apodiformes,Trochilidae,Heliothryx barroti,Residente
+227,Apodiformes,Trochilidae,Heliothryx auritus,Residente
+228,Apodiformes,Trochilidae,Polytmus guainumbi,Residente
+229,Apodiformes,Trochilidae,Polytmus theresiae,Residente
+230,Apodiformes,Trochilidae,Avocettula recurvirostris,Errática
+231,Apodiformes,Trochilidae,Chrysolampis mosquitus,Residente
+232,Apodiformes,Trochilidae,Anthracothorax prevostii,Residente
+233,Apodiformes,Trochilidae,Anthracothorax nigricollis,Residente
+234,Apodiformes,Trochilidae,Heliangelus mavors,Residente
+235,Apodiformes,Trochilidae,Heliangelus amethysticollis,Residente
+236,Apodiformes,Trochilidae,Heliangelus strophianus,Residente
+237,Apodiformes,Trochilidae,Heliangelus exortis,Residente
+238,Apodiformes,Trochilidae,Discosura conversii,Residente
+239,Apodiformes,Trochilidae,Discosura popelairii,Residente
+240,Apodiformes,Trochilidae,Discosura langsdorffi,Residente
+241,Apodiformes,Trochilidae,Discosura longicaudus,Residente
+242,Apodiformes,Trochilidae,Lophornis delattrei,Residente
+243,Apodiformes,Trochilidae,Lophornis stictolophus,Residente
+244,Apodiformes,Trochilidae,Lophornis verreauxii,Residente
+245,Apodiformes,Trochilidae,Phlogophilus hemileucurus,Residente
+246,Apodiformes,Trochilidae,Adelomyia melanogenys,Residente
+247,Apodiformes,Trochilidae,Aglaiocercus kingii,Residente
+248,Apodiformes,Trochilidae,Aglaiocercus coelestis,Residente
+249,Apodiformes,Trochilidae,Oreotrochilus chimborazo,Residente
+250,Apodiformes,Trochilidae,Opisthoprora euryptera,Residente
+251,Apodiformes,Trochilidae,Lesbia victoriae,Residente
+252,Apodiformes,Trochilidae,Lesbia nuna,Residente
+253,Apodiformes,Trochilidae,Ramphomicron dorsale,Residente Endémica
+254,Apodiformes,Trochilidae,Ramphomicron microrhynchum,Residente
+255,Apodiformes,Trochilidae,Oxypogon stuebelii,Residente Endémica
+256,Apodiformes,Trochilidae,Oxypogon cyanolaemus,Residente Endémica
+257,Apodiformes,Trochilidae,Oxypogon guerinii,Residente Endémica
+258,Apodiformes,Trochilidae,Chalcostigma ruficeps,Errática
+259,Apodiformes,Trochilidae,Chalcostigma stanleyi,Residente?
+260,Apodiformes,Trochilidae,Chalcostigma heteropogon,Residente
+261,Apodiformes,Trochilidae,Chalcostigma herrani,Residente
+262,Apodiformes,Trochilidae,Metallura tyrianthina,Residente
+263,Apodiformes,Trochilidae,Metallura iracunda,Residente
+264,Apodiformes,Trochilidae,Metallura williami,Residente
+265,Apodiformes,Trochilidae,Haplophaedia aureliae,Residente
+266,Apodiformes,Trochilidae,Haplophaedia lugens,Residente
+267,Apodiformes,Trochilidae,Eriocnemis isabellae,Residente Endémica
+268,Apodiformes,Trochilidae,Eriocnemis vestita,Residente
+269,Apodiformes,Trochilidae,Eriocnemis derbyi,Residente
+270,Apodiformes,Trochilidae,Eriocnemis godini,Residente
+271,Apodiformes,Trochilidae,Eriocnemis cupreoventris,Residente
+272,Apodiformes,Trochilidae,Eriocnemis luciani,Residente
+273,Apodiformes,Trochilidae,Eriocnemis mosquera,Residente
+274,Apodiformes,Trochilidae,Eriocnemis mirabilis,Residente Endémica
+275,Apodiformes,Trochilidae,Eriocnemis aline,Residente
+276,Apodiformes,Trochilidae,Aglaeactis cupripennis,Residente
+277,Apodiformes,Trochilidae,Coeligena coeligena,Residente
+278,Apodiformes,Trochilidae,Coeligena wilsoni,Residente
+279,Apodiformes,Trochilidae,Coeligena prunellei,Residente Endémica
+280,Apodiformes,Trochilidae,Coeligena torquata,Residente
+281,Apodiformes,Trochilidae,Coeligena phalerata,Residente Endémica
+282,Apodiformes,Trochilidae,Coeligena orina,Residente Endémica
+283,Apodiformes,Trochilidae,Coeligena lutetiae,Residente
+284,Apodiformes,Trochilidae,Coeligena bonapartei,Residente
+285,Apodiformes,Trochilidae,Coeligena helianthea,Residente
+286,Apodiformes,Trochilidae,Lafresnaya lafresnayi,Residente
+287,Apodiformes,Trochilidae,Ensifera ensifera,Residente
+288,Apodiformes,Trochilidae,Pterophanes cyanopterus,Residente
+289,Apodiformes,Trochilidae,Boissonneaua flavescens,Residente
+290,Apodiformes,Trochilidae,Boissonneaua matthewsii,Residente
+291,Apodiformes,Trochilidae,Boissonneaua jardini,Residente
+292,Apodiformes,Trochilidae,Ocreatus underwoodii,Residente
+293,Apodiformes,Trochilidae,Urochroa bougueri,Residente
+294,Apodiformes,Trochilidae,Urochroa leucura,Residente
+295,Apodiformes,Trochilidae,Urosticte benjamini,Residente
+296,Apodiformes,Trochilidae,Urosticte ruficrissa,Residente
+297,Apodiformes,Trochilidae,Heliodoxa gularis,Residente
+298,Apodiformes,Trochilidae,Heliodoxa schreibersii,Residente
+299,Apodiformes,Trochilidae,Heliodoxa aurescens,Residente
+300,Apodiformes,Trochilidae,Heliodoxa rubinoides,Residente
+301,Apodiformes,Trochilidae,Heliodoxa jacula,Residente
+302,Apodiformes,Trochilidae,Heliodoxa imperatrix,Residente
+303,Apodiformes,Trochilidae,Heliodoxa leadbeateri,Residente
+304,Apodiformes,Trochilidae,Patagona gigas,Residente
+305,Apodiformes,Trochilidae,Sternoclyta cyanopectus,Residente
+306,Apodiformes,Trochilidae,Heliomaster longirostris,Residente
+307,Apodiformes,Trochilidae,Heliomaster furcifer,Residente
+308,Apodiformes,Trochilidae,Chaetocercus mulsant,Residente
+309,Apodiformes,Trochilidae,Chaetocercus bombus,Hipotética
+310,Apodiformes,Trochilidae,Chaetocercus heliodor,Residente
+311,Apodiformes,Trochilidae,Chaetocercus astreans,Residente Endémica
+312,Apodiformes,Trochilidae,Chaetocercus jourdanii,Residente
+313,Apodiformes,Trochilidae,Calliphlox amethystina,Residente
+314,Apodiformes,Trochilidae,Philodice mitchellii,Residente
+315,Apodiformes,Trochilidae,Chlorostilbon melanorhynchus,Residente
+316,Apodiformes,Trochilidae,Chlorostilbon gibsoni,Residente
+317,Apodiformes,Trochilidae,Chlorostilbon mellisugus,Residente
+318,Apodiformes,Trochilidae,Chlorostilbon olivaresi,Residente Endémica
+319,Apodiformes,Trochilidae,Chlorostilbon russatus,Residente
+320,Apodiformes,Trochilidae,Chlorostilbon stenurus,Residente
+321,Apodiformes,Trochilidae,Chlorostilbon poortmani,Residente
+322,Apodiformes,Trochilidae,Klais guimeti,Residente
+323,Apodiformes,Trochilidae,Anthocephala floriceps,Residente Endémica
+324,Apodiformes,Trochilidae,Anthocephala berlepschi,Residente Endémica
+325,Apodiformes,Trochilidae,Campylopterus largipennis,Residente
+326,Apodiformes,Trochilidae,Campylopterus falcatus,Residente
+327,Apodiformes,Trochilidae,Campylopterus phainopeplus,Residente Endémica
+328,Apodiformes,Trochilidae,Campylopterus villaviscensio,Residente
+329,Apodiformes,Trochilidae,Chalybura buffonii,Residente
+330,Apodiformes,Trochilidae,Chalybura urochrysia,Residente
+331,Apodiformes,Trochilidae,Thalurania colombica,Residente
+332,Apodiformes,Trochilidae,Thalurania furcata,Residente
+333,Apodiformes,Trochilidae,Goldmania bella,Residente
+334,Apodiformes,Trochilidae,Goldmania violiceps,Residente
+335,Apodiformes,Trochilidae,Phaeochroa cuvierii,Residente
+336,Apodiformes,Trochilidae,Leucippus fallax,Residente
+337,Apodiformes,Trochilidae,Taphrospilus hypostictus,Residente
+338,Apodiformes,Trochilidae,Talaphorus chlorocercus,Residente
+339,Apodiformes,Trochilidae,Saucerottia edward,Residente
+340,Apodiformes,Trochilidae,Saucerottia saucerottei,Residente
+341,Apodiformes,Trochilidae,Saucerottia cyanifrons,Residente Endémica
+342,Apodiformes,Trochilidae,Saucerottia castaneiventris,Residente Endémica
+343,Apodiformes,Trochilidae,Saucerottia viridigaster,Residente
+344,Apodiformes,Trochilidae,Amazilia tzacatl,Residente
+345,Apodiformes,Trochilidae,Uranomitra franciae,Residente
+346,Apodiformes,Trochilidae,Chrysuronia versicolor,Residente
+347,Apodiformes,Trochilidae,Chrysuronia goudoti,Residente
+348,Apodiformes,Trochilidae,Chrysuronia oenone,Residente
+349,Apodiformes,Trochilidae,Chrysuronia coeruleogularis,Residente
+350,Apodiformes,Trochilidae,Chrysuronia lilliae,Residente Endémica
+351,Apodiformes,Trochilidae,Chrysuronia humboldtii,Residente
+352,Apodiformes,Trochilidae,Chrysuronia grayi,Residente
+353,Apodiformes,Trochilidae,Chionomesa fimbriata,Residente
+354,Apodiformes,Trochilidae,Hylocharis sapphirina,Residente
+355,Apodiformes,Trochilidae,Polyerata rosenbergi,Residente
+356,Apodiformes,Trochilidae,Polyerata amabilis,Residente
+357,Apodiformes,Trochilidae,Chlorestes eliciae,Residente
+358,Apodiformes,Trochilidae,Chlorestes cyanus,Residente
+359,Apodiformes,Trochilidae,Chlorestes julie,Residente
+360,Apodiformes,Trochilidae,Chlorestes notata,Residente
+361,Opisthocomiformes,Opisthocomidae,Opisthocomus hoazin,Residente
+362,Gruiformes,Aramidae,Aramus guarauna,Residente
+363,Gruiformes,Psophiidae,Psophia crepitans,Residente
+364,Gruiformes,Rallidae,Rallus longirostris,Residente
+365,Gruiformes,Rallidae,Rallus limicola,Residente
+366,Gruiformes,Rallidae,Rallus semiplumbeus,Residente Endémica
+367,Gruiformes,Rallidae,Porphyrio martinica,Residente
+368,Gruiformes,Rallidae,Porphyrio flavirostris,Migratorio Austral?
+369,Gruiformes,Rallidae,Anurolimnas castaneiceps,Residente
+370,Gruiformes,Rallidae,Anurolimnas viridis,Residente
+371,Gruiformes,Rallidae,Anurolimnas fasciatus,Residente
+372,Gruiformes,Rallidae,Laterallus melanophaius,Residente
+373,Gruiformes,Rallidae,Laterallus albigularis,Residente
+374,Gruiformes,Rallidae,Laterallus exilis,Residente
+375,Gruiformes,Rallidae,Laterallus jamaicensis,Errática
+376,Gruiformes,Rallidae,Coturnicops notatus,Errática
+377,Gruiformes,Rallidae,Micropygia schomburgkii,Residente
+378,Gruiformes,Rallidae,Mustelirallus albicollis,Residente
+379,Gruiformes,Rallidae,Mustelirallus colombianus,Residente
+380,Gruiformes,Rallidae,Mustelirallus erythrops,Residente
+381,Gruiformes,Rallidae,Pardirallus maculatus,Residente
+382,Gruiformes,Rallidae,Pardirallus nigricans,Residente
+383,Gruiformes,Rallidae,Amaurolimnas concolor,Residente
+384,Gruiformes,Rallidae,Aramides wolfi,Residente
+385,Gruiformes,Rallidae,Aramides cajaneus,Residente
+386,Gruiformes,Rallidae,Aramides axillaris,Residente
+387,Gruiformes,Rallidae,Porphyriops melanops,Residente
+388,Gruiformes,Rallidae,Porzana flaviventer,Residente
+389,Gruiformes,Rallidae,Porzana carolina,Migratorio Boreal
+390,Gruiformes,Rallidae,Gallinula galeata,Migratorio Boreal? - Residente
+391,Gruiformes,Rallidae,Fulica americana,Migratorio Boreal - Residente
+392,Gruiformes,Rallidae,Fulica ardesiaca,Residente
+393,Gruiformes,Heliornithidae,Heliornis fulica,Residente
+394,Charadriiformes,Charadriidae,Pluvialis dominica,Migratorio Boreal
+395,Charadriiformes,Charadriidae,Pluvialis squatarola,Migratorio Boreal
+396,Charadriiformes,Charadriidae,Vanellus cayanus,Residente
+397,Charadriiformes,Charadriidae,Vanellus chilensis,Residente
+398,Charadriiformes,Charadriidae,Vanellus resplendens,Residente
+399,Charadriiformes,Charadriidae,Charadrius vociferus,Migratorio Boreal - Residente
+400,Charadriiformes,Charadriidae,Charadrius semipalmatus,Migratorio Boreal
+401,Charadriiformes,Charadriidae,Charadrius wilsonia,Migratorio Boreal - Residente
+402,Charadriiformes,Charadriidae,Charadrius collaris,Residente
+403,Charadriiformes,Charadriidae,Charadrius nivosus,Migratorio Boreal - Residente
+404,Charadriiformes,Haematopodidae,Haematopus palliatus,Residente
+405,Charadriiformes,Recurvirostridae,Himantopus mexicanus,Residente
+406,Charadriiformes,Recurvirostridae,Recurvirostra americana,Errática
+407,Charadriiformes,Burhinidae,Burhinus bistriatus,Residente
+408,Charadriiformes,Scolopacidae,Bartramia longicauda,Migratorio Boreal
+409,Charadriiformes,Scolopacidae,Numenius phaeopus,Migratorio Boreal
+410,Charadriiformes,Scolopacidae,Numenius americanus,Hipotética
+411,Charadriiformes,Scolopacidae,Limosa haemastica,Migratorio Boreal
+412,Charadriiformes,Scolopacidae,Limosa fedoa,Migratorio Boreal
+413,Charadriiformes,Scolopacidae,Arenaria interpres,Migratorio Boreal
+414,Charadriiformes,Scolopacidae,Calidris canutus,Migratorio Boreal
+415,Charadriiformes,Scolopacidae,Calidris virgata,Migratorio Boreal
+416,Charadriiformes,Scolopacidae,Calidris pugnax,Errática
+417,Charadriiformes,Scolopacidae,Calidris himantopus,Migratorio Boreal
+418,Charadriiformes,Scolopacidae,Calidris alba,Migratorio Boreal
+419,Charadriiformes,Scolopacidae,Calidris alpina,Migratorio Boreal
+420,Charadriiformes,Scolopacidae,Calidris bairdii,Migratorio Boreal
+421,Charadriiformes,Scolopacidae,Calidris minutilla,Migratorio Boreal
+422,Charadriiformes,Scolopacidae,Calidris fuscicollis,Migratorio Boreal
+423,Charadriiformes,Scolopacidae,Calidris subruficollis,Migratorio Boreal
+424,Charadriiformes,Scolopacidae,Calidris melanotos,Migratorio Boreal
+425,Charadriiformes,Scolopacidae,Calidris pusilla,Migratorio Boreal
+426,Charadriiformes,Scolopacidae,Calidris mauri,Migratorio Boreal
+427,Charadriiformes,Scolopacidae,Limnodromus griseus,Migratorio Boreal
+428,Charadriiformes,Scolopacidae,Limnodromus scolopaceus,Migratorio Boreal
+429,Charadriiformes,Scolopacidae,Gallinago imperialis,Residente
+430,Charadriiformes,Scolopacidae,Gallinago jamesoni,Residente
+431,Charadriiformes,Scolopacidae,Gallinago nobilis,Residente
+432,Charadriiformes,Scolopacidae,Gallinago undulata,Residente
+433,Charadriiformes,Scolopacidae,Gallinago delicata,Migratorio Boreal
+434,Charadriiformes,Scolopacidae,Gallinago paraguaiae,Residente
+435,Charadriiformes,Scolopacidae,Phalaropus tricolor,Migratorio Boreal
+436,Charadriiformes,Scolopacidae,Phalaropus lobatus,Migratorio Boreal
+437,Charadriiformes,Scolopacidae,Phalaropus fulicarius,Errática
+438,Charadriiformes,Scolopacidae,Actitis macularius,Migratorio Boreal
+439,Charadriiformes,Scolopacidae,Tringa solitaria,Migratorio Boreal
+440,Charadriiformes,Scolopacidae,Tringa incana,Migratorio Boreal
+441,Charadriiformes,Scolopacidae,Tringa melanoleuca,Migratorio Boreal
+442,Charadriiformes,Scolopacidae,Tringa semipalmata,Migratorio Boreal
+443,Charadriiformes,Scolopacidae,Tringa flavipes,Migratorio Boreal
+444,Charadriiformes,Thinocoridae,Attagis gayi,Residente
+445,Charadriiformes,Jacanidae,Jacana jacana,Residente
+446,Charadriiformes,Stercorariidae,Stercorarius skua,Hipotética
+447,Charadriiformes,Stercorariidae,Stercorarius maccormicki,Hipotética
+448,Charadriiformes,Stercorariidae,Stercorarius pomarinus,Migratorio Boreal
+449,Charadriiformes,Stercorariidae,Stercorarius parasiticus,Migratorio Boreal
+450,Charadriiformes,Stercorariidae,Stercorarius longicaudus,Migratorio Boreal
+451,Charadriiformes,Rynchopidae,Rynchops niger,Residente
+452,Charadriiformes,Laridae,Creagrus furcatus,Residente
+453,Charadriiformes,Laridae,Xema sabini,Migratorio Boreal
+454,Charadriiformes,Laridae,Chroicocephalus serranus,Residente
+455,Charadriiformes,Laridae,Chroicocephalus cirrocephalus,Errática
+456,Charadriiformes,Laridae,Chroicocephalus ridibundus,Hipotética
+457,Charadriiformes,Laridae,Hydrocoloeus minutus,Errática
+458,Charadriiformes,Laridae,Leucophaeus modestus,Errática
+459,Charadriiformes,Laridae,Leucophaeus atricilla,Migratorio Boreal
+460,Charadriiformes,Laridae,Leucophaeus pipixcan,Migratorio Boreal
+461,Charadriiformes,Laridae,Larus belcheri,Errática
+462,Charadriiformes,Laridae,Larus delawarensis,Errática
+463,Charadriiformes,Laridae,Larus marinus,Hipotética
+464,Charadriiformes,Laridae,Larus dominicanus,Errática
+465,Charadriiformes,Laridae,Larus fuscus,Errática
+466,Charadriiformes,Laridae,Larus argentatus,Errática
+467,Charadriiformes,Laridae,Anous stolidus,Residente
+468,Charadriiformes,Laridae,Anous minutus,Residente
+469,Charadriiformes,Laridae,Gygis alba,Residente
+470,Charadriiformes,Laridae,Onychoprion fuscatus,Errática
+471,Charadriiformes,Laridae,Onychoprion anaethetus,Residente
+472,Charadriiformes,Laridae,Sternula antillarum,Migratorio Boreal - Residente
+473,Charadriiformes,Laridae,Sternula superciliaris,Residente
+474,Charadriiformes,Laridae,Phaetusa simplex,Residente
+475,Charadriiformes,Laridae,Gelochelidon nilotica,Residente
+476,Charadriiformes,Laridae,Hydroprogne caspia,Migratorio Boreal
+477,Charadriiformes,Laridae,Larosterna inca,Errática
+478,Charadriiformes,Laridae,Chlidonias niger,Migratorio Boreal
+479,Charadriiformes,Laridae,Sterna hirundo,Migratorio Boreal
+480,Charadriiformes,Laridae,Sterna dougallii,Errática
+481,Charadriiformes,Laridae,Sterna paradisaea,Errática
+482,Charadriiformes,Laridae,Sterna hirundinacea,Hipotética
+483,Charadriiformes,Laridae,Sterna forsteri,Errática
+484,Charadriiformes,Laridae,Thalasseus elegans,Migratorio Boreal
+485,Charadriiformes,Laridae,Thalasseus sandvicensis,Migratorio Boreal
+486,Charadriiformes,Laridae,Thalasseus maximus,Migratorio Boreal
+487,Eurypygiformes,Eurypygidae,Eurypyga helias,Residente
+488,Phaethontiformes,Phaethontidae,Phaethon aethereus,Residente?
+489,Phaethontiformes,Phaethontidae,Phaethon rubricauda,Hipotética
+490,Phaethontiformes,Phaethontidae,Phaethon lepturus,Hipotética
+491,Sphenisciformes,Spheniscidae,Spheniscus humboldti,Errática
+492,Sphenisciformes,Spheniscidae,Spheniscus mendiculus,Hipotética
+493,Sphenisciformes,Spheniscidae,Spheniscus magellanicus,Errática
+494,Procellariiformes,Diomedeidae,Phoebastria irrorata,Errática
+495,Procellariiformes,Diomedeidae,Thalassarche chlororhynchos,Errática
+496,Procellariiformes,Diomedeidae,Thalassarche melanophris,Errática
+497,Procellariiformes,Oceanitidae,Fregetta grallaria,Hipotética
+498,Procellariiformes,Oceanitidae,Oceanites gracilis,Migratorio Austral
+499,Procellariiformes,Oceanitidae,Pelagodroma marina,Hipotética
+500,Procellariiformes,Hydrobatidae,Hydrobates microsoma,Errática
+501,Procellariiformes,Hydrobatidae,Hydrobates tethys,Migratorio Austral
+502,Procellariiformes,Hydrobatidae,Hydrobates castro,Hipotética
+503,Procellariiformes,Hydrobatidae,Hydrobates leucorhous,Errática
+504,Procellariiformes,Hydrobatidae,Hydrobates markhami,Hipotética
+505,Procellariiformes,Hydrobatidae,Hydrobates hornbyi,Errática
+506,Procellariiformes,Hydrobatidae,Hydrobates melania,Migratorio Boreal
+507,Procellariiformes,Procellariidae,Daption capense,Errática
+508,Procellariiformes,Procellariidae,Pterodroma leucoptera,Hipotética
+509,Procellariiformes,Procellariidae,Pterodroma hasitata,Errática
+510,Procellariiformes,Procellariidae,Pterodroma phaeopygia,Errática
+511,Procellariiformes,Procellariidae,Pterodroma externa,Hipotética
+512,Procellariiformes,Procellariidae,Pseudobulweria rostrata,Hipotética
+513,Procellariiformes,Procellariidae,Procellaria aequinoctialis,Hipotética
+514,Procellariiformes,Procellariidae,Procellaria parkinsoni,Errática
+515,Procellariiformes,Procellariidae,Procellaria westlandica,Errática
+516,Procellariiformes,Procellariidae,Calonectris diomedea,Errática
+517,Procellariiformes,Procellariidae,Ardenna pacifica,Errática
+518,Procellariiformes,Procellariidae,Ardenna grisea,Migratorio Austral
+519,Procellariiformes,Procellariidae,Ardenna gravis,Errática
+520,Procellariiformes,Procellariidae,Ardenna creatopus,Errática
+521,Procellariiformes,Procellariidae,Puffinus nativitatis,Hipotética
+522,Procellariiformes,Procellariidae,Puffinus puffinus,Hipotética
+523,Procellariiformes,Procellariidae,Puffinus subalaris,Errática
+524,Procellariiformes,Procellariidae,Puffinus lherminieri,Residente
+525,Ciconiiformes,Ciconiidae,Ciconia maguari,Residente
+526,Ciconiiformes,Ciconiidae,Jabiru mycteria,Residente
+527,Ciconiiformes,Ciconiidae,Mycteria americana,Residente
+528,Suliformes,Fregatidae,Fregata magnificens,Residente
+529,Suliformes,Fregatidae,Fregata minor,Residente
+530,Suliformes,Sulidae,Sula nebouxii,Residente
+531,Suliformes,Sulidae,Sula variegata,Errática
+532,Suliformes,Sulidae,Sula dactylatra,Residente
+533,Suliformes,Sulidae,Sula granti,Residente
+534,Suliformes,Sulidae,Sula sula,Residente
+535,Suliformes,Sulidae,Sula leucogaster,Residente
+536,Suliformes,Anhingidae,Anhinga anhinga,Residente
+537,Suliformes,Phalacrocoracidae,Phalacrocorax brasilianus,Residente
+538,Suliformes,Phalacrocoracidae,Phalacrocorax auritus,Hipotética
+539,Suliformes,Phalacrocoracidae,Phalacrocorax bougainvillii,Errática
+540,Pelecaniformes,Pelecanidae,Pelecanus erythrorhynchos,Errática
+541,Pelecaniformes,Pelecanidae,Pelecanus occidentalis,Residente
+542,Pelecaniformes,Ardeidae,Tigrisoma lineatum,Residente
+543,Pelecaniformes,Ardeidae,Tigrisoma fasciatum,Residente
+544,Pelecaniformes,Ardeidae,Tigrisoma mexicanum,Residente
+545,Pelecaniformes,Ardeidae,Agamia agami,Residente
+546,Pelecaniformes,Ardeidae,Cochlearius cochlearius,Residente
+547,Pelecaniformes,Ardeidae,Zebrilus undulatus,Residente
+548,Pelecaniformes,Ardeidae,Botaurus pinnatus,Residente?
+549,Pelecaniformes,Ardeidae,Ixobrychus exilis,Migratorio Boreal - Residente
+550,Pelecaniformes,Ardeidae,Ixobrychus involucris,Residente?
+551,Pelecaniformes,Ardeidae,Nycticorax nycticorax,Residente
+552,Pelecaniformes,Ardeidae,Nyctanassa violacea,Residente
+553,Pelecaniformes,Ardeidae,Butorides virescens,Migratorio Boreal
+554,Pelecaniformes,Ardeidae,Butorides striata,Residente
+555,Pelecaniformes,Ardeidae,Bubulcus ibis,Residente
+556,Pelecaniformes,Ardeidae,Ardea herodias,Migratorio Boreal
+557,Pelecaniformes,Ardeidae,Ardea cocoi,Residente
+558,Pelecaniformes,Ardeidae,Ardea alba,Residente
+559,Pelecaniformes,Ardeidae,Syrigma sibilatrix,Residente
+560,Pelecaniformes,Ardeidae,Pilherodius pileatus,Residente
+561,Pelecaniformes,Ardeidae,Egretta tricolor,Residente
+562,Pelecaniformes,Ardeidae,Egretta rufescens,Residente
+563,Pelecaniformes,Ardeidae,Egretta thula,Residente
+564,Pelecaniformes,Ardeidae,Egretta caerulea,Migratorio Boreal - Residente
+565,Pelecaniformes,Threskiornithidae,Eudocimus albus,Residente
+566,Pelecaniformes,Threskiornithidae,Eudocimus ruber,Residente
+567,Pelecaniformes,Threskiornithidae,Plegadis falcinellus,Residente
+568,Pelecaniformes,Threskiornithidae,Cercibis oxycerca,Residente
+569,Pelecaniformes,Threskiornithidae,Mesembrinibis cayennensis,Residente
+570,Pelecaniformes,Threskiornithidae,Phimosus infuscatus,Residente
+571,Pelecaniformes,Threskiornithidae,Theristicus caudatus,Residente
+572,Pelecaniformes,Threskiornithidae,Platalea ajaja,Residente
+573,Cathartiformes,Cathartidae,Sarcoramphus papa,Residente
+574,Cathartiformes,Cathartidae,Vultur gryphus,Residente
+575,Cathartiformes,Cathartidae,Coragyps atratus,Residente
+576,Cathartiformes,Cathartidae,Cathartes aura,Migratorio Boreal - Residente
+577,Cathartiformes,Cathartidae,Cathartes burrovianus,Residente
+578,Cathartiformes,Cathartidae,Cathartes melambrotus,Residente
+579,Accipitriformes,Pandionidae,Pandion haliaetus,Migratorio Boreal
+580,Accipitriformes,Accipitridae,Gampsonyx swainsonii,Residente
+581,Accipitriformes,Accipitridae,Elanus leucurus,Residente
+582,Accipitriformes,Accipitridae,Chondrohierax uncinatus,Residente
+583,Accipitriformes,Accipitridae,Leptodon cayanensis,Residente
+584,Accipitriformes,Accipitridae,Elanoides forficatus,Migratorio Boreal - Residente
+585,Accipitriformes,Accipitridae,Morphnus guianensis,Residente
+586,Accipitriformes,Accipitridae,Harpia harpyja,Residente
+587,Accipitriformes,Accipitridae,Spizaetus tyrannus,Residente
+588,Accipitriformes,Accipitridae,Spizaetus melanoleucus,Residente
+589,Accipitriformes,Accipitridae,Spizaetus ornatus,Residente
+590,Accipitriformes,Accipitridae,Spizaetus isidori,Residente
+591,Accipitriformes,Accipitridae,Busarellus nigricollis,Residente
+592,Accipitriformes,Accipitridae,Rostrhamus sociabilis,Residente
+593,Accipitriformes,Accipitridae,Helicolestes hamatus,Residente
+594,Accipitriformes,Accipitridae,Harpagus bidentatus,Residente
+595,Accipitriformes,Accipitridae,Harpagus diodon,Migratorio Austral
+596,Accipitriformes,Accipitridae,Ictinia mississippiensis,Migratorio Boreal
+597,Accipitriformes,Accipitridae,Ictinia plumbea,Residente
+598,Accipitriformes,Accipitridae,Circus hudsonius,Migratorio Boreal
+599,Accipitriformes,Accipitridae,Circus cinereus,Residente?
+600,Accipitriformes,Accipitridae,Circus buffoni,Residente
+601,Accipitriformes,Accipitridae,Accipiter poliogaster,Migratorio Austral?
+602,Accipitriformes,Accipitridae,Accipiter striatus,Residente
+603,Accipitriformes,Accipitridae,Accipiter cooperii,Migratorio Boreal
+604,Accipitriformes,Accipitridae,Accipiter bicolor,Residente
+605,Accipitriformes,Accipitridae,Microspizias superciliosus,Residente
+606,Accipitriformes,Accipitridae,Microspizias collaris,Residente
+607,Accipitriformes,Accipitridae,Geranospiza caerulescens,Residente
+608,Accipitriformes,Accipitridae,Cryptoleucopteryx plumbea,Residente
+609,Accipitriformes,Accipitridae,Buteogallus schistaceus,Residente
+610,Accipitriformes,Accipitridae,Buteogallus anthracinus,Residente
+611,Accipitriformes,Accipitridae,Buteogallus meridionalis,Residente
+612,Accipitriformes,Accipitridae,Buteogallus urubitinga,Residente
+613,Accipitriformes,Accipitridae,Buteogallus solitarius,Residente
+614,Accipitriformes,Accipitridae,Morphnarchus princeps,Residente
+615,Accipitriformes,Accipitridae,Rupornis magnirostris,Residente
+616,Accipitriformes,Accipitridae,Parabuteo unicinctus,Residente
+617,Accipitriformes,Accipitridae,Parabuteo leucorrhous,Residente
+618,Accipitriformes,Accipitridae,Geranoaetus albicaudatus,Residente
+619,Accipitriformes,Accipitridae,Geranoaetus polyosoma,Migratorio Austral
+620,Accipitriformes,Accipitridae,Geranoaetus melanoleucus,Residente
+621,Accipitriformes,Accipitridae,Pseudastur albicollis,Residente
+622,Accipitriformes,Accipitridae,Leucopternis semiplumbeus,Residente
+623,Accipitriformes,Accipitridae,Leucopternis melanops,Residente
+624,Accipitriformes,Accipitridae,Buteo nitidus,Residente
+625,Accipitriformes,Accipitridae,Buteo platypterus,Migratorio Boreal
+626,Accipitriformes,Accipitridae,Buteo albigula,Residente
+627,Accipitriformes,Accipitridae,Buteo brachyurus,Residente
+628,Accipitriformes,Accipitridae,Buteo swainsoni,Migratorio Boreal
+629,Accipitriformes,Accipitridae,Buteo albonotatus,Residente
+630,Accipitriformes,Accipitridae,Buteo jamaicensis,Errática
+631,Strigiformes,Tytonidae,Tyto alba,Residente
+632,Strigiformes,Strigidae,Megascops clarkii,Residente
+633,Strigiformes,Strigidae,Megascops albogularis,Residente
+634,Strigiformes,Strigidae,Megascops choliba,Residente
+635,Strigiformes,Strigidae,Megascops ingens,Residente
+636,Strigiformes,Strigidae,Megascops petersoni,Residente
+637,Strigiformes,Strigidae,Megascops centralis,Residente
+638,Strigiformes,Strigidae,Megascops roraimae,Residente
+639,Strigiformes,Strigidae,Megascops gilesi,Residente Endémica
+640,Strigiformes,Strigidae,Megascops watsonii,Residente
+641,Strigiformes,Strigidae,Lophostrix cristata,Residente
+642,Strigiformes,Strigidae,Pulsatrix perspicillata,Residente
+643,Strigiformes,Strigidae,Pulsatrix melanota,Residente
+644,Strigiformes,Strigidae,Bubo virginianus,Residente
+645,Strigiformes,Strigidae,Strix virgata,Residente
+646,Strigiformes,Strigidae,Strix nigrolineata,Residente
+647,Strigiformes,Strigidae,Strix huhula,Residente
+648,Strigiformes,Strigidae,Strix albitarsis,Residente
+649,Strigiformes,Strigidae,Glaucidium nubicola,Residente
+650,Strigiformes,Strigidae,Glaucidium jardinii,Residente
+651,Strigiformes,Strigidae,Glaucidium parkeri,Residente
+652,Strigiformes,Strigidae,Glaucidium griseiceps,Residente
+653,Strigiformes,Strigidae,Glaucidium brasilianum,Residente
+654,Strigiformes,Strigidae,Athene cunicularia,Residente
+655,Strigiformes,Strigidae,Aegolius harrisii,Residente
+656,Strigiformes,Strigidae,Asio clamator,Residente
+657,Strigiformes,Strigidae,Asio stygius,Residente
+658,Strigiformes,Strigidae,Asio flammeus,Residente
+659,Trogoniformes,Trogonidae,Pharomachrus pavoninus,Residente
+660,Trogoniformes,Trogonidae,Pharomachrus auriceps,Residente
+661,Trogoniformes,Trogonidae,Pharomachrus fulgidus,Residente
+662,Trogoniformes,Trogonidae,Pharomachrus antisianus,Residente
+663,Trogoniformes,Trogonidae,Trogon massena,Residente
+664,Trogoniformes,Trogonidae,Trogon comptus,Residente
+665,Trogoniformes,Trogonidae,Trogon melanurus,Residente
+666,Trogoniformes,Trogonidae,Trogon chionurus,Residente
+667,Trogoniformes,Trogonidae,Trogon viridis,Residente
+668,Trogoniformes,Trogonidae,Trogon caligatus,Residente
+669,Trogoniformes,Trogonidae,Trogon ramonianus,Residente
+670,Trogoniformes,Trogonidae,Trogon curucui,Residente
+671,Trogoniformes,Trogonidae,Trogon rufus,Residente
+672,Trogoniformes,Trogonidae,Trogon tenellus,Residente
+673,Trogoniformes,Trogonidae,Trogon cupreicauda,Residente
+674,Trogoniformes,Trogonidae,Trogon collaris,Residente
+675,Trogoniformes,Trogonidae,Trogon personatus,Residente
+676,Coraciiformes,Momotidae,Hylomanes momotula,Residente
+677,Coraciiformes,Momotidae,Electron platyrhynchum,Residente
+678,Coraciiformes,Momotidae,Baryphthengus martii,Residente
+679,Coraciiformes,Momotidae,Momotus subrufescens,Residente
+680,Coraciiformes,Momotidae,Momotus momota,Residente
+681,Coraciiformes,Momotidae,Momotus aequatorialis,Residente
+682,Coraciiformes,Alcedinidae,Megaceryle torquata,Residente
+683,Coraciiformes,Alcedinidae,Megaceryle alcyon,Migratorio Boreal
+684,Coraciiformes,Alcedinidae,Chloroceryle amazona,Residente
+685,Coraciiformes,Alcedinidae,Chloroceryle aenea,Residente
+686,Coraciiformes,Alcedinidae,Chloroceryle americana,Residente
+687,Coraciiformes,Alcedinidae,Chloroceryle inda,Residente
+688,Galbuliformes,Galbulidae,Galbalcyrhynchus leucotis,Residente
+689,Galbuliformes,Galbulidae,Brachygalba lugubris,Residente
+690,Galbuliformes,Galbulidae,Brachygalba goeringi,Residente
+691,Galbuliformes,Galbulidae,Brachygalba salmoni,Residente
+692,Galbuliformes,Galbulidae,Galbula albirostris,Residente
+693,Galbuliformes,Galbulidae,Galbula ruficauda,Residente
+694,Galbuliformes,Galbulidae,Galbula galbula,Residente
+695,Galbuliformes,Galbulidae,Galbula tombacea,Residente
+696,Galbuliformes,Galbulidae,Galbula pastazae,Residente
+697,Galbuliformes,Galbulidae,Galbula chalcothorax,Residente
+698,Galbuliformes,Galbulidae,Galbula leucogastra,Residente
+699,Galbuliformes,Galbulidae,Galbula dea,Residente
+700,Galbuliformes,Galbulidae,Jacamerops aureus,Residente
+701,Galbuliformes,Bucconidae,Notharchus hyperrhynchus,Residente
+702,Galbuliformes,Bucconidae,Notharchus pectoralis,Residente
+703,Galbuliformes,Bucconidae,Notharchus ordii,Residente
+704,Galbuliformes,Bucconidae,Notharchus tectus,Residente
+705,Galbuliformes,Bucconidae,Bucco macrodactylus,Residente
+706,Galbuliformes,Bucconidae,Bucco tamatia,Residente
+707,Galbuliformes,Bucconidae,Bucco noanamae,Residente Endémica
+708,Galbuliformes,Bucconidae,Bucco capensis,Residente
+709,Galbuliformes,Bucconidae,Nystalus radiatus,Residente
+710,Galbuliformes,Bucconidae,Nystalus obamai,Residente
+711,Galbuliformes,Bucconidae,Hypnelus ruficollis,Residente
+712,Galbuliformes,Bucconidae,Malacoptila fusca,Residente
+713,Galbuliformes,Bucconidae,Malacoptila panamensis,Residente
+714,Galbuliformes,Bucconidae,Malacoptila fulvogularis,Residente
+715,Galbuliformes,Bucconidae,Malacoptila mystacalis,Residente
+716,Galbuliformes,Bucconidae,Micromonacha lanceolata,Residente
+717,Galbuliformes,Bucconidae,Nonnula rubecula,Residente
+718,Galbuliformes,Bucconidae,Nonnula brunnea,Residente
+719,Galbuliformes,Bucconidae,Nonnula frontalis,Residente
+720,Galbuliformes,Bucconidae,Nonnula ruficapilla,Residente
+721,Galbuliformes,Bucconidae,Hapaloptila castanea,Residente
+722,Galbuliformes,Bucconidae,Monasa nigrifrons,Residente
+723,Galbuliformes,Bucconidae,Monasa morphoeus,Residente
+724,Galbuliformes,Bucconidae,Monasa flavirostris,Residente
+725,Galbuliformes,Bucconidae,Chelidoptera tenebrosa,Residente
+726,Piciformes,Capitonidae,Capito aurovirens,Residente
+727,Piciformes,Capitonidae,Capito maculicoronatus,Residente
+728,Piciformes,Capitonidae,Capito squamatus,Residente
+729,Piciformes,Capitonidae,Capito hypoleucus,Residente Endémica
+730,Piciformes,Capitonidae,Capito quinticolor,Residente
+731,Piciformes,Capitonidae,Capito auratus,Residente
+732,Piciformes,Capitonidae,Eubucco richardsoni,Residente
+733,Piciformes,Capitonidae,Eubucco bourcierii,Residente
+734,Piciformes,Semnornithidae,Semnornis ramphastinus,Residente
+735,Piciformes,Ramphastidae,Ramphastos ambiguus,Residente
+736,Piciformes,Ramphastidae,Ramphastos tucanus,Residente
+737,Piciformes,Ramphastidae,Ramphastos sulfuratus,Residente
+738,Piciformes,Ramphastidae,Ramphastos brevis,Residente
+739,Piciformes,Ramphastidae,Ramphastos vitellinus,Residente
+740,Piciformes,Ramphastidae,Aulacorhynchus albivitta,Residente
+741,Piciformes,Ramphastidae,Aulacorhynchus sulcatus,Residente
+742,Piciformes,Ramphastidae,Aulacorhynchus derbianus,Residente
+743,Piciformes,Ramphastidae,Aulacorhynchus prasinus,Hipotética
+744,Piciformes,Ramphastidae,Aulacorhynchus haematopygus,Residente
+745,Piciformes,Ramphastidae,Andigena hypoglauca,Residente
+746,Piciformes,Ramphastidae,Andigena laminirostris,Residente
+747,Piciformes,Ramphastidae,Andigena nigrirostris,Residente
+748,Piciformes,Ramphastidae,Selenidera spectabilis,Residente
+749,Piciformes,Ramphastidae,Selenidera reinwardtii,Residente
+750,Piciformes,Ramphastidae,Selenidera nattereri,Residente
+751,Piciformes,Ramphastidae,Pteroglossus inscriptus,Residente
+752,Piciformes,Ramphastidae,Pteroglossus torquatus,Residente
+753,Piciformes,Ramphastidae,Pteroglossus castanotis,Residente
+754,Piciformes,Ramphastidae,Pteroglossus pluricinctus,Residente
+755,Piciformes,Ramphastidae,Pteroglossus azara,Residente
+756,Piciformes,Picidae,Picumnus aurifrons,Hipotética
+757,Piciformes,Picidae,Picumnus pumilus,Residente
+758,Piciformes,Picidae,Picumnus lafresnayi,Residente
+759,Piciformes,Picidae,Picumnus exilis,Residente
+760,Piciformes,Picidae,Picumnus squamulatus,Residente
+761,Piciformes,Picidae,Picumnus spilogaster,Residente
+762,Piciformes,Picidae,Picumnus rufiventris,Residente
+763,Piciformes,Picidae,Picumnus castelnau,Residente
+764,Piciformes,Picidae,Picumnus olivaceus,Residente
+765,Piciformes,Picidae,Picumnus granadensis,Residente Endémica
+766,Piciformes,Picidae,Picumnus cinnamomeus,Residente
+767,Piciformes,Picidae,Sphyrapicus varius,Migratorio Boreal
+768,Piciformes,Picidae,Melanerpes formicivorus,Residente
+769,Piciformes,Picidae,Melanerpes cruentatus,Residente
+770,Piciformes,Picidae,Melanerpes pulcher,Residente Endémica
+771,Piciformes,Picidae,Melanerpes pucherani,Residente
+772,Piciformes,Picidae,Melanerpes rubricapillus,Residente
+773,Piciformes,Picidae,Dryobates fumigatus,Residente
+774,Piciformes,Picidae,Dryobates kirkii,Residente
+775,Piciformes,Picidae,Dryobates passerinus,Residente
+776,Piciformes,Picidae,Dryobates callonotus,Residente
+777,Piciformes,Picidae,Dryobates dignus,Residente
+778,Piciformes,Picidae,Dryobates nigriceps,Residente
+779,Piciformes,Picidae,Dryobates affinis,Residente
+780,Piciformes,Picidae,Dryobates chocoensis,Residente
+781,Piciformes,Picidae,Campephilus pollens,Residente
+782,Piciformes,Picidae,Campephilus haematogaster,Residente
+783,Piciformes,Picidae,Campephilus rubricollis,Residente
+784,Piciformes,Picidae,Campephilus melanoleucos,Residente
+785,Piciformes,Picidae,Campephilus gayaquilensis,Residente
+786,Piciformes,Picidae,Dryocopus lineatus,Residente
+787,Piciformes,Picidae,Celeus loricatus,Residente
+788,Piciformes,Picidae,Celeus torquatus,Residente
+789,Piciformes,Picidae,Celeus grammicus,Residente
+790,Piciformes,Picidae,Celeus flavus,Residente
+791,Piciformes,Picidae,Celeus spectabilis,Residente
+792,Piciformes,Picidae,Celeus elegans,Residente
+793,Piciformes,Picidae,Piculus callopterus,Hipotética
+794,Piciformes,Picidae,Piculus leucolaemus,Residente
+795,Piciformes,Picidae,Piculus litae,Residente
+796,Piciformes,Picidae,Piculus flavigula,Residente
+797,Piciformes,Picidae,Piculus chrysochloros,Residente
+798,Piciformes,Picidae,Colaptes rubiginosus,Residente
+799,Piciformes,Picidae,Colaptes rivolii,Residente
+800,Piciformes,Picidae,Colaptes punctigula,Residente
+801,Falconiformes,Falconidae,Herpetotheres cachinnans,Residente
+802,Falconiformes,Falconidae,Micrastur ruficollis,Residente
+803,Falconiformes,Falconidae,Micrastur plumbeus,Residente
+804,Falconiformes,Falconidae,Micrastur gilvicollis,Residente
+805,Falconiformes,Falconidae,Micrastur mirandollei,Residente
+806,Falconiformes,Falconidae,Micrastur semitorquatus,Residente
+807,Falconiformes,Falconidae,Micrastur buckleyi,Hipotética
+808,Falconiformes,Falconidae,Caracara plancus,Residente
+809,Falconiformes,Falconidae,Ibycter americanus,Residente
+810,Falconiformes,Falconidae,Phalcoboenus carunculatus,Residente
+811,Falconiformes,Falconidae,Daptrius ater,Residente
+812,Falconiformes,Falconidae,Milvago chimachima,Residente
+813,Falconiformes,Falconidae,Falco sparverius,Migratorio Boreal? - Residente
+814,Falconiformes,Falconidae,Falco columbarius,Migratorio Boreal
+815,Falconiformes,Falconidae,Falco rufigularis,Residente
+816,Falconiformes,Falconidae,Falco deiroleucus,Residente
+817,Falconiformes,Falconidae,Falco femoralis,Residente
+818,Falconiformes,Falconidae,Falco peregrinus,Migratorio Boreal - Austral?
+819,Psittaciformes,Psittacidae,Touit batavicus,Residente
+820,Psittaciformes,Psittacidae,Touit huetii,Residente
+821,Psittaciformes,Psittacidae,Touit dilectissimus,Residente
+822,Psittaciformes,Psittacidae,Touit purpuratus,Residente
+823,Psittaciformes,Psittacidae,Touit stictopterus,Residente
+824,Psittaciformes,Psittacidae,Bolborhynchus lineola,Residente
+825,Psittaciformes,Psittacidae,Bolborhynchus ferrugineifrons,Residente Endémica
+826,Psittaciformes,Psittacidae,Brotogeris sanctithomae,Residente
+827,Psittaciformes,Psittacidae,Brotogeris versicolurus,Residente
+828,Psittaciformes,Psittacidae,Brotogeris jugularis,Residente
+829,Psittaciformes,Psittacidae,Brotogeris cyanoptera,Residente
+830,Psittaciformes,Psittacidae,Hapalopsittaca amazonina,Residente
+831,Psittaciformes,Psittacidae,Hapalopsittaca fuertesi,Residente Endémica
+832,Psittaciformes,Psittacidae,Pyrilia haematotis,Residente
+833,Psittaciformes,Psittacidae,Pyrilia pulchra,Residente
+834,Psittaciformes,Psittacidae,Pyrilia pyrilia,Residente
+835,Psittaciformes,Psittacidae,Pyrilia barrabandi,Residente
+836,Psittaciformes,Psittacidae,Pionus fuscus,Residente
+837,Psittaciformes,Psittacidae,Pionus sordidus,Residente
+838,Psittaciformes,Psittacidae,Pionus tumultuosus,Residente
+839,Psittaciformes,Psittacidae,Pionus menstruus,Residente
+840,Psittaciformes,Psittacidae,Pionus chalcopterus,Residente
+841,Psittaciformes,Psittacidae,Graydidascalus brachyurus,Residente
+842,Psittaciformes,Psittacidae,Amazona festiva,Residente
+843,Psittaciformes,Psittacidae,Amazona autumnalis,Residente
+844,Psittaciformes,Psittacidae,Amazona ochrocephala,Residente
+845,Psittaciformes,Psittacidae,Amazona farinosa,Residente
+846,Psittaciformes,Psittacidae,Amazona kawalli,Residente
+847,Psittaciformes,Psittacidae,Amazona amazonica,Residente
+848,Psittaciformes,Psittacidae,Amazona mercenarius,Residente
+849,Psittaciformes,Psittacidae,Forpus modestus,Residente
+850,Psittaciformes,Psittacidae,Forpus crassirostris,Residente
+851,Psittaciformes,Psittacidae,Forpus conspicillatus,Residente
+852,Psittaciformes,Psittacidae,Forpus coelestis,Residente
+853,Psittaciformes,Psittacidae,Forpus passerinus,Residente
+854,Psittaciformes,Psittacidae,Forpus spengeli,Residente
+855,Psittaciformes,Psittacidae,Pionites melanocephalus,Residente
+856,Psittaciformes,Psittacidae,Pionites leucogaster,Residente
+857,Psittaciformes,Psittacidae,Deroptyus accipitrinus,Residente
+858,Psittaciformes,Psittacidae,Pyrrhura picta,Residente
+859,Psittaciformes,Psittacidae,Pyrrhura viridicata,Residente Endémica
+860,Psittaciformes,Psittacidae,Pyrrhura melanura,Residente
+861,Psittaciformes,Psittacidae,Pyrrhura calliptera,Residente Endémica
+862,Psittaciformes,Psittacidae,Eupsittula pertinax,Residente
+863,Psittaciformes,Psittacidae,Aratinga weddellii,Residente
+864,Psittaciformes,Psittacidae,Orthopsittaca manilatus,Residente
+865,Psittaciformes,Psittacidae,Ara ararauna,Residente
+866,Psittaciformes,Psittacidae,Ara severus,Residente
+867,Psittaciformes,Psittacidae,Ara militaris,Residente
+868,Psittaciformes,Psittacidae,Ara ambiguus,Residente
+869,Psittaciformes,Psittacidae,Ara macao,Residente
+870,Psittaciformes,Psittacidae,Ara chloropterus,Residente
+871,Psittaciformes,Psittacidae,Leptosittaca branickii,Residente
+872,Psittaciformes,Psittacidae,Ognorhynchus icterotis,Residente
+873,Psittaciformes,Psittacidae,Thectocercus acuticaudatus,Residente
+874,Psittaciformes,Psittacidae,Psittacara wagleri,Residente
+875,Psittaciformes,Psittacidae,Psittacara leucophthalmus,Residente
+876,Passeriformes,Sapayoidae,Sapayoa aenigma,Residente
+877,Passeriformes,Thamnophilidae,Euchrepomis callinota,Residente
+878,Passeriformes,Thamnophilidae,Euchrepomis spodioptila,Residente
+879,Passeriformes,Thamnophilidae,Cymbilaimus lineatus,Residente
+880,Passeriformes,Thamnophilidae,Frederickena fulva,Residente
+881,Passeriformes,Thamnophilidae,Taraba major,Residente
+882,Passeriformes,Thamnophilidae,Sakesphorus canadensis,Residente
+883,Passeriformes,Thamnophilidae,Thamnophilus doliatus,Residente
+884,Passeriformes,Thamnophilidae,Thamnophilus multistriatus,Residente
+885,Passeriformes,Thamnophilidae,Thamnophilus tenuepunctatus,Residente
+886,Passeriformes,Thamnophilidae,Thamnophilus palliatus,Residente
+887,Passeriformes,Thamnophilidae,Thamnophilus atrinucha,Residente
+888,Passeriformes,Thamnophilidae,Thamnophilus schistaceus,Residente
+889,Passeriformes,Thamnophilidae,Thamnophilus murinus,Residente
+890,Passeriformes,Thamnophilidae,Thamnophilus nigriceps,Residente
+891,Passeriformes,Thamnophilidae,Thamnophilus praecox,Residente
+892,Passeriformes,Thamnophilidae,Thamnophilus cryptoleucus,Residente
+893,Passeriformes,Thamnophilidae,Thamnophilus nigrocinereus,Residente
+894,Passeriformes,Thamnophilidae,Thamnophilus punctatus,Residente
+895,Passeriformes,Thamnophilidae,Thamnophilus unicolor,Residente
+896,Passeriformes,Thamnophilidae,Thamnophilus aethiops,Residente
+897,Passeriformes,Thamnophilidae,Thamnophilus melanonotus,Residente
+898,Passeriformes,Thamnophilidae,Thamnophilus amazonicus,Residente
+899,Passeriformes,Thamnophilidae,Megastictus margaritatus,Residente
+900,Passeriformes,Thamnophilidae,Neoctantes niger,Residente
+901,Passeriformes,Thamnophilidae,Clytoctantes alixii,Residente
+902,Passeriformes,Thamnophilidae,Thamnistes anabatinus,Residente
+903,Passeriformes,Thamnophilidae,Dysithamnus mentalis,Residente
+904,Passeriformes,Thamnophilidae,Dysithamnus puncticeps,Residente
+905,Passeriformes,Thamnophilidae,Dysithamnus occidentalis,Residente
+906,Passeriformes,Thamnophilidae,Dysithamnus leucostictus,Residente
+907,Passeriformes,Thamnophilidae,Herpsilochmus dugandi,Residente
+908,Passeriformes,Thamnophilidae,Herpsilochmus dorsimaculatus,Residente
+909,Passeriformes,Thamnophilidae,Herpsilochmus axillaris,Residente
+910,Passeriformes,Thamnophilidae,Herpsilochmus frater,Residente
+911,Passeriformes,Thamnophilidae,Thamnomanes ardesiacus,Residente
+912,Passeriformes,Thamnophilidae,Thamnomanes caesius,Residente
+913,Passeriformes,Thamnophilidae,Xenornis setifrons,Residente
+914,Passeriformes,Thamnophilidae,Isleria hauxwelli,Residente
+915,Passeriformes,Thamnophilidae,Pygiptila stellaris,Residente
+916,Passeriformes,Thamnophilidae,Epinecrophylla fulviventris,Residente
+917,Passeriformes,Thamnophilidae,Epinecrophylla ornata,Residente
+918,Passeriformes,Thamnophilidae,Epinecrophylla erythrura,Residente
+919,Passeriformes,Thamnophilidae,Epinecrophylla haematonota,Residente
+920,Passeriformes,Thamnophilidae,Epinecrophylla spodionota,Residente
+921,Passeriformes,Thamnophilidae,Myrmotherula brachyura,Residente
+922,Passeriformes,Thamnophilidae,Myrmotherula ignota,Residente
+923,Passeriformes,Thamnophilidae,Myrmotherula ambigua,Residente
+924,Passeriformes,Thamnophilidae,Myrmotherula surinamensis,Hipotética
+925,Passeriformes,Thamnophilidae,Myrmotherula multostriata,Residente
+926,Passeriformes,Thamnophilidae,Myrmotherula pacifica,Residente
+927,Passeriformes,Thamnophilidae,Myrmotherula cherriei,Residente
+928,Passeriformes,Thamnophilidae,Myrmotherula longicauda,Residente
+929,Passeriformes,Thamnophilidae,Myrmotherula axillaris,Residente
+930,Passeriformes,Thamnophilidae,Myrmotherula schisticolor,Residente
+931,Passeriformes,Thamnophilidae,Myrmotherula sunensis,Residente
+932,Passeriformes,Thamnophilidae,Myrmotherula longipennis,Residente
+933,Passeriformes,Thamnophilidae,Myrmotherula behni,Residente
+934,Passeriformes,Thamnophilidae,Myrmotherula menetriesii,Residente
+935,Passeriformes,Thamnophilidae,Myrmotherula assimilis,Residente
+936,Passeriformes,Thamnophilidae,Dichrozona cincta,Residente
+937,Passeriformes,Thamnophilidae,Microrhopias quixensis,Residente
+938,Passeriformes,Thamnophilidae,Formicivora grisea,Residente
+939,Passeriformes,Thamnophilidae,Drymophila devillei,Residente
+940,Passeriformes,Thamnophilidae,Drymophila hellmayri,Residente Endémica
+941,Passeriformes,Thamnophilidae,Drymophila klagesi,Residente
+942,Passeriformes,Thamnophilidae,Drymophila caudata,Residente Endémica
+943,Passeriformes,Thamnophilidae,Drymophila striaticeps,Residente
+944,Passeriformes,Thamnophilidae,Hypocnemis flavescens,Residente
+945,Passeriformes,Thamnophilidae,Hypocnemis peruviana,Residente
+946,Passeriformes,Thamnophilidae,Hypocnemis hypoxantha,Residente
+947,Passeriformes,Thamnophilidae,Cercomacroides parkeri,Residente Endémica
+948,Passeriformes,Thamnophilidae,Cercomacroides tyrannina,Residente
+949,Passeriformes,Thamnophilidae,Cercomacroides serva,Residente
+950,Passeriformes,Thamnophilidae,Cercomacroides nigrescens,Residente
+951,Passeriformes,Thamnophilidae,Cercomacroides fuscicauda,Residente
+952,Passeriformes,Thamnophilidae,Cercomacra cinerascens,Residente
+953,Passeriformes,Thamnophilidae,Cercomacra nigricans,Residente
+954,Passeriformes,Thamnophilidae,Pyriglena maura,Residente
+955,Passeriformes,Thamnophilidae,Myrmoborus leucophrys,Residente
+956,Passeriformes,Thamnophilidae,Myrmoborus lugubris,Residente
+957,Passeriformes,Thamnophilidae,Myrmoborus myotherinus,Residente
+958,Passeriformes,Thamnophilidae,Myrmoborus melanurus,Residente
+959,Passeriformes,Thamnophilidae,Hypocnemoides melanopogon,Residente
+960,Passeriformes,Thamnophilidae,Hypocnemoides maculicauda,Residente
+961,Passeriformes,Thamnophilidae,Myrmochanes hemileucus,Residente
+962,Passeriformes,Thamnophilidae,Gymnocichla nudiceps,Residente
+963,Passeriformes,Thamnophilidae,Sclateria naevia,Residente
+964,Passeriformes,Thamnophilidae,Percnostola rufifrons,Residente
+965,Passeriformes,Thamnophilidae,Myrmelastes schistaceus,Residente
+966,Passeriformes,Thamnophilidae,Myrmelastes hyperythrus,Residente
+967,Passeriformes,Thamnophilidae,Myrmelastes leucostigma,Residente
+968,Passeriformes,Thamnophilidae,Myrmeciza longipes,Residente
+969,Passeriformes,Thamnophilidae,Poliocrania exsul,Residente
+970,Passeriformes,Thamnophilidae,Sipia laemosticta,Residente
+971,Passeriformes,Thamnophilidae,Sipia palliata,Residente
+972,Passeriformes,Thamnophilidae,Sipia nigricauda,Residente
+973,Passeriformes,Thamnophilidae,Sipia berlepschi,Residente
+974,Passeriformes,Thamnophilidae,Sciaphylax castanea,Residente
+975,Passeriformes,Thamnophilidae,Akletos melanoceps,Residente
+976,Passeriformes,Thamnophilidae,Hafferia fortis,Residente
+977,Passeriformes,Thamnophilidae,Hafferia zeledoni,Residente
+978,Passeriformes,Thamnophilidae,Hafferia immaculata,Residente
+979,Passeriformes,Thamnophilidae,Aprositornis disjuncta,Residente
+980,Passeriformes,Thamnophilidae,Myrmophylax atrothorax,Residente
+981,Passeriformes,Thamnophilidae,Ammonastes pelzelni,Residente
+982,Passeriformes,Thamnophilidae,Myrmornis torquata,Residente
+983,Passeriformes,Thamnophilidae,Pithys albifrons,Residente
+984,Passeriformes,Thamnophilidae,Gymnopithys bicolor,Residente
+985,Passeriformes,Thamnophilidae,Gymnopithys leucaspis,Residente
+986,Passeriformes,Thamnophilidae,Rhegmatorhina cristata,Residente
+987,Passeriformes,Thamnophilidae,Rhegmatorhina melanosticta,Residente
+988,Passeriformes,Thamnophilidae,Hylophylax naevioides,Residente
+989,Passeriformes,Thamnophilidae,Hylophylax naevius,Residente
+990,Passeriformes,Thamnophilidae,Hylophylax punctulatus,Residente
+991,Passeriformes,Thamnophilidae,Willisornis poecilinotus,Residente
+992,Passeriformes,Thamnophilidae,Phlegopsis nigromaculata,Residente
+993,Passeriformes,Thamnophilidae,Phlegopsis erythroptera,Residente
+994,Passeriformes,Thamnophilidae,Phaenostictus mcleannani,Residente
+995,Passeriformes,Conopophagidae,Pittasoma michleri,Residente
+996,Passeriformes,Conopophagidae,Pittasoma rufopileatum,Residente
+997,Passeriformes,Conopophagidae,Conopophaga aurita,Residente
+998,Passeriformes,Conopophagidae,Conopophaga castaneiceps,Residente
+999,Passeriformes,Grallariidae,Grallaria squamigera,Residente
+1000,Passeriformes,Grallariidae,Grallaria gigantea,Residente
+1001,Passeriformes,Grallariidae,Grallaria varia,Residente
+1002,Passeriformes,Grallariidae,Grallaria alleni,Residente
+1003,Passeriformes,Grallariidae,Grallaria guatimalensis,Residente
+1004,Passeriformes,Grallariidae,Grallaria haplonota,Residente
+1005,Passeriformes,Grallariidae,Grallaria dignissima,Residente
+1006,Passeriformes,Grallariidae,Grallaria ruficapilla,Residente
+1007,Passeriformes,Grallariidae,Grallaria bangsi,Residente Endémica
+1008,Passeriformes,Grallariidae,Grallaria kaestneri,Residente Endémica
+1009,Passeriformes,Grallariidae,Grallaria nuchalis,Residente
+1010,Passeriformes,Grallariidae,Grallaria flavotincta,Residente
+1011,Passeriformes,Grallariidae,Grallaria hypoleuca,Residente
+1012,Passeriformes,Grallariidae,Grallaria spatiator,Residente
+1013,Passeriformes,Grallariidae,Grallaria saltuensis,Residente
+1014,Passeriformes,Grallariidae,Grallaria rufocinerea,Residente
+1015,Passeriformes,Grallariidae,Grallaria rufula,Residente
+1016,Passeriformes,Grallariidae,Grallaria alvarezi,Residente
+1017,Passeriformes,Grallariidae,Grallaria saturata,Residente
+1018,Passeriformes,Grallariidae,Grallaria quitensis,Residente
+1019,Passeriformes,Grallariidae,Grallaria urraoensis,Residente Endémica
+1020,Passeriformes,Grallariidae,Grallaria milleri,Residente Endémica
+1021,Passeriformes,Grallariidae,Grallaricula flavirostris,Residente
+1022,Passeriformes,Grallariidae,Grallaricula lineifrons,Residente
+1023,Passeriformes,Grallariidae,Grallaricula cucullata,Residente
+1024,Passeriformes,Grallariidae,Grallaricula ferrugineipectus,Residente
+1025,Passeriformes,Grallariidae,Grallaricula nana,Residente
+1026,Passeriformes,Grallariidae,Hylopezus perspicillatus,Residente
+1027,Passeriformes,Grallariidae,Hylopezus macularius,Residente
+1028,Passeriformes,Grallariidae,Myrmothera fulviventris,Residente
+1029,Passeriformes,Grallariidae,Myrmothera dives,Residente
+1030,Passeriformes,Grallariidae,Myrmothera campanisona,Residente
+1031,Passeriformes,Rhinocryptidae,Liosceles thoracicus,Residente
+1032,Passeriformes,Rhinocryptidae,Acropternis orthonyx,Residente
+1033,Passeriformes,Rhinocryptidae,Myornis senilis,Residente
+1034,Passeriformes,Rhinocryptidae,Scytalopus opacus,Residente
+1035,Passeriformes,Rhinocryptidae,Scytalopus canus,Residente Endémica
+1036,Passeriformes,Rhinocryptidae,Scytalopus atratus,Residente
+1037,Passeriformes,Rhinocryptidae,Scytalopus sanctaemartae,Residente Endémica
+1038,Passeriformes,Rhinocryptidae,Scytalopus micropterus,Residente
+1039,Passeriformes,Rhinocryptidae,Scytalopus latrans,Residente
+1040,Passeriformes,Rhinocryptidae,Scytalopus vicinior,Residente
+1041,Passeriformes,Rhinocryptidae,Scytalopus panamensis,Residente
+1042,Passeriformes,Rhinocryptidae,Scytalopus chocoensis,Residente
+1043,Passeriformes,Rhinocryptidae,Scytalopus rodriguezi,Residente Endémica
+1044,Passeriformes,Rhinocryptidae,Scytalopus stilesi,Residente Endémica
+1045,Passeriformes,Rhinocryptidae,Scytalopus alvarezlopezi,Residente Endémica
+1046,Passeriformes,Rhinocryptidae,Scytalopus griseicollis,Residente
+1047,Passeriformes,Rhinocryptidae,Scytalopus latebricola,Residente Endémica
+1048,Passeriformes,Rhinocryptidae,Scytalopus perijanus,Residente
+1049,Passeriformes,Rhinocryptidae,Scytalopus spillmanni,Residente
+1050,Passeriformes,Formicariidae,Formicarius colma,Residente
+1051,Passeriformes,Formicariidae,Formicarius analis,Residente
+1052,Passeriformes,Formicariidae,Formicarius nigricapillus,Residente
+1053,Passeriformes,Formicariidae,Formicarius rufipectus,Residente
+1054,Passeriformes,Formicariidae,Chamaeza campanisona,Residente
+1055,Passeriformes,Formicariidae,Chamaeza nobilis,Residente
+1056,Passeriformes,Formicariidae,Chamaeza turdina,Residente
+1057,Passeriformes,Formicariidae,Chamaeza mollissima,Residente
+1058,Passeriformes,Furnariidae,Sclerurus obscurior,Residente
+1059,Passeriformes,Furnariidae,Sclerurus rufigularis,Residente
+1060,Passeriformes,Furnariidae,Sclerurus guatemalensis,Residente
+1061,Passeriformes,Furnariidae,Sclerurus caudacutus,Residente
+1062,Passeriformes,Furnariidae,Sclerurus albigularis,Residente
+1063,Passeriformes,Furnariidae,Certhiasomus stictolaemus,Residente
+1064,Passeriformes,Furnariidae,Sittasomus griseicapillus,Residente
+1065,Passeriformes,Furnariidae,Deconychura longicauda,Residente
+1066,Passeriformes,Furnariidae,Dendrocincla tyrannina,Residente
+1067,Passeriformes,Furnariidae,Dendrocincla merula,Residente
+1068,Passeriformes,Furnariidae,Dendrocincla homochroa,Residente
+1069,Passeriformes,Furnariidae,Dendrocincla fuliginosa,Residente
+1070,Passeriformes,Furnariidae,Glyphorynchus spirurus,Residente
+1071,Passeriformes,Furnariidae,Dendrexetastes rufigula,Residente
+1072,Passeriformes,Furnariidae,Nasica longirostris,Residente
+1073,Passeriformes,Furnariidae,Dendrocolaptes sanctithomae,Residente
+1074,Passeriformes,Furnariidae,Dendrocolaptes certhia,Residente
+1075,Passeriformes,Furnariidae,Dendrocolaptes picumnus,Residente
+1076,Passeriformes,Furnariidae,Hylexetastes stresemanni,Residente
+1077,Passeriformes,Furnariidae,Xiphocolaptes promeropirhynchus,Residente
+1078,Passeriformes,Furnariidae,Xiphorhynchus obsoletus,Residente
+1079,Passeriformes,Furnariidae,Xiphorhynchus ocellatus,Residente
+1080,Passeriformes,Furnariidae,Xiphorhynchus elegans,Residente
+1081,Passeriformes,Furnariidae,Xiphorhynchus susurrans,Residente
+1082,Passeriformes,Furnariidae,Xiphorhynchus guttatus,Residente
+1083,Passeriformes,Furnariidae,Xiphorhynchus lachrymosus,Residente
+1084,Passeriformes,Furnariidae,Xiphorhynchus erythropygius,Residente
+1085,Passeriformes,Furnariidae,Xiphorhynchus triangularis,Residente
+1086,Passeriformes,Furnariidae,Dendroplex picus,Residente
+1087,Passeriformes,Furnariidae,Dendroplex kienerii,Residente
+1088,Passeriformes,Furnariidae,Campylorhamphus trochilirostris,Residente
+1089,Passeriformes,Furnariidae,Campylorhamphus procurvoides,Residente
+1090,Passeriformes,Furnariidae,Campylorhamphus pusillus,Residente
+1091,Passeriformes,Furnariidae,Drymotoxeres pucheranii,Residente
+1092,Passeriformes,Furnariidae,Lepidocolaptes souleyetii,Residente
+1093,Passeriformes,Furnariidae,Lepidocolaptes lacrymiger,Residente
+1094,Passeriformes,Furnariidae,Lepidocolaptes duidae,Hipotética
+1095,Passeriformes,Furnariidae,Xenops tenuirostris,Residente
+1096,Passeriformes,Furnariidae,Xenops minutus,Residente
+1097,Passeriformes,Furnariidae,Xenops rutilans,Residente
+1098,Passeriformes,Furnariidae,Berlepschia rikeri,Residente
+1099,Passeriformes,Furnariidae,Microxenops milleri,Residente
+1100,Passeriformes,Furnariidae,Pseudocolaptes johnsoni,Residente
+1101,Passeriformes,Furnariidae,Pseudocolaptes boissonneautii,Residente
+1102,Passeriformes,Furnariidae,Premnornis guttuliger,Residente
+1103,Passeriformes,Furnariidae,Furnarius leucopus,Residente
+1104,Passeriformes,Furnariidae,Furnarius torridus,Residente
+1105,Passeriformes,Furnariidae,Furnarius minor,Residente
+1106,Passeriformes,Furnariidae,Lochmias nematura,Residente
+1107,Passeriformes,Furnariidae,Cinclodes albidiventris,Residente
+1108,Passeriformes,Furnariidae,Cinclodes excelsior,Residente
+1109,Passeriformes,Furnariidae,Anabazenops dorsalis,Residente
+1110,Passeriformes,Furnariidae,Philydor fuscipenne,Residente
+1111,Passeriformes,Furnariidae,Philydor erythrocercum,Residente
+1112,Passeriformes,Furnariidae,Philydor pyrrhodes,Residente
+1113,Passeriformes,Furnariidae,Anabacerthia striaticollis,Residente
+1114,Passeriformes,Furnariidae,Anabacerthia variegaticeps,Residente
+1115,Passeriformes,Furnariidae,Anabacerthia ruficaudata,Residente
+1116,Passeriformes,Furnariidae,Syndactyla subalaris,Residente
+1117,Passeriformes,Furnariidae,Ancistrops strigilatus,Residente
+1118,Passeriformes,Furnariidae,Dendroma rufa,Residente
+1119,Passeriformes,Furnariidae,Dendroma erythroptera,Residente
+1120,Passeriformes,Furnariidae,Clibanornis rubiginosus,Residente
+1121,Passeriformes,Furnariidae,Clibanornis rufipectus,Residente Endémica
+1122,Passeriformes,Furnariidae,Thripadectes ignobilis,Residente
+1123,Passeriformes,Furnariidae,Thripadectes flammulatus,Residente
+1124,Passeriformes,Furnariidae,Thripadectes holostictus,Residente
+1125,Passeriformes,Furnariidae,Thripadectes virgaticeps,Residente
+1126,Passeriformes,Furnariidae,Thripadectes melanorhynchus,Residente
+1127,Passeriformes,Furnariidae,Automolus rufipileatus,Residente
+1128,Passeriformes,Furnariidae,Automolus melanopezus,Residente
+1129,Passeriformes,Furnariidae,Automolus ochrolaemus,Residente
+1130,Passeriformes,Furnariidae,Automolus subulatus,Residente
+1131,Passeriformes,Furnariidae,Automolus infuscatus,Residente
+1132,Passeriformes,Furnariidae,Premnoplex brunnescens,Residente
+1133,Passeriformes,Furnariidae,Margarornis stellatus,Residente
+1134,Passeriformes,Furnariidae,Margarornis squamiger,Residente
+1135,Passeriformes,Furnariidae,Margarornis bellulus,Residente
+1136,Passeriformes,Furnariidae,Leptasthenura andicola,Residente
+1137,Passeriformes,Furnariidae,Phacellodomus rufifrons,Residente
+1138,Passeriformes,Furnariidae,Hellmayrea gularis,Residente
+1139,Passeriformes,Furnariidae,Asthenes flammulata,Residente
+1140,Passeriformes,Furnariidae,Asthenes wyatti,Residente
+1141,Passeriformes,Furnariidae,Asthenes perijana,Residente
+1142,Passeriformes,Furnariidae,Asthenes fuliginosa,Residente
+1143,Passeriformes,Furnariidae,Metopothrix aurantiaca,Residente
+1144,Passeriformes,Furnariidae,Xenerpestes minlosi,Residente
+1145,Passeriformes,Furnariidae,Siptornis striaticollis,Residente
+1146,Passeriformes,Furnariidae,Thripophaga cherriei,Residente
+1147,Passeriformes,Furnariidae,Cranioleuca vulpina,Residente
+1148,Passeriformes,Furnariidae,Cranioleuca vulpecula,Residente
+1149,Passeriformes,Furnariidae,Cranioleuca subcristata,Residente
+1150,Passeriformes,Furnariidae,Cranioleuca erythrops,Residente
+1151,Passeriformes,Furnariidae,Cranioleuca hellmayri,Residente Endémica
+1152,Passeriformes,Furnariidae,Cranioleuca curtata,Residente
+1153,Passeriformes,Furnariidae,Cranioleuca gutturata,Residente
+1154,Passeriformes,Furnariidae,Certhiaxis cinnamomeus,Residente
+1155,Passeriformes,Furnariidae,Certhiaxis mustelinus,Residente
+1156,Passeriformes,Furnariidae,Mazaria propinqua,Residente
+1157,Passeriformes,Furnariidae,Synallaxis gujanensis,Residente
+1158,Passeriformes,Furnariidae,Synallaxis brachyura,Residente
+1159,Passeriformes,Furnariidae,Synallaxis subpudica,Residente Endémica
+1160,Passeriformes,Furnariidae,Synallaxis moesta,Residente
+1161,Passeriformes,Furnariidae,Synallaxis albigularis,Residente
+1162,Passeriformes,Furnariidae,Synallaxis beverlyae,Hipotética
+1163,Passeriformes,Furnariidae,Synallaxis albescens,Residente
+1164,Passeriformes,Furnariidae,Synallaxis azarae,Residente
+1165,Passeriformes,Furnariidae,Synallaxis candei,Residente
+1166,Passeriformes,Furnariidae,Synallaxis fuscorufa,Residente Endémica
+1167,Passeriformes,Furnariidae,Synallaxis unirufa,Residente
+1168,Passeriformes,Furnariidae,Synallaxis cinnamomea,Residente
+1169,Passeriformes,Furnariidae,Synallaxis rutilans,Residente
+1170,Passeriformes,Furnariidae,Synallaxis cherriei,Residente
+1171,Passeriformes,Pipridae,Tyranneutes stolzmanni,Residente
+1172,Passeriformes,Pipridae,Neopelma chrysocephalum,Residente
+1173,Passeriformes,Pipridae,Chloropipo flavicapilla,Residente
+1174,Passeriformes,Pipridae,Chiroxiphia lanceolata,Residente
+1175,Passeriformes,Pipridae,Chiroxiphia pareola,Residente
+1176,Passeriformes,Pipridae,Masius chrysopterus,Residente
+1177,Passeriformes,Pipridae,Corapipo altera,Residente
+1178,Passeriformes,Pipridae,Corapipo leucorrhoa,Residente
+1179,Passeriformes,Pipridae,Xenopipo atronitens,Residente
+1180,Passeriformes,Pipridae,Cryptopipo holochlora,Residente
+1181,Passeriformes,Pipridae,Lepidothrix velutina,Residente
+1182,Passeriformes,Pipridae,Lepidothrix coronata,Residente
+1183,Passeriformes,Pipridae,Lepidothrix isidorei,Residente
+1184,Passeriformes,Pipridae,Heterocercus aurantiivertex,Hipotética
+1185,Passeriformes,Pipridae,Heterocercus flavivertex,Residente
+1186,Passeriformes,Pipridae,Manacus manacus,Residente
+1187,Passeriformes,Pipridae,Pipra filicauda,Residente
+1188,Passeriformes,Pipridae,Machaeropterus deliciosus,Residente
+1189,Passeriformes,Pipridae,Machaeropterus striolatus,Residente
+1190,Passeriformes,Pipridae,Pseudopipra pipra,Residente
+1191,Passeriformes,Pipridae,Ceratopipra mentalis,Residente
+1192,Passeriformes,Pipridae,Ceratopipra erythrocephala,Residente
+1193,Passeriformes,Cotingidae,Pipreola riefferii,Residente
+1194,Passeriformes,Cotingidae,Pipreola arcuata,Residente
+1195,Passeriformes,Cotingidae,Pipreola aureopectus,Residente
+1196,Passeriformes,Cotingidae,Pipreola jucunda,Residente
+1197,Passeriformes,Cotingidae,Pipreola lubomirskii,Residente
+1198,Passeriformes,Cotingidae,Pipreola chlorolepidota,Residente
+1199,Passeriformes,Cotingidae,Ampelioides tschudii,Residente
+1200,Passeriformes,Cotingidae,Doliornis remseni,Residente
+1201,Passeriformes,Cotingidae,Ampelion rubrocristatus,Residente
+1202,Passeriformes,Cotingidae,Ampelion rufaxilla,Residente
+1203,Passeriformes,Cotingidae,Phoenicircus nigricollis,Residente
+1204,Passeriformes,Cotingidae,Rupicola rupicola,Residente
+1205,Passeriformes,Cotingidae,Rupicola peruvianus,Residente
+1206,Passeriformes,Cotingidae,Snowornis subalaris,Residente
+1207,Passeriformes,Cotingidae,Snowornis cryptolophus,Residente
+1208,Passeriformes,Cotingidae,Haematoderus militaris,Hipotética
+1209,Passeriformes,Cotingidae,Querula purpurata,Residente
+1210,Passeriformes,Cotingidae,Pyroderus scutatus,Residente
+1211,Passeriformes,Cotingidae,Cephalopterus ornatus,Residente
+1212,Passeriformes,Cotingidae,Cephalopterus penduliger,Residente
+1213,Passeriformes,Cotingidae,Perissocephalus tricolor,Residente
+1214,Passeriformes,Cotingidae,Cotinga nattererii,Residente
+1215,Passeriformes,Cotingidae,Cotinga maynana,Residente
+1216,Passeriformes,Cotingidae,Cotinga cotinga,Residente
+1217,Passeriformes,Cotingidae,Cotinga cayana,Residente
+1218,Passeriformes,Cotingidae,Lipaugus unirufus,Residente
+1219,Passeriformes,Cotingidae,Lipaugus vociferans,Residente
+1220,Passeriformes,Cotingidae,Lipaugus weberi,Residente Endémica
+1221,Passeriformes,Cotingidae,Lipaugus fuscocinereus,Residente
+1222,Passeriformes,Cotingidae,Procnias averano,Residente
+1223,Passeriformes,Cotingidae,Porphyrolaema porphyrolaema,Residente
+1224,Passeriformes,Cotingidae,Carpodectes hopkei,Residente
+1225,Passeriformes,Cotingidae,Xipholena punicea,Residente
+1226,Passeriformes,Cotingidae,Gymnoderus foetidus,Residente
+1227,Passeriformes,Tityridae,Tityra inquisitor,Residente
+1228,Passeriformes,Tityridae,Tityra cayana,Residente
+1229,Passeriformes,Tityridae,Tityra semifasciata,Residente
+1230,Passeriformes,Tityridae,Schiffornis major,Residente
+1231,Passeriformes,Tityridae,Schiffornis veraepacis,Residente
+1232,Passeriformes,Tityridae,Schiffornis aenea,Residente
+1233,Passeriformes,Tityridae,Schiffornis stenorhyncha,Residente
+1234,Passeriformes,Tityridae,Schiffornis turdina,Residente
+1235,Passeriformes,Tityridae,Laniocera rufescens,Residente
+1236,Passeriformes,Tityridae,Laniocera hypopyrra,Residente
+1237,Passeriformes,Tityridae,Iodopleura isabellae,Residente
+1238,Passeriformes,Tityridae,Laniisoma elegans,Residente
+1239,Passeriformes,Tityridae,Pachyramphus viridis,Hipotética
+1240,Passeriformes,Tityridae,Pachyramphus versicolor,Residente
+1241,Passeriformes,Tityridae,Pachyramphus rufus,Residente
+1242,Passeriformes,Tityridae,Pachyramphus cinnamomeus,Residente
+1243,Passeriformes,Tityridae,Pachyramphus castaneus,Residente
+1244,Passeriformes,Tityridae,Pachyramphus polychopterus,Residente
+1245,Passeriformes,Tityridae,Pachyramphus albogriseus,Residente
+1246,Passeriformes,Tityridae,Pachyramphus marginatus,Residente
+1247,Passeriformes,Tityridae,Pachyramphus homochrous,Residente
+1248,Passeriformes,Tityridae,Pachyramphus minor,Residente
+1249,Passeriformes,Oxyruncidae,Oxyruncus cristatus,Residente
+1250,Passeriformes,Onychorhynchidae,Onychorhynchus coronatus,Residente
+1251,Passeriformes,Onychorhynchidae,Terenotriccus erythrurus,Residente
+1252,Passeriformes,Onychorhynchidae,Myiobius villosus,Residente
+1253,Passeriformes,Onychorhynchidae,Myiobius barbatus,Residente
+1254,Passeriformes,Onychorhynchidae,Myiobius atricaudus,Residente
+1255,Passeriformes,Tyrannidae,Piprites chloris,Residente
+1256,Passeriformes,Tyrannidae,Neopipo cinnamomea,Residente
+1257,Passeriformes,Tyrannidae,Platyrinchus saturatus,Residente
+1258,Passeriformes,Tyrannidae,Platyrinchus mystaceus,Residente
+1259,Passeriformes,Tyrannidae,Platyrinchus coronatus,Residente
+1260,Passeriformes,Tyrannidae,Platyrinchus flavigularis,Residente
+1261,Passeriformes,Tyrannidae,Platyrinchus platyrhynchos,Residente
+1262,Passeriformes,Tyrannidae,Pseudotriccus pelzelni,Residente
+1263,Passeriformes,Tyrannidae,Pseudotriccus ruficeps,Residente
+1264,Passeriformes,Tyrannidae,Corythopis torquatus,Residente
+1265,Passeriformes,Tyrannidae,Phylloscartes poecilotis,Residente
+1266,Passeriformes,Tyrannidae,Phylloscartes ophthalmicus,Residente
+1267,Passeriformes,Tyrannidae,Phylloscartes lanyoni,Residente Endémica
+1268,Passeriformes,Tyrannidae,Phylloscartes orbitalis,Residente
+1269,Passeriformes,Tyrannidae,Phylloscartes gualaquizae,Hipotética
+1270,Passeriformes,Tyrannidae,Phylloscartes superciliaris,Residente
+1271,Passeriformes,Tyrannidae,Mionectes striaticollis,Residente
+1272,Passeriformes,Tyrannidae,Mionectes olivaceus,Residente
+1273,Passeriformes,Tyrannidae,Mionectes oleagineus,Residente
+1274,Passeriformes,Tyrannidae,Leptopogon amaurocephalus,Residente
+1275,Passeriformes,Tyrannidae,Leptopogon superciliaris,Residente
+1276,Passeriformes,Tyrannidae,Leptopogon rufipectus,Residente
+1277,Passeriformes,Tyrannidae,Cnipodectes subbrunneus,Residente
+1278,Passeriformes,Tyrannidae,Rhynchocyclus olivaceus,Residente
+1279,Passeriformes,Tyrannidae,Rhynchocyclus brevirostris,Residente
+1280,Passeriformes,Tyrannidae,Rhynchocyclus pacificus,Residente
+1281,Passeriformes,Tyrannidae,Rhynchocyclus fulvipectus,Residente
+1282,Passeriformes,Tyrannidae,Tolmomyias sulphurescens,Residente
+1283,Passeriformes,Tyrannidae,Tolmomyias traylori,Residente
+1284,Passeriformes,Tyrannidae,Tolmomyias assimilis,Residente
+1285,Passeriformes,Tyrannidae,Tolmomyias poliocephalus,Residente
+1286,Passeriformes,Tyrannidae,Tolmomyias flaviventris,Residente
+1287,Passeriformes,Tyrannidae,Myiornis atricapillus,Residente
+1288,Passeriformes,Tyrannidae,Myiornis ecaudatus,Residente
+1289,Passeriformes,Tyrannidae,Oncostoma cinereigulare,Residente
+1290,Passeriformes,Tyrannidae,Oncostoma olivaceum,Residente
+1291,Passeriformes,Tyrannidae,Lophotriccus pileatus,Residente
+1292,Passeriformes,Tyrannidae,Lophotriccus vitiosus,Residente
+1293,Passeriformes,Tyrannidae,Lophotriccus galeatus,Residente
+1294,Passeriformes,Tyrannidae,Atalotriccus pilaris,Residente
+1295,Passeriformes,Tyrannidae,Hemitriccus zosterops,Residente
+1296,Passeriformes,Tyrannidae,Hemitriccus iohannis,Residente
+1297,Passeriformes,Tyrannidae,Hemitriccus striaticollis,Residente
+1298,Passeriformes,Tyrannidae,Hemitriccus margaritaceiventer,Residente
+1299,Passeriformes,Tyrannidae,Hemitriccus granadensis,Residente
+1300,Passeriformes,Tyrannidae,Hemitriccus rufigularis,Residente
+1301,Passeriformes,Tyrannidae,Poecilotriccus ruficeps,Residente
+1302,Passeriformes,Tyrannidae,Poecilotriccus capitalis,Residente
+1303,Passeriformes,Tyrannidae,Poecilotriccus latirostris,Residente
+1304,Passeriformes,Tyrannidae,Poecilotriccus sylvia,Residente
+1305,Passeriformes,Tyrannidae,Poecilotriccus calopterus,Residente
+1306,Passeriformes,Tyrannidae,Todirostrum maculatum,Residente
+1307,Passeriformes,Tyrannidae,Todirostrum cinereum,Residente
+1308,Passeriformes,Tyrannidae,Todirostrum nigriceps,Residente
+1309,Passeriformes,Tyrannidae,Todirostrum pictum,Hipotética
+1310,Passeriformes,Tyrannidae,Todirostrum chrysocrotaphum,Residente
+1311,Passeriformes,Tyrannidae,Myiotriccus ornatus,Residente
+1312,Passeriformes,Tyrannidae,Nephelomyias pulcher,Residente
+1313,Passeriformes,Tyrannidae,Hirundinea ferruginea,Residente
+1314,Passeriformes,Tyrannidae,Pyrrhomyias cinnamomeus,Residente
+1315,Passeriformes,Tyrannidae,Zimmerius vilissimus,Residente
+1316,Passeriformes,Tyrannidae,Zimmerius improbus,Residente
+1317,Passeriformes,Tyrannidae,Zimmerius albigularis,Residente
+1318,Passeriformes,Tyrannidae,Zimmerius gracilipes,Residente
+1319,Passeriformes,Tyrannidae,Zimmerius chrysops,Residente
+1320,Passeriformes,Tyrannidae,Stigmatura napensis,Residente
+1321,Passeriformes,Tyrannidae,Inezia tenuirostris,Residente
+1322,Passeriformes,Tyrannidae,Inezia subflava,Residente
+1323,Passeriformes,Tyrannidae,Inezia caudata,Residente
+1324,Passeriformes,Tyrannidae,Euscarthmus meloryphus,Residente
+1325,Passeriformes,Tyrannidae,Euscarthmus fulviceps,Hipotética
+1326,Passeriformes,Tyrannidae,Ornithion brunneicapillus,Residente
+1327,Passeriformes,Tyrannidae,Ornithion inerme,Residente
+1328,Passeriformes,Tyrannidae,Camptostoma obsoletum,Residente
+1329,Passeriformes,Tyrannidae,Elaenia flavogaster,Residente
+1330,Passeriformes,Tyrannidae,Elaenia martinica,Residente
+1331,Passeriformes,Tyrannidae,Elaenia spectabilis,Migratorio Austral
+1332,Passeriformes,Tyrannidae,Elaenia albiceps,Migratorio Austral - Residente
+1333,Passeriformes,Tyrannidae,Elaenia parvirostris,Migratorio Austral
+1334,Passeriformes,Tyrannidae,Elaenia strepera,Migratorio Austral
+1335,Passeriformes,Tyrannidae,Elaenia gigas,Residente
+1336,Passeriformes,Tyrannidae,Elaenia pelzelni,Hipotética
+1337,Passeriformes,Tyrannidae,Elaenia cristata,Residente
+1338,Passeriformes,Tyrannidae,Elaenia chiriquensis,Residente
+1339,Passeriformes,Tyrannidae,Elaenia brachyptera,Residente
+1340,Passeriformes,Tyrannidae,Elaenia ruficeps,Residente
+1341,Passeriformes,Tyrannidae,Elaenia frantzii,Residente
+1342,Passeriformes,Tyrannidae,Elaenia pallatangae,Residente
+1343,Passeriformes,Tyrannidae,Tyrannulus elatus,Residente
+1344,Passeriformes,Tyrannidae,Myiopagis gaimardii,Residente
+1345,Passeriformes,Tyrannidae,Myiopagis caniceps,Residente
+1346,Passeriformes,Tyrannidae,Myiopagis olallai,Residente
+1347,Passeriformes,Tyrannidae,Myiopagis flavivertex,Residente
+1348,Passeriformes,Tyrannidae,Myiopagis viridicata,Residente
+1349,Passeriformes,Tyrannidae,Capsiempis flaveola,Residente
+1350,Passeriformes,Tyrannidae,Phyllomyias burmeisteri,Residente
+1351,Passeriformes,Tyrannidae,Phyllomyias griseiceps,Residente
+1352,Passeriformes,Tyrannidae,Phyllomyias nigrocapillus,Residente
+1353,Passeriformes,Tyrannidae,Phyllomyias cinereiceps,Residente
+1354,Passeriformes,Tyrannidae,Phyllomyias uropygialis,Residente
+1355,Passeriformes,Tyrannidae,Phyllomyias plumbeiceps,Residente
+1356,Passeriformes,Tyrannidae,Phaeomyias murina,Residente
+1357,Passeriformes,Tyrannidae,Mecocerculus poecilocercus,Residente
+1358,Passeriformes,Tyrannidae,Mecocerculus stictopterus,Residente
+1359,Passeriformes,Tyrannidae,Mecocerculus leucophrys,Residente
+1360,Passeriformes,Tyrannidae,Mecocerculus minor,Residente
+1361,Passeriformes,Tyrannidae,Anairetes parulus,Residente
+1362,Passeriformes,Tyrannidae,Polystictus pectoralis,Residente
+1363,Passeriformes,Tyrannidae,Pseudocolopteryx acutipennis,Residente
+1364,Passeriformes,Tyrannidae,Serpophaga cinerea,Residente
+1365,Passeriformes,Tyrannidae,Serpophaga hypoleuca,Residente
+1366,Passeriformes,Tyrannidae,Uromyias agilis,Residente
+1367,Passeriformes,Tyrannidae,Muscigralla brevicauda,Errática
+1368,Passeriformes,Tyrannidae,Attila cinnamomeus,Residente
+1369,Passeriformes,Tyrannidae,Attila torridus,Residente
+1370,Passeriformes,Tyrannidae,Attila citriniventris,Residente
+1371,Passeriformes,Tyrannidae,Attila bolivianus,Residente
+1372,Passeriformes,Tyrannidae,Attila spadiceus,Residente
+1373,Passeriformes,Tyrannidae,Legatus leucophaius,Residente
+1374,Passeriformes,Tyrannidae,Ramphotrigon megacephalum,Residente
+1375,Passeriformes,Tyrannidae,Ramphotrigon ruficauda,Residente
+1376,Passeriformes,Tyrannidae,Ramphotrigon fuscicauda,Residente
+1377,Passeriformes,Tyrannidae,Pitangus sulphuratus,Residente
+1378,Passeriformes,Tyrannidae,Pitangus lictor,Residente
+1379,Passeriformes,Tyrannidae,Machetornis rixosa,Residente
+1380,Passeriformes,Tyrannidae,Tyrannopsis sulphurea,Residente
+1381,Passeriformes,Tyrannidae,Megarynchus pitangua,Residente
+1382,Passeriformes,Tyrannidae,Myiodynastes chrysocephalus,Residente
+1383,Passeriformes,Tyrannidae,Myiodynastes luteiventris,Migratorio Boreal
+1384,Passeriformes,Tyrannidae,Myiodynastes maculatus,Migratorio Austral - Residente
+1385,Passeriformes,Tyrannidae,Myiozetetes cayanensis,Residente
+1386,Passeriformes,Tyrannidae,Myiozetetes similis,Residente
+1387,Passeriformes,Tyrannidae,Myiozetetes granadensis,Residente
+1388,Passeriformes,Tyrannidae,Myiozetetes luteiventris,Residente
+1389,Passeriformes,Tyrannidae,Conopias albovittatus,Residente
+1390,Passeriformes,Tyrannidae,Conopias parvus,Residente
+1391,Passeriformes,Tyrannidae,Conopias cinchoneti,Residente
+1392,Passeriformes,Tyrannidae,Phelpsia inornata,Residente
+1393,Passeriformes,Tyrannidae,Empidonomus varius,Migratorio Austral
+1394,Passeriformes,Tyrannidae,Empidonomus aurantioatrocristatus,Migratorio Austral
+1395,Passeriformes,Tyrannidae,Tyrannus niveigularis,Migratorio Austral
+1396,Passeriformes,Tyrannidae,Tyrannus albogularis,Hipotética
+1397,Passeriformes,Tyrannidae,Tyrannus melancholicus,Migratorio Austral - Residente
+1398,Passeriformes,Tyrannidae,Tyrannus forficatus,Errática
+1399,Passeriformes,Tyrannidae,Tyrannus savana,Migratorio Boreal - Austral - Residente
+1400,Passeriformes,Tyrannidae,Tyrannus tyrannus,Migratorio Boreal
+1401,Passeriformes,Tyrannidae,Tyrannus dominicensis,Migratorio Boreal
+1402,Passeriformes,Tyrannidae,Rhytipterna holerythra,Residente
+1403,Passeriformes,Tyrannidae,Rhytipterna simplex,Residente
+1404,Passeriformes,Tyrannidae,Rhytipterna immunda,Residente
+1405,Passeriformes,Tyrannidae,Sirystes albogriseus,Residente
+1406,Passeriformes,Tyrannidae,Sirystes albocinereus,Residente
+1407,Passeriformes,Tyrannidae,Myiarchus tuberculifer,Residente
+1408,Passeriformes,Tyrannidae,Myiarchus swainsoni,Migratorio Austral
+1409,Passeriformes,Tyrannidae,Myiarchus venezuelensis,Residente
+1410,Passeriformes,Tyrannidae,Myiarchus panamensis,Residente
+1411,Passeriformes,Tyrannidae,Myiarchus ferox,Residente
+1412,Passeriformes,Tyrannidae,Myiarchus apicalis,Residente Endémica
+1413,Passeriformes,Tyrannidae,Myiarchus cephalotes,Residente
+1414,Passeriformes,Tyrannidae,Myiarchus crinitus,Migratorio Boreal
+1415,Passeriformes,Tyrannidae,Myiarchus tyrannulus,Residente
+1416,Passeriformes,Tyrannidae,Colonia colonus,Residente
+1417,Passeriformes,Tyrannidae,Myiophobus flavicans,Residente
+1418,Passeriformes,Tyrannidae,Myiophobus phoenicomitra,Residente
+1419,Passeriformes,Tyrannidae,Myiophobus fasciatus,Residente
+1420,Passeriformes,Tyrannidae,Ochthoeca frontalis,Residente
+1421,Passeriformes,Tyrannidae,Ochthoeca diadema,Residente
+1422,Passeriformes,Tyrannidae,Ochthoeca cinnamomeiventris,Residente
+1423,Passeriformes,Tyrannidae,Ochthoeca rufipectoralis,Residente
+1424,Passeriformes,Tyrannidae,Ochthoeca fumicolor,Residente
+1425,Passeriformes,Tyrannidae,Sublegatus arenarum,Residente
+1426,Passeriformes,Tyrannidae,Sublegatus obscurior,Residente
+1427,Passeriformes,Tyrannidae,Sublegatus modestus,Migratorio Austral
+1428,Passeriformes,Tyrannidae,Pyrocephalus rubinus,Residente
+1429,Passeriformes,Tyrannidae,Fluvicola pica,Residente
+1430,Passeriformes,Tyrannidae,Fluvicola nengeta,Residente
+1431,Passeriformes,Tyrannidae,Arundinicola leucocephala,Residente
+1432,Passeriformes,Tyrannidae,Knipolegus orenocensis,Residente
+1433,Passeriformes,Tyrannidae,Knipolegus poecilurus,Residente
+1434,Passeriformes,Tyrannidae,Knipolegus poecilocercus,Residente
+1435,Passeriformes,Tyrannidae,Satrapa icterophrys,Migratorio Austral
+1436,Passeriformes,Tyrannidae,Syrtidicola fluviatilis,Hipotética
+1437,Passeriformes,Tyrannidae,Muscisaxicola maculirostris,Residente
+1438,Passeriformes,Tyrannidae,Muscisaxicola albilora,Errática
+1439,Passeriformes,Tyrannidae,Muscisaxicola alpinus,Residente
+1440,Passeriformes,Tyrannidae,Cnemarchus erythropygius,Residente
+1441,Passeriformes,Tyrannidae,Agriornis montanus,Residente
+1442,Passeriformes,Tyrannidae,Myiotheretes striaticollis,Residente
+1443,Passeriformes,Tyrannidae,Myiotheretes pernix,Residente Endémica
+1444,Passeriformes,Tyrannidae,Myiotheretes fumigatus,Residente
+1445,Passeriformes,Tyrannidae,Ochthornis littoralis,Residente
+1446,Passeriformes,Tyrannidae,Cnemotriccus fuscatus,Residente
+1447,Passeriformes,Tyrannidae,Aphanotriccus audax,Residente
+1448,Passeriformes,Tyrannidae,Lathrotriccus euleri,Migratorio Austral - Residente?
+1449,Passeriformes,Tyrannidae,Mitrephanes phaeocercus,Residente
+1450,Passeriformes,Tyrannidae,Sayornis nigricans,Residente
+1451,Passeriformes,Tyrannidae,Empidonax flaviventris,Migratorio Boreal
+1452,Passeriformes,Tyrannidae,Empidonax virescens,Migratorio Boreal
+1453,Passeriformes,Tyrannidae,Empidonax traillii,Migratorio Boreal
+1454,Passeriformes,Tyrannidae,Empidonax alnorum,Migratorio Boreal
+1455,Passeriformes,Tyrannidae,Empidonax minimus,Hipotética
+1456,Passeriformes,Tyrannidae,Contopus cooperi,Migratorio Boreal
+1457,Passeriformes,Tyrannidae,Contopus fumigatus,Residente
+1458,Passeriformes,Tyrannidae,Contopus sordidulus,Migratorio Boreal
+1459,Passeriformes,Tyrannidae,Contopus virens,Migratorio Boreal
+1460,Passeriformes,Tyrannidae,Contopus cinereus,Residente
+1461,Passeriformes,Tyrannidae,Contopus nigrescens,Hipotética
+1462,Passeriformes,Vireonidae,Cyclarhis gujanensis,Residente
+1463,Passeriformes,Vireonidae,Cyclarhis nigrirostris,Residente
+1464,Passeriformes,Vireonidae,Hylophilus flavipes,Residente
+1465,Passeriformes,Vireonidae,Hylophilus semicinereus,Hipotética
+1466,Passeriformes,Vireonidae,Hylophilus brunneiceps,Residente
+1467,Passeriformes,Vireonidae,Hylophilus thoracicus,Residente
+1468,Passeriformes,Vireonidae,Vireolanius eximius,Residente
+1469,Passeriformes,Vireonidae,Vireolanius leucotis,Residente
+1470,Passeriformes,Vireonidae,Tunchiornis ochraceiceps,Residente
+1471,Passeriformes,Vireonidae,Pachysylvia decurtata,Residente
+1472,Passeriformes,Vireonidae,Pachysylvia hypoxantha,Residente
+1473,Passeriformes,Vireonidae,Pachysylvia aurantiifrons,Residente
+1474,Passeriformes,Vireonidae,Pachysylvia semibrunnea,Residente
+1475,Passeriformes,Vireonidae,Vireo griseus,Errática
+1476,Passeriformes,Vireonidae,Vireo flavifrons,Migratorio Boreal
+1477,Passeriformes,Vireonidae,Vireo masteri,Residente
+1478,Passeriformes,Vireonidae,Vireo approximans,Residente Endémica
+1479,Passeriformes,Vireonidae,Vireo caribaeus,Residente Endémica
+1480,Passeriformes,Vireonidae,Vireo philadelphicus,Migratorio Boreal
+1481,Passeriformes,Vireonidae,Vireo leucophrys,Residente
+1482,Passeriformes,Vireonidae,Vireo olivaceus,Migratorio Boreal
+1483,Passeriformes,Vireonidae,Vireo chivi,Migratorio Austral - Residente
+1484,Passeriformes,Vireonidae,Vireo flavoviridis,Migratorio Boreal
+1485,Passeriformes,Vireonidae,Vireo altiloquus,Migratorio Boreal
+1486,Passeriformes,Corvidae,Cyanolyca armillata,Residente
+1487,Passeriformes,Corvidae,Cyanolyca turcosa,Residente
+1488,Passeriformes,Corvidae,Cyanolyca pulchra,Residente
+1489,Passeriformes,Corvidae,Cyanocorax violaceus,Residente
+1490,Passeriformes,Corvidae,Cyanocorax affinis,Residente
+1491,Passeriformes,Corvidae,Cyanocorax heilprini,Residente
+1492,Passeriformes,Corvidae,Cyanocorax yncas,Residente
+1493,Passeriformes,Alaudidae,Eremophila alpestris,Residente
+1494,Passeriformes,Hirundinidae,Pygochelidon cyanoleuca,Migratorio Austral - Residente
+1495,Passeriformes,Hirundinidae,Pygochelidon melanoleuca,Residente
+1496,Passeriformes,Hirundinidae,Alopochelidon fucata,Migratorio Austral? - Residente?
+1497,Passeriformes,Hirundinidae,Orochelidon murina,Residente
+1498,Passeriformes,Hirundinidae,Orochelidon flavipes,Residente
+1499,Passeriformes,Hirundinidae,Atticora fasciata,Residente
+1500,Passeriformes,Hirundinidae,Atticora tibialis,Residente
+1501,Passeriformes,Hirundinidae,Stelgidopteryx serripennis,Errática
+1502,Passeriformes,Hirundinidae,Stelgidopteryx ruficollis,Residente
+1503,Passeriformes,Hirundinidae,Progne tapera,Migratorio Austral - Residente
+1504,Passeriformes,Hirundinidae,Progne subis,Migratorio Boreal
+1505,Passeriformes,Hirundinidae,Progne chalybea,Residente
+1506,Passeriformes,Hirundinidae,Progne elegans,Hipotética
+1507,Passeriformes,Hirundinidae,Tachycineta bicolor,Migratorio Boreal
+1508,Passeriformes,Hirundinidae,Tachycineta thalassina,Hipotética
+1509,Passeriformes,Hirundinidae,Tachycineta albiventer,Residente
+1510,Passeriformes,Hirundinidae,Tachycineta albilinea,Hipotética
+1511,Passeriformes,Hirundinidae,Tachycineta cyaneoviridis,Hipotética
+1512,Passeriformes,Hirundinidae,Riparia riparia,Migratorio Boreal
+1513,Passeriformes,Hirundinidae,Hirundo rustica,Migratorio Boreal
+1514,Passeriformes,Hirundinidae,Petrochelidon pyrrhonota,Migratorio Boreal
+1515,Passeriformes,Hirundinidae,Petrochelidon fulva,Errática
+1516,Passeriformes,Troglodytidae,Microcerculus marginatus,Residente
+1517,Passeriformes,Troglodytidae,Microcerculus bambla,Residente
+1518,Passeriformes,Troglodytidae,Odontorchilus branickii,Residente
+1519,Passeriformes,Troglodytidae,Troglodytes aedon,Residente
+1520,Passeriformes,Troglodytidae,Troglodytes ochraceus,Residente
+1521,Passeriformes,Troglodytidae,Troglodytes solstitialis,Residente
+1522,Passeriformes,Troglodytidae,Troglodytes monticola,Residente Endémica
+1523,Passeriformes,Troglodytidae,Cistothorus platensis,Residente
+1524,Passeriformes,Troglodytidae,Cistothorus apolinari,Residente Endémica
+1525,Passeriformes,Troglodytidae,Campylorhynchus albobrunneus,Residente
+1526,Passeriformes,Troglodytidae,Campylorhynchus zonatus,Residente
+1527,Passeriformes,Troglodytidae,Campylorhynchus nuchalis,Residente
+1528,Passeriformes,Troglodytidae,Campylorhynchus griseus,Residente
+1529,Passeriformes,Troglodytidae,Campylorhynchus turdinus,Residente
+1530,Passeriformes,Troglodytidae,Pheugopedius spadix,Residente
+1531,Passeriformes,Troglodytidae,Pheugopedius fasciatoventris,Residente
+1532,Passeriformes,Troglodytidae,Pheugopedius euophrys,Residente
+1533,Passeriformes,Troglodytidae,Pheugopedius mystacalis,Residente
+1534,Passeriformes,Troglodytidae,Pheugopedius coraya,Residente
+1535,Passeriformes,Troglodytidae,Pheugopedius rutilus,Residente
+1536,Passeriformes,Troglodytidae,Pheugopedius sclateri,Residente
+1537,Passeriformes,Troglodytidae,Thryophilus rufalbus,Residente
+1538,Passeriformes,Troglodytidae,Thryophilus sernai,Residente Endémica
+1539,Passeriformes,Troglodytidae,Thryophilus nicefori,Residente Endémica
+1540,Passeriformes,Troglodytidae,Cantorchilus leucopogon,Residente
+1541,Passeriformes,Troglodytidae,Cantorchilus nigricapillus,Residente
+1542,Passeriformes,Troglodytidae,Cantorchilus leucotis,Residente
+1543,Passeriformes,Troglodytidae,Cinnycerthia unirufa,Residente
+1544,Passeriformes,Troglodytidae,Cinnycerthia olivascens,Residente
+1545,Passeriformes,Troglodytidae,Henicorhina leucosticta,Residente
+1546,Passeriformes,Troglodytidae,Henicorhina leucophrys,Residente
+1547,Passeriformes,Troglodytidae,Henicorhina anachoreta,Residente Endémica
+1548,Passeriformes,Troglodytidae,Henicorhina negreti,Residente Endémica
+1549,Passeriformes,Troglodytidae,Cyphorhinus thoracicus,Residente
+1550,Passeriformes,Troglodytidae,Cyphorhinus phaeocephalus,Residente
+1551,Passeriformes,Troglodytidae,Cyphorhinus arada,Residente
+1552,Passeriformes,Polioptilidae,Microbates collaris,Residente
+1553,Passeriformes,Polioptilidae,Microbates cinereiventris,Residente
+1554,Passeriformes,Polioptilidae,Ramphocaenus melanurus,Residente
+1555,Passeriformes,Polioptilidae,Polioptila plumbea,Residente
+1556,Passeriformes,Polioptilidae,Polioptila guianensis,Hipotética
+1557,Passeriformes,Polioptilidae,Polioptila facilis,Residente
+1558,Passeriformes,Polioptilidae,Polioptila schistaceigula,Residente
+1559,Passeriformes,Donacobiidae,Donacobius atricapilla,Residente
+1560,Passeriformes,Cinclidae,Cinclus leucocephalus,Residente
+1561,Passeriformes,Bombycillidae,Bombycilla cedrorum,Errática
+1562,Passeriformes,Turdidae,Myadestes coloratus,Residente
+1563,Passeriformes,Turdidae,Myadestes ralloides,Residente
+1564,Passeriformes,Turdidae,Catharus aurantiirostris,Residente
+1565,Passeriformes,Turdidae,Catharus fuscater,Residente
+1566,Passeriformes,Turdidae,Catharus maculatus,Residente
+1567,Passeriformes,Turdidae,Catharus fuscescens,Migratorio Boreal
+1568,Passeriformes,Turdidae,Catharus minimus,Migratorio Boreal
+1569,Passeriformes,Turdidae,Catharus ustulatus,Migratorio Boreal
+1570,Passeriformes,Turdidae,Hylocichla mustelina,Migratorio Boreal
+1571,Passeriformes,Turdidae,Entomodestes coracinus,Residente
+1572,Passeriformes,Turdidae,Cichlopsis leucogenys,Residente
+1573,Passeriformes,Turdidae,Turdus leucops,Residente
+1574,Passeriformes,Turdidae,Turdus flavipes,Residente
+1575,Passeriformes,Turdidae,Turdus leucomelas,Residente
+1576,Passeriformes,Turdidae,Turdus fumigatus,Residente
+1577,Passeriformes,Turdidae,Turdus hauxwelli,Residente
+1578,Passeriformes,Turdidae,Turdus obsoletus,Residente
+1579,Passeriformes,Turdidae,Turdus grayi,Residente
+1580,Passeriformes,Turdidae,Turdus nudigenis,Residente
+1581,Passeriformes,Turdidae,Turdus sanchezorum,Residente
+1582,Passeriformes,Turdidae,Turdus lawrencii,Residente
+1583,Passeriformes,Turdidae,Turdus ignobilis,Residente
+1584,Passeriformes,Turdidae,Turdus arthuri,Residente
+1585,Passeriformes,Turdidae,Turdus fulviventris,Residente
+1586,Passeriformes,Turdidae,Turdus olivater,Residente
+1587,Passeriformes,Turdidae,Turdus fuscater,Residente
+1588,Passeriformes,Turdidae,Turdus serranus,Residente
+1589,Passeriformes,Turdidae,Turdus assimilis,Residente
+1590,Passeriformes,Turdidae,Turdus albicollis,Residente
+1591,Passeriformes,Mimidae,Dumetella carolinensis,Migratorio Boreal
+1592,Passeriformes,Mimidae,Mimus gilvus,Residente
+1593,Passeriformes,Estrildidae,Lonchura atricapilla,Exótica establecida
+1594,Passeriformes,Estrildidae,Lonchura malacca,Exótica establecida
+1595,Passeriformes,Estrildidae,Lonchura oryzivora,Exótica establecida
+1596,Passeriformes,Passeridae,Passer domesticus,Exótica establecida
+1597,Passeriformes,Motacillidae,Anthus rubescens,Hipotética
+1598,Passeriformes,Motacillidae,Anthus chii,Residente
+1599,Passeriformes,Motacillidae,Anthus bogotensis,Residente
+1600,Passeriformes,Fringillidae,Spinus spinescens,Residente
+1601,Passeriformes,Fringillidae,Spinus yarrellii,Errática
+1602,Passeriformes,Fringillidae,Spinus cucullatus,Residente
+1603,Passeriformes,Fringillidae,Spinus magellanicus,Residente
+1604,Passeriformes,Fringillidae,Spinus xanthogastrus,Residente
+1605,Passeriformes,Fringillidae,Spinus psaltria,Residente
+1606,Passeriformes,Fringillidae,Chlorophonia cyanocephala,Residente
+1607,Passeriformes,Fringillidae,Chlorophonia cyanea,Residente
+1608,Passeriformes,Fringillidae,Chlorophonia pyrrhophrys,Residente
+1609,Passeriformes,Fringillidae,Chlorophonia flavirostris,Residente
+1610,Passeriformes,Fringillidae,Euphonia saturata,Residente
+1611,Passeriformes,Fringillidae,Euphonia plumbea,Residente
+1612,Passeriformes,Fringillidae,Euphonia chlorotica,Residente
+1613,Passeriformes,Fringillidae,Euphonia concinna,Residente Endémica
+1614,Passeriformes,Fringillidae,Euphonia trinitatis,Residente
+1615,Passeriformes,Fringillidae,Euphonia chrysopasta,Residente
+1616,Passeriformes,Fringillidae,Euphonia minuta,Residente
+1617,Passeriformes,Fringillidae,Euphonia laniirostris,Residente
+1618,Passeriformes,Fringillidae,Euphonia fulvicrissa,Residente
+1619,Passeriformes,Fringillidae,Euphonia anneae,Residente
+1620,Passeriformes,Fringillidae,Euphonia xanthogaster,Residente
+1621,Passeriformes,Fringillidae,Euphonia mesochrysa,Residente
+1622,Passeriformes,Fringillidae,Euphonia rufiventris,Residente
+1623,Passeriformes,Rhodinocichlidae,Rhodinocichla rosea,Residente
+1624,Passeriformes,Passerellidae,Oreothraupis arremonops,Residente
+1625,Passeriformes,Passerellidae,Chlorospingus flavigularis,Residente
+1626,Passeriformes,Passerellidae,Chlorospingus parvirostris,Residente
+1627,Passeriformes,Passerellidae,Chlorospingus canigularis,Residente
+1628,Passeriformes,Passerellidae,Chlorospingus flavopectus,Residente
+1629,Passeriformes,Passerellidae,Chlorospingus tacarcunae,Residente
+1630,Passeriformes,Passerellidae,Chlorospingus inornatus,Residente
+1631,Passeriformes,Passerellidae,Chlorospingus semifuscus,Residente
+1632,Passeriformes,Passerellidae,Ammodramus savannarum,Residente
+1633,Passeriformes,Passerellidae,Ammodramus humeralis,Residente
+1634,Passeriformes,Passerellidae,Ammodramus aurifrons,Residente
+1635,Passeriformes,Passerellidae,Arremonops conirostris,Residente
+1636,Passeriformes,Passerellidae,Arremonops tocuyensis,Residente
+1637,Passeriformes,Passerellidae,Arremon basilicus,Residente Endémica
+1638,Passeriformes,Passerellidae,Arremon perijanus,Residente
+1639,Passeriformes,Passerellidae,Arremon atricapillus,Residente
+1640,Passeriformes,Passerellidae,Arremon assimilis,Residente
+1641,Passeriformes,Passerellidae,Arremon aurantiirostris,Residente
+1642,Passeriformes,Passerellidae,Arremon schlegeli,Residente
+1643,Passeriformes,Passerellidae,Arremon taciturnus,Residente
+1644,Passeriformes,Passerellidae,Arremon brunneinucha,Residente
+1645,Passeriformes,Passerellidae,Arremon crassirostris,Residente
+1646,Passeriformes,Passerellidae,Arremon castaneiceps,Residente
+1647,Passeriformes,Passerellidae,Spizella pallida,Errática
+1648,Passeriformes,Passerellidae,Zonotrichia leucophrys,Errática
+1649,Passeriformes,Passerellidae,Zonotrichia capensis,Residente
+1650,Passeriformes,Passerellidae,Melospiza lincolnii,Errática
+1651,Passeriformes,Passerellidae,Atlapetes albinucha,Residente
+1652,Passeriformes,Passerellidae,Atlapetes albofrenatus,Residente
+1653,Passeriformes,Passerellidae,Atlapetes melanocephalus,Residente Endémica
+1654,Passeriformes,Passerellidae,Atlapetes semirufus,Residente
+1655,Passeriformes,Passerellidae,Atlapetes flaviceps,Residente Endémica
+1656,Passeriformes,Passerellidae,Atlapetes fuscoolivaceus,Residente Endémica
+1657,Passeriformes,Passerellidae,Atlapetes leucopis,Residente
+1658,Passeriformes,Passerellidae,Atlapetes tricolor,Residente
+1659,Passeriformes,Passerellidae,Atlapetes schistaceus,Residente
+1660,Passeriformes,Passerellidae,Atlapetes pallidinucha,Residente
+1661,Passeriformes,Passerellidae,Atlapetes blancae,Residente Endémica
+1662,Passeriformes,Passerellidae,Atlapetes latinuchus,Residente
+1663,Passeriformes,Passerellidae,Passerculus sandwichensis,Hipotética
+1664,Passeriformes,Icteridae,Dolichonyx oryzivorus,Migratorio Boreal
+1665,Passeriformes,Icteridae,Sturnella magna,Residente
+1666,Passeriformes,Icteridae,Leistes militaris,Residente
+1667,Passeriformes,Icteridae,Leistes bellicosus,Residente
+1668,Passeriformes,Icteridae,Amblycercus holosericeus,Residente
+1669,Passeriformes,Icteridae,Psarocolius angustifrons,Residente
+1670,Passeriformes,Icteridae,Psarocolius viridis,Residente
+1671,Passeriformes,Icteridae,Psarocolius wagleri,Residente
+1672,Passeriformes,Icteridae,Psarocolius decumanus,Residente
+1673,Passeriformes,Icteridae,Psarocolius guatimozinus,Residente
+1674,Passeriformes,Icteridae,Psarocolius cassini,Residente Endémica
+1675,Passeriformes,Icteridae,Psarocolius bifasciatus,Residente
+1676,Passeriformes,Icteridae,Cacicus solitarius,Residente
+1677,Passeriformes,Icteridae,Cacicus sclateri,Residente
+1678,Passeriformes,Icteridae,Cacicus uropygialis,Residente
+1679,Passeriformes,Icteridae,Cacicus cela,Residente
+1680,Passeriformes,Icteridae,Cacicus chrysonotus,Residente
+1681,Passeriformes,Icteridae,Cacicus latirostris,Residente
+1682,Passeriformes,Icteridae,Cacicus haemorrhous,Residente
+1683,Passeriformes,Icteridae,Cacicus oseryi,Residente?
+1684,Passeriformes,Icteridae,Icterus icterus,Residente
+1685,Passeriformes,Icteridae,Icterus croconotus,Residente
+1686,Passeriformes,Icteridae,Icterus mesomelas,Residente
+1687,Passeriformes,Icteridae,Icterus cayanensis,Residente
+1688,Passeriformes,Icteridae,Icterus spurius,Migratorio Boreal
+1689,Passeriformes,Icteridae,Icterus auricapillus,Residente
+1690,Passeriformes,Icteridae,Icterus chrysater,Residente
+1691,Passeriformes,Icteridae,Icterus galbula,Migratorio Boreal
+1692,Passeriformes,Icteridae,Icterus leucopteryx,Residente
+1693,Passeriformes,Icteridae,Icterus nigrogularis,Residente
+1694,Passeriformes,Icteridae,Molothrus oryzivorus,Residente
+1695,Passeriformes,Icteridae,Molothrus aeneus,Residente
+1696,Passeriformes,Icteridae,Molothrus bonariensis,Residente
+1697,Passeriformes,Icteridae,Dives warczewiczi,Hipotética
+1698,Passeriformes,Icteridae,Quiscalus lugubris,Residente
+1699,Passeriformes,Icteridae,Quiscalus mexicanus,Residente
+1700,Passeriformes,Icteridae,Lampropsar tanagrinus,Residente
+1701,Passeriformes,Icteridae,Hypopyrrhus pyrohypogaster,Residente Endémica
+1702,Passeriformes,Icteridae,Gymnomystax mexicanus,Residente
+1703,Passeriformes,Icteridae,Macroagelaius subalaris,Residente Endémica
+1704,Passeriformes,Icteridae,Chrysomus icterocephalus,Residente
+1705,Passeriformes,Parulidae,Limnothlypis swainsonii,Errática
+1706,Passeriformes,Parulidae,Seiurus aurocapilla,Migratorio Boreal
+1707,Passeriformes,Parulidae,Helmitheros vermivorum,Migratorio Boreal
+1708,Passeriformes,Parulidae,Parkesia noveboracensis,Migratorio Boreal
+1709,Passeriformes,Parulidae,Parkesia motacilla,Migratorio Boreal
+1710,Passeriformes,Parulidae,Vermivora chrysoptera,Migratorio Boreal
+1711,Passeriformes,Parulidae,Vermivora cyanoptera,Migratorio Boreal
+1712,Passeriformes,Parulidae,Mniotilta varia,Migratorio Boreal
+1713,Passeriformes,Parulidae,Protonotaria citrea,Migratorio Boreal
+1714,Passeriformes,Parulidae,Leiothlypis peregrina,Migratorio Boreal
+1715,Passeriformes,Parulidae,Leiothlypis ruficapilla,Migratorio Boreal
+1716,Passeriformes,Parulidae,Oporornis agilis,Migratorio Boreal
+1717,Passeriformes,Parulidae,Geothlypis aequinoctialis,Residente
+1718,Passeriformes,Parulidae,Geothlypis philadelphia,Migratorio Boreal
+1719,Passeriformes,Parulidae,Geothlypis formosa,Migratorio Boreal
+1720,Passeriformes,Parulidae,Geothlypis semiflava,Residente
+1721,Passeriformes,Parulidae,Geothlypis trichas,Errática
+1722,Passeriformes,Parulidae,Setophaga citrina,Errática
+1723,Passeriformes,Parulidae,Setophaga ruticilla,Migratorio Boreal
+1724,Passeriformes,Parulidae,Setophaga tigrina,Errática
+1725,Passeriformes,Parulidae,Setophaga cerulea,Migratorio Boreal
+1726,Passeriformes,Parulidae,Setophaga americana,Migratorio Boreal
+1727,Passeriformes,Parulidae,Setophaga pitiayumi,Residente
+1728,Passeriformes,Parulidae,Setophaga magnolia,Errática
+1729,Passeriformes,Parulidae,Setophaga castanea,Migratorio Boreal
+1730,Passeriformes,Parulidae,Setophaga fusca,Migratorio Boreal
+1731,Passeriformes,Parulidae,Setophaga petechia,Migratorio Boreal
+1732,Passeriformes,Parulidae,Setophaga pensylvanica,Migratorio Boreal
+1733,Passeriformes,Parulidae,Setophaga striata,Migratorio Boreal
+1734,Passeriformes,Parulidae,Setophaga caerulescens,Errática
+1735,Passeriformes,Parulidae,Setophaga palmarum,Errática
+1736,Passeriformes,Parulidae,Setophaga pinus,Hipotética
+1737,Passeriformes,Parulidae,Setophaga coronata,Errática
+1738,Passeriformes,Parulidae,Setophaga dominica,Errática
+1739,Passeriformes,Parulidae,Setophaga discolor,Errática
+1740,Passeriformes,Parulidae,Setophaga townsendi,Errática
+1741,Passeriformes,Parulidae,Setophaga virens,Errática
+1742,Passeriformes,Parulidae,Myiothlypis luteoviridis,Residente
+1743,Passeriformes,Parulidae,Myiothlypis basilica,Residente Endémica
+1744,Passeriformes,Parulidae,Myiothlypis flaveola,Residente
+1745,Passeriformes,Parulidae,Myiothlypis nigrocristata,Residente
+1746,Passeriformes,Parulidae,Myiothlypis fulvicauda,Residente
+1747,Passeriformes,Parulidae,Myiothlypis chrysogaster,Residente
+1748,Passeriformes,Parulidae,Myiothlypis conspicillata,Residente Endémica
+1749,Passeriformes,Parulidae,Myiothlypis cinereicollis,Residente
+1750,Passeriformes,Parulidae,Myiothlypis coronata,Residente
+1751,Passeriformes,Parulidae,Basileuterus rufifrons,Residente
+1752,Passeriformes,Parulidae,Basileuterus culicivorus,Residente
+1753,Passeriformes,Parulidae,Basileuterus ignotus,Residente
+1754,Passeriformes,Parulidae,Basileuterus tristriatus,Residente
+1755,Passeriformes,Parulidae,Cardellina canadensis,Migratorio Boreal
+1756,Passeriformes,Parulidae,Cardellina pusilla,Errática
+1757,Passeriformes,Parulidae,Myioborus miniatus,Residente
+1758,Passeriformes,Parulidae,Myioborus flavivertex,Residente Endémica
+1759,Passeriformes,Parulidae,Myioborus ornatus,Residente
+1760,Passeriformes,Parulidae,Myioborus melanocephalus,Residente
+1761,Passeriformes,Mitrospingidae,Mitrospingus cassinii,Residente
+1762,Passeriformes,Cardinalidae,Piranga flava,Residente
+1763,Passeriformes,Cardinalidae,Piranga rubra,Migratorio Boreal
+1764,Passeriformes,Cardinalidae,Piranga olivacea,Migratorio Boreal
+1765,Passeriformes,Cardinalidae,Piranga rubriceps,Residente
+1766,Passeriformes,Cardinalidae,Piranga leucoptera,Residente
+1767,Passeriformes,Cardinalidae,Habia rubica,Residente
+1768,Passeriformes,Cardinalidae,Habia fuscicauda,Residente
+1769,Passeriformes,Cardinalidae,Habia gutturalis,Residente Endémica
+1770,Passeriformes,Cardinalidae,Habia cristata,Residente Endémica
+1771,Passeriformes,Cardinalidae,Chlorothraupis carmioli,Residente
+1772,Passeriformes,Cardinalidae,Chlorothraupis olivacea,Residente
+1773,Passeriformes,Cardinalidae,Chlorothraupis stolzmanni,Residente
+1774,Passeriformes,Cardinalidae,Pheucticus chrysogaster,Residente
+1775,Passeriformes,Cardinalidae,Pheucticus aureoventris,Residente
+1776,Passeriformes,Cardinalidae,Pheucticus ludovicianus,Migratorio Boreal
+1777,Passeriformes,Cardinalidae,Granatellus pelzelni,Residente
+1778,Passeriformes,Cardinalidae,Cardinalis phoeniceus,Residente
+1779,Passeriformes,Cardinalidae,Caryothraustes canadensis,Residente
+1780,Passeriformes,Cardinalidae,Amaurospiza concolor,Residente
+1781,Passeriformes,Cardinalidae,Cyanoloxia cyanoides,Residente
+1782,Passeriformes,Cardinalidae,Cyanoloxia rothschildii,Residente
+1783,Passeriformes,Cardinalidae,Cyanoloxia brissonii,Residente
+1784,Passeriformes,Cardinalidae,Passerina caerulea,Errática
+1785,Passeriformes,Cardinalidae,Passerina cyanea,Errática
+1786,Passeriformes,Cardinalidae,Passerina ciris,Errática
+1787,Passeriformes,Cardinalidae,Spiza americana,Migratorio Boreal
+1788,Passeriformes,Thraupidae,Nemosia pileata,Residente
+1789,Passeriformes,Thraupidae,Sericossypha albocristata,Residente
+1790,Passeriformes,Thraupidae,Parkerthraustes humeralis,Residente
+1791,Passeriformes,Thraupidae,Catamblyrhynchus diadema,Residente
+1792,Passeriformes,Thraupidae,Chlorophanes spiza,Residente
+1793,Passeriformes,Thraupidae,Iridophanes pulcherrimus,Residente
+1794,Passeriformes,Thraupidae,Chrysothlypis chrysomelas,Residente
+1795,Passeriformes,Thraupidae,Chrysothlypis salmoni,Residente
+1796,Passeriformes,Thraupidae,Heterospingus xanthopygius,Residente
+1797,Passeriformes,Thraupidae,Hemithraupis guira,Residente
+1798,Passeriformes,Thraupidae,Hemithraupis flavicollis,Residente
+1799,Passeriformes,Thraupidae,Conirostrum bicolor,Residente
+1800,Passeriformes,Thraupidae,Conirostrum margaritae,Residente
+1801,Passeriformes,Thraupidae,Conirostrum speciosum,Residente
+1802,Passeriformes,Thraupidae,Conirostrum leucogenys,Residente
+1803,Passeriformes,Thraupidae,Conirostrum binghami,Residente
+1804,Passeriformes,Thraupidae,Conirostrum sitticolor,Residente
+1805,Passeriformes,Thraupidae,Conirostrum albifrons,Residente
+1806,Passeriformes,Thraupidae,Conirostrum rufum,Residente
+1807,Passeriformes,Thraupidae,Conirostrum cinereum,Residente
+1808,Passeriformes,Thraupidae,Sicalis citrina,Residente
+1809,Passeriformes,Thraupidae,Sicalis columbiana,Residente
+1810,Passeriformes,Thraupidae,Sicalis flaveola,Residente
+1811,Passeriformes,Thraupidae,Sicalis luteola,Residente
+1812,Passeriformes,Thraupidae,Geospizopsis unicolor,Residente
+1813,Passeriformes,Thraupidae,Catamenia analis,Residente
+1814,Passeriformes,Thraupidae,Catamenia inornata,Residente
+1815,Passeriformes,Thraupidae,Catamenia homochroa,Residente
+1816,Passeriformes,Thraupidae,Diglossa gloriosissima,Residente Endémica
+1817,Passeriformes,Thraupidae,Diglossa lafresnayii,Residente
+1818,Passeriformes,Thraupidae,Diglossa humeralis,Residente
+1819,Passeriformes,Thraupidae,Diglossa brunneiventris,Residente
+1820,Passeriformes,Thraupidae,Diglossa albilatera,Residente
+1821,Passeriformes,Thraupidae,Diglossa indigotica,Residente
+1822,Passeriformes,Thraupidae,Diglossa sittoides,Residente
+1823,Passeriformes,Thraupidae,Diglossa glauca,Residente
+1824,Passeriformes,Thraupidae,Diglossa caerulescens,Residente
+1825,Passeriformes,Thraupidae,Diglossa cyanea,Residente
+1826,Passeriformes,Thraupidae,Haplospiza rustica,Residente
+1827,Passeriformes,Thraupidae,Volatinia jacarina,Residente
+1828,Passeriformes,Thraupidae,Conothraupis speculigera,Errática?
+1829,Passeriformes,Thraupidae,Creurgops verticalis,Residente
+1830,Passeriformes,Thraupidae,Loriotus cristatus,Residente
+1831,Passeriformes,Thraupidae,Loriotus luctuosus,Residente
+1832,Passeriformes,Thraupidae,Tachyphonus surinamus,Residente
+1833,Passeriformes,Thraupidae,Tachyphonus delatrii,Residente
+1834,Passeriformes,Thraupidae,Tachyphonus rufus,Residente
+1835,Passeriformes,Thraupidae,Tachyphonus phoenicius,Residente
+1836,Passeriformes,Thraupidae,Eucometis penicillata,Residente
+1837,Passeriformes,Thraupidae,Coryphospingus pileatus,Residente
+1838,Passeriformes,Thraupidae,Coryphospingus cucullatus,Residente
+1839,Passeriformes,Thraupidae,Ramphocelus nigrogularis,Residente
+1840,Passeriformes,Thraupidae,Ramphocelus dimidiatus,Residente
+1841,Passeriformes,Thraupidae,Ramphocelus carbo,Residente
+1842,Passeriformes,Thraupidae,Ramphocelus flammigerus,Residente
+1843,Passeriformes,Thraupidae,Lanio fulvus,Residente
+1844,Passeriformes,Thraupidae,Rhodospingus cruentus,Hipotética
+1845,Passeriformes,Thraupidae,Cyanerpes nitidus,Residente
+1846,Passeriformes,Thraupidae,Cyanerpes lucidus,Residente
+1847,Passeriformes,Thraupidae,Cyanerpes caeruleus,Residente
+1848,Passeriformes,Thraupidae,Cyanerpes cyaneus,Residente
+1849,Passeriformes,Thraupidae,Tersina viridis,Residente
+1850,Passeriformes,Thraupidae,Dacnis albiventris,Residente
+1851,Passeriformes,Thraupidae,Dacnis lineata,Residente
+1852,Passeriformes,Thraupidae,Dacnis flaviventer,Residente
+1853,Passeriformes,Thraupidae,Dacnis hartlaubi,Residente Endémica
+1854,Passeriformes,Thraupidae,Dacnis venusta,Residente
+1855,Passeriformes,Thraupidae,Dacnis cayana,Residente
+1856,Passeriformes,Thraupidae,Dacnis viguieri,Residente
+1857,Passeriformes,Thraupidae,Dacnis berlepschi,Residente
+1858,Passeriformes,Thraupidae,Sporophila bouvronides,Residente
+1859,Passeriformes,Thraupidae,Sporophila lineola,Residente
+1860,Passeriformes,Thraupidae,Sporophila telasco,Residente
+1861,Passeriformes,Thraupidae,Sporophila castaneiventris,Residente
+1862,Passeriformes,Thraupidae,Sporophila minuta,Residente
+1863,Passeriformes,Thraupidae,Sporophila funerea,Residente
+1864,Passeriformes,Thraupidae,Sporophila angolensis,Residente
+1865,Passeriformes,Thraupidae,Sporophila maximiliani,Residente - Extinta?
+1866,Passeriformes,Thraupidae,Sporophila crassirostris,Residente
+1867,Passeriformes,Thraupidae,Sporophila atrirostris,Residente
+1868,Passeriformes,Thraupidae,Sporophila corvina,Residente
+1869,Passeriformes,Thraupidae,Sporophila intermedia,Residente
+1870,Passeriformes,Thraupidae,Sporophila americana,Residente
+1871,Passeriformes,Thraupidae,Sporophila fringilloides,Residente
+1872,Passeriformes,Thraupidae,Sporophila luctuosa,Residente
+1873,Passeriformes,Thraupidae,Sporophila nigricollis,Residente
+1874,Passeriformes,Thraupidae,Sporophila caerulescens,Residente
+1875,Passeriformes,Thraupidae,Sporophila schistacea,Residente
+1876,Passeriformes,Thraupidae,Sporophila plumbea,Residente
+1877,Passeriformes,Thraupidae,Saltator maximus,Residente
+1878,Passeriformes,Thraupidae,Saltator atripennis,Residente
+1879,Passeriformes,Thraupidae,Saltator orenocensis,Residente
+1880,Passeriformes,Thraupidae,Saltator olivascens,Residente
+1881,Passeriformes,Thraupidae,Saltator coerulescens,Residente
+1882,Passeriformes,Thraupidae,Saltator striatipectus,Residente
+1883,Passeriformes,Thraupidae,Saltator cinctus,Residente
+1884,Passeriformes,Thraupidae,Saltator grossus,Residente
+1885,Passeriformes,Thraupidae,Emberizoides herbicola,Residente
+1886,Passeriformes,Thraupidae,Pseudospingus verticalis,Residente
+1887,Passeriformes,Thraupidae,Cnemoscopus rubrirostris,Residente
+1888,Passeriformes,Thraupidae,Kleinothraupis atropileus,Residente
+1889,Passeriformes,Thraupidae,Sphenopsis frontalis,Residente
+1890,Passeriformes,Thraupidae,Sphenopsis melanotis,Residente
+1891,Passeriformes,Thraupidae,Thlypopsis sordida,Residente
+1892,Passeriformes,Thraupidae,Thlypopsis fulviceps,Residente
+1893,Passeriformes,Thraupidae,Thlypopsis superciliaris,Residente
+1894,Passeriformes,Thraupidae,Thlypopsis ornata,Residente
+1895,Passeriformes,Thraupidae,Urothraupis stolzmanni,Residente
+1896,Passeriformes,Thraupidae,Coereba flaveola,Residente
+1897,Passeriformes,Thraupidae,Tiaris olivaceus,Residente
+1898,Passeriformes,Thraupidae,Asemospiza obscura,Residente
+1899,Passeriformes,Thraupidae,Asemospiza fuliginosa,Residente
+1900,Passeriformes,Thraupidae,Melanospiza bicolor,Residente
+1901,Passeriformes,Thraupidae,Chlorochrysa phoenicotis,Residente
+1902,Passeriformes,Thraupidae,Chlorochrysa calliparaea,Residente
+1903,Passeriformes,Thraupidae,Chlorochrysa nitidissima,Residente Endémica
+1904,Passeriformes,Thraupidae,Paroaria nigrogenis,Residente
+1905,Passeriformes,Thraupidae,Paroaria gularis,Residente
+1906,Passeriformes,Thraupidae,Schistochlamys melanopis,Residente
+1907,Passeriformes,Thraupidae,Cissopis leverianus,Residente
+1908,Passeriformes,Thraupidae,Calochaetes coccineus,Residente
+1909,Passeriformes,Thraupidae,Iridosornis porphyrocephalus,Residente
+1910,Passeriformes,Thraupidae,Iridosornis analis,Residente
+1911,Passeriformes,Thraupidae,Iridosornis rufivertex,Residente
+1912,Passeriformes,Thraupidae,Pipraeidea melanonota,Residente
+1913,Passeriformes,Thraupidae,Dubusia taeniata,Residente
+1914,Passeriformes,Thraupidae,Anisognathus melanogenys,Residente Endémica
+1915,Passeriformes,Thraupidae,Anisognathus lacrymosus,Residente
+1916,Passeriformes,Thraupidae,Anisognathus igniventris,Residente
+1917,Passeriformes,Thraupidae,Anisognathus somptuosus,Residente
+1918,Passeriformes,Thraupidae,Anisognathus notabilis,Residente
+1919,Passeriformes,Thraupidae,Buthraupis montana,Residente
+1920,Passeriformes,Thraupidae,Tephrophilus wetmorei,Residente
+1921,Passeriformes,Thraupidae,Sporathraupis cyanocephala,Residente
+1922,Passeriformes,Thraupidae,Chlorornis riefferii,Residente
+1923,Passeriformes,Thraupidae,Cnemathraupis eximia,Residente
+1924,Passeriformes,Thraupidae,Bangsia arcaei,Residente
+1925,Passeriformes,Thraupidae,Bangsia melanochlamys,Residente Endémica
+1926,Passeriformes,Thraupidae,Bangsia rothschildi,Residente
+1927,Passeriformes,Thraupidae,Bangsia edwardsi,Residente
+1928,Passeriformes,Thraupidae,Bangsia aureocincta,Residente Endémica
+1929,Passeriformes,Thraupidae,Bangsia flavovirens,Residente
+1930,Passeriformes,Thraupidae,Chalcothraupis ruficervix,Residente
+1931,Passeriformes,Thraupidae,Poecilostreptus palmeri,Residente
+1932,Passeriformes,Thraupidae,Stilpnia cyanoptera,Residente
+1933,Passeriformes,Thraupidae,Stilpnia heinei,Residente
+1934,Passeriformes,Thraupidae,Stilpnia cayana,Residente
+1935,Passeriformes,Thraupidae,Stilpnia vitriolina,Residente
+1936,Passeriformes,Thraupidae,Stilpnia nigrocincta,Residente
+1937,Passeriformes,Thraupidae,Stilpnia larvata,Residente
+1938,Passeriformes,Thraupidae,Stilpnia cyanicollis,Residente
+1939,Passeriformes,Thraupidae,Tangara vassorii,Residente
+1940,Passeriformes,Thraupidae,Tangara nigroviridis,Residente
+1941,Passeriformes,Thraupidae,Tangara fucosa,Hipotética
+1942,Passeriformes,Thraupidae,Tangara labradorides,Residente
+1943,Passeriformes,Thraupidae,Tangara cyanotis,Residente
+1944,Passeriformes,Thraupidae,Tangara inornata,Residente
+1945,Passeriformes,Thraupidae,Tangara mexicana,Residente
+1946,Passeriformes,Thraupidae,Tangara chilensis,Residente
+1947,Passeriformes,Thraupidae,Tangara velia,Residente
+1948,Passeriformes,Thraupidae,Tangara callophrys,Residente
+1949,Passeriformes,Thraupidae,Tangara lavinia,Residente
+1950,Passeriformes,Thraupidae,Tangara gyrola,Residente
+1951,Passeriformes,Thraupidae,Tangara chrysotis,Residente
+1952,Passeriformes,Thraupidae,Tangara xanthocephala,Residente
+1953,Passeriformes,Thraupidae,Tangara parzudakii,Residente
+1954,Passeriformes,Thraupidae,Tangara schrankii,Residente
+1955,Passeriformes,Thraupidae,Tangara johannae,Residente
+1956,Passeriformes,Thraupidae,Tangara arthus,Residente
+1957,Passeriformes,Thraupidae,Tangara florida,Residente
+1958,Passeriformes,Thraupidae,Tangara icterocephala,Residente
+1959,Passeriformes,Thraupidae,Thraupis episcopus,Residente
+1960,Passeriformes,Thraupidae,Thraupis glaucocolpa,Residente
+1961,Passeriformes,Thraupidae,Thraupis palmarum,Residente
+1962,Passeriformes,Thraupidae,Ixothraupis varia,Residente
+1963,Passeriformes,Thraupidae,Ixothraupis rufigula,Residente
+1964,Passeriformes,Thraupidae,Ixothraupis guttata,Residente
+1965,Passeriformes,Thraupidae,Ixothraupis xanthogastra,Residente
+1966,Passeriformes,Thraupidae,Ixothraupis punctata,Residente

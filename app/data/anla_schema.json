@@ -1,0 +1,350 @@
+{
+  "MuestreoFaunaTB": [
+    {
+      "field": "EXPEDIENTE",
+      "type": "String",
+      "size": 20,
+      "description": "Número de expediente asignado por la ANLA para el licenciamiento.",
+      "domain": "N/A",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "ID_MUES_PT",
+      "type": "String",
+      "size": 20,
+      "description": "Identificador único del punto de muestreo de fauna al que pertenece el registro. Debe coincidir con el diligenciado en el campo ID_MUES_PT de la capa <<PuntoMuestreoFauna>>. ",
+      "domain": "N/A",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "ID_MUES_TR",
+      "type": "String",
+      "size": 20,
+      "description": "Identificador único del transecto de muestreo de fauna al que pertenece el registro. Debe coincidir con el diligenciado en el campo ID_MUES_TR de la capa <<TransectoMuestreoFauna>>.",
+      "domain": "N/A",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "DETERM",
+      "type": "Double",
+      "size": 8,
+      "description": "Forma como fue determinada la especie.",
+      "domain": "Dom_Deter",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "OT_DETERM",
+      "type": "String",
+      "size": 50,
+      "description": "Forma como fue determinada la especie cuando se seleccionó Otro en campo DETERM",
+      "domain": "N/A",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "DIVISION",
+      "type": "String",
+      "size": 50,
+      "description": "División taxonómica a la que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "CLASE",
+      "type": "String",
+      "size": 50,
+      "description": "Clase a la que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "ORDEN",
+      "type": "String",
+      "size": 50,
+      "description": "Orden al que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "FAMILIA",
+      "type": "String",
+      "size": 50,
+      "description": "Familia a la que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "GENERO",
+      "type": "String",
+      "size": 50,
+      "description": "Género al que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "ESPECIE",
+      "type": "String",
+      "size": 50,
+      "description": "Nombre científico de la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "N_COMUN",
+      "type": "String",
+      "size": 50,
+      "description": "Nombre común de la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "ABUND_ABS",
+      "type": "Double",
+      "size": 8,
+      "description": "Abundancia absoluta para la unidad de muestreo (número de individuos por especie).",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "OBSERV",
+      "type": "String",
+      "size": 255,
+      "description": "Incluye las observaciones que se consideren pertinentes.",
+      "domain": "N/A",
+      "requirement": "Opcional"
+    }
+  ],
+  "MuestreoFaunaResultadosTB": [
+    {
+      "field": "EXPEDIENTE",
+      "type": "String",
+      "size": 20,
+      "description": "Número de expediente asignado por la ANLA para el licenciamiento.",
+      "domain": "N/A",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "PROYECTO",
+      "type": "String",
+      "size": 200,
+      "description": "Nombre del proyecto objeto de licenciamiento o licenciado.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "N_COBERT",
+      "type": "String",
+      "size": 100,
+      "description": "Nombre de la cobertura de la tierra en la que se realiza el muestreo, acorde al nivel de cobertura más detallado al que se llegó en la caracterización (nombre corine land cover).",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "NOMENCLAT",
+      "type": "Integer",
+      "size": 4,
+      "description": "Nomenclatura para la cobertura de la tierra correspondiente (código corine land cover).",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "DIVISION",
+      "type": "String",
+      "size": 50,
+      "description": "División taxonómica a la que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "CLASE",
+      "type": "String",
+      "size": 50,
+      "description": "Clase a la que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "ORDEN",
+      "type": "String",
+      "size": 50,
+      "description": "Orden al que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "FAMILIA",
+      "type": "String",
+      "size": 50,
+      "description": "Familia a la que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "GENERO",
+      "type": "String",
+      "size": 50,
+      "description": "Género al que pertenece la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "ESPECIE",
+      "type": "String",
+      "size": 50,
+      "description": "Nombre científico de la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "N_COMUN",
+      "type": "String",
+      "size": 50,
+      "description": "Nombre común de la especie.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "CATEG_CIT",
+      "type": "Double",
+      "size": 8,
+      "description": "Apéndice en el que se encuentra la especie según la CITES.",
+      "domain": "Dom_Apendice",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "CATEG_UICN",
+      "type": "Double",
+      "size": 8,
+      "description": "Categoría de amenaza en la que se encuentra la especie según la UICN.",
+      "domain": "Dom_Amenaza",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "CATE_MINIS",
+      "type": "Double",
+      "size": 8,
+      "description": "Categoría de amenaza en la que se encuentra la especie según la Resolución 192 de 2014 del MADS o la que la derogue o modifique.",
+      "domain": "Dom_Amenaza",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "T_DISTRIB",
+      "type": "Double",
+      "size": 8,
+      "description": "Categoría de distribución de la especie.",
+      "domain": "Dom_Tipo_Distribu",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "MIGRACION",
+      "type": "Double",
+      "size": 8,
+      "description": "Indicar si la especie es migratoria.",
+      "domain": "Dom_Boolean",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "TIPO_MIGR",
+      "type": "SmallInteger",
+      "size": 2,
+      "description": "Tipo de migración de la especie (Según Plan Nacional de las Especies Migratorias).",
+      "domain": "Dom_Tipo_Migra",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "VEDA",
+      "type": "Double",
+      "size": 8,
+      "description": "Si la especie se encuentra en veda, indica el nivel correspondiente.",
+      "domain": "Dom_Veda",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "RESOLUCION",
+      "type": "String",
+      "size": 20,
+      "description": "Número de la Resolución que establece la veda.",
+      "domain": "N/A",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "ENTID_VEDA",
+      "type": "Double",
+      "size": 8,
+      "description": "Entidad que establece la veda.",
+      "domain": "Dom_EntidadVeda",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "VIGEN_VEDA",
+      "type": "Double",
+      "size": 8,
+      "description": "Vigencia de la veda.",
+      "domain": "Dom_Vigencia",
+      "requirement": "Condicional"
+    },
+    {
+      "field": "ABUND_ABS",
+      "type": "Double",
+      "size": 8,
+      "description": "Valor de la abundancia absoluta establecido para la especie en individuos por cobertura.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "ABUND_REL",
+      "type": "Double",
+      "size": 8,
+      "description": "Valor de la abundancia relativa establecido para la especie en unidades porcentuales. Por ejemplo, si el valor es del 60,27%, se debe diligenciar 60,27.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "USO",
+      "type": "SmallInteger",
+      "size": 2,
+      "description": "Uso principal que se le da a la especie.",
+      "domain": "Dom_Uso_Fauna",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "DIETA",
+      "type": "SmallInteger",
+      "size": 2,
+      "description": "Tipo de dieta asociada a la especie.",
+      "domain": "Dom_Dieta",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "DISTR_ALT",
+      "type": "String",
+      "size": 20,
+      "description": "Rango de distribución en el que se encuentra la especie, en metros sobre el nivel del mar. Cuando la información no se encuentre disponible, diligenciar \"Sin información\".",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "FECHA_IMUE",
+      "type": "Date",
+      "size": 8,
+      "description": "Fecha de inicio de los muestreos.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "FECHA_FMUE",
+      "type": "Date",
+      "size": 8,
+      "description": "Fecha de finalización de los muestreos.",
+      "domain": "N/A",
+      "requirement": "Obligatorio"
+    },
+    {
+      "field": "OBSERV",
+      "type": "String",
+      "size": 255,
+      "description": "Incluye las observaciones que se consideren pertinentes.",
+      "domain": "N/A",
+      "requirement": "Opcional"
+    }
+  ]
+}
