@@ -1,39 +1,85 @@
 name: Validar y publicar GitHub Pages
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: r-lib/actions/setup-r@v2
+      - name: Descargar repositorio
+        uses: actions/checkout@v5
+
+      - name: Preparar R
+        uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.5.2'
           use-public-rspm: true
-      - name: Instalar dependencias R
-        run: Rscript -e 'install.packages(c("shiny", "readxl", "openxlsx", "jsonlite", "vegan", "iNEXT", "ggplot2", "zip", "shinylive"), repos="https://cloud.r-project.org")'
+
+      - name: Instalar paquetes y dependencias del sistema
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: '2'
+          dependencies: '"hard"'
+          packages: |
+            any::shiny
+            any::readxl
+            any::openxlsx
+            any::jsonlite
+            any::vegan
+            any::iNEXT
+            any::ggplot2
+            any::zip
+            any::shinylive
+
+      - name: Comprobar que todos los paquetes cargan
+        shell: Rscript {0}
+        run: |
+          paquetes <- c("shiny", "readxl", "openxlsx", "jsonlite", "vegan", "iNEXT", "ggplot2", "zip", "shinylive")
+          faltantes <- paquetes[!vapply(paquetes, requireNamespace, logical(1), quietly = TRUE)]
+          if (length(faltantes)) {
+            stop("Paquetes ausentes o que no pueden cargar: ", paste(faltantes, collapse = ", "))
+          }
+          print(vapply(paquetes, function(p) as.character(packageVersion(p)), character(1)))
+          sessionInfo()
+
       - name: Verificar cálculos y aplicación
         run: Rscript tests/test_core.R
+
       - name: Exportar aplicación para el navegador
-        run: Rscript -e 'shinylive::export("app", "site"); file.create("site/.nojekyll")'
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+        shell: Rscript {0}
+        run: |
+          shinylive::export("app", "site")
+          if (!file.exists("site/index.html")) stop("La exportación no generó site/index.html")
+          file.create("site/.nojekyll")
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparar archivos publicados
+        uses: actions/upload-pages-artifact@v3
         with:
           path: site
+
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - name: Publicar
