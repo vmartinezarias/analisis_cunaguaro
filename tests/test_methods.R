@@ -1,0 +1,15 @@
+source("app/methods.R")
+v<-c(readxl="1.4.5",iNEXT="3.0.2",vegan="2.7-3",ggplot2="4.0.3",openxlsx="4.2.8",jsonlite="2",zip="2.3.3",shiny="1.11")
+cfg<-list(class="Aves",groups="Cobertura",units=c("ID","Fecha"),kind="incidence",meaning="individuos",modules="hill",qs=c(0,2),nboot=80,mult=1.5,seed=2026,beta_metric="bray",effort_complete=TRUE)
+x<-method_summary(cfg,versions=v)
+stopifnot(grepl("BORRADOR",x),grepl("q = 0, 2",x,fixed=TRUE),grepl("80 remuestreos",x),grepl("1.5 veces",x,fixed=TRUE),!grepl("Se evaluará la diversidad beta",x,fixed=TRUE))
+# Resultado mínimo: respeta beta efectiva, no el selector incompatible.
+cfg$modules<-c("hill","beta");a<-list(b=list(records=data.frame(Especie=c("s1","s2")),abundance=matrix(1,2,2)),params=list(esfuerzo_confirmado=TRUE,hoja_esfuerzo=TRUE),hill=list(out=list(),omitted="Comunidad pequeña"),beta=list(matrix=matrix(0,2,2),metric="jaccard",removed="Comunidad vacía"),anla=list(issues=data.frame()),warnings=character())
+x<-method_summary(cfg,a,v)
+stopifnot(grepl("EJECUCIÓN VIGENTE",x),grepl("disimilitud de Jaccard",x),grepl("Comunidad pequeña",x),grepl("Comunidad vacía",x),!grepl("disimilitud de Bray",x))
+a$hill$out<-NULL;a$beta$matrix<-NULL
+x<-method_summary(cfg,a,v)
+stopifnot(grepl("no se obtuvieron curvas",x),grepl("no hubo al menos dos comunidades",x))
+cfg$modules<-"classic";x<-method_summary(cfg,versions=v)
+stopifnot(grepl("Se calcularán sobre los conteos",x),!grepl("Se estimará la diversidad de Hill",x))
+cat("OK: borrador, parámetros seleccionados, módulos, beta efectiva y análisis no estimables.\n")
