@@ -1,0 +1,422 @@
+---
+title: "Diversidad de fauna — análisis en PC"
+author: "Proyecto de inventarios de fauna"
+output:
+  html_notebook:
+    toc: true
+    toc_depth: 2
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+---
+
+Este notebook utiliza el motor `app/core.R` y los catálogos `app/data/` del paquete **diversidad_fauna_github_pages.zip**. Descomprime ese paquete y coloca este `.Rmd` en la misma carpeta que contiene `app/`, `tests/` y `tools/`. Abre el notebook en RStudio y ejecuta los bloques en orden. No requiere GitHub Pages.
+
+Los registros se separan por clase taxonómica. En incidencias, cada especie cuenta una vez por unidad de muestreo; la hoja **Esfuerzo** debe incluir todas las muestras realizadas para ese grupo, también las que no tuvieron detecciones.
+
+## 1. Configuración
+
+Modifica este bloque antes de analizar tus datos. Para probarlo, conserva el Excel de ejemplo y el modo abundancia. El ejemplo no tiene una hoja de esfuerzo independiente.
+
+```{r configuracion}
+# Carpeta que contiene app/, tests/ y tools/.
+# Si colocaste este Rmd allí y RStudio ejecuta desde esa carpeta, deja ".".
+# También puedes escribir una ruta absoluta; en Windows usa / en lugar de \.
+DIRECTORIO_PROYECTO <- "."
+
+# NULL usa el ejemplo incluido. Para tus datos, escribe la ruta del Excel.
+ARCHIVO_EXCEL <- NULL
+# ARCHIVO_EXCEL <- "/home/vmartinezarias/Datos/Inventario_fauna.xlsx"
+
+HOJA_REGISTROS <- "BD"
+HOJA_ESFUERZO <- "Esfuerzo"
+
+# Un grupo por ejecución; cambiar a Aves, Mammalia, Reptilia, etc.
+GRUPO <- "Amphibia"
+
+# Se pueden seleccionar una o varias columnas.
+COMUNIDADES <- c("Cobertura")
+UNIDADES <- c("ID", "Fecha")
+
+# "abundance" o "incidence".
+TIPO_DATOS <- "abundance"
+
+# "individuos" o "detecciones". No convertir eventos en individuos sin fundamento.
+SIGNIFICADO_CONTEOS <- "individuos"
+
+# TRUE únicamente cuando Esfuerzo contiene todas las muestras del grupo.
+ESFUERZO_COMPLETO <- FALSE
+
+ORDENES_HILL <- c(0, 1, 2)
+NBOOT <- 50
+MULTIPLICADOR_EXTRAPOLACION <- 2
+PERMUTACIONES_ACUMULACION <- 100
+SEMILLA <- 2026
+
+# Para incidencia: "jaccard" o "sorensen".
+# Para abundancia: "bray".
+METRICA_BETA <- "bray"
+
+PROYECTO <- ""
+EXPEDIENTE <- ""
+INSTALAR_PAQUETES_FALTANTES <- TRUE
+
+# Exportación opcional de GDB desde R (sf + GDAL, sin Python).
+EXPORTAR_GDB <- FALSE
+PERMITIR_BORRADOR_GDB <- FALSE
+
+# Tipografía y dimensiones de todas las figuras.
+LETRA_TITULO <- 16
+LETRA_TITULO_EJES <- 13
+LETRA_VALORES_EJES <- 11
+LETRA_LEYENDA <- 11
+LETRA_PANELES <- 13
+LETRA_NOTAS <- 9
+ANCHO_FIGURA <- 11
+ALTO_FIGURA <- 7
+DPI_PNG <- 180
+```
+
+## 2. Dependencias y motor
+
+Se instalan únicamente los paquetes que falten. Este bloque requiere internet durante la primera instalación. Después, el análisis utiliza archivos locales.
+
+```{r dependencias, message=FALSE}
+paquetes <- c("readxl", "openxlsx", "jsonlite", "vegan", "iNEXT", "ggplot2", "zip", "knitr", "rmarkdown")
+if (EXPORTAR_GDB) paquetes <- c(paquetes, "sf")
+faltantes <- paquetes[!vapply(paquetes, requireNamespace, logical(1), quietly = TRUE)]
+if (length(faltantes)) {
+  if (!INSTALAR_PAQUETES_FALTANTES) stop("Instala estos paquetes: ", paste(faltantes, collapse = ", "))
+  install.packages(faltantes, repos = "https://cloud.r-project.org")
+}
+
+RAIZ <- normalizePath(DIRECTORIO_PROYECTO, mustWork = TRUE)
+CARPETA_DATOS <- file.path(RAIZ, "app", "data")
+MOTOR <- file.path(RAIZ, "app", "core.R")
+if (!file.exists(MOTOR)) stop("No se encontró app/core.R. Descomprime el paquete y ajusta DIRECTORIO_PROYECTO.")
+if (!dir.exists(CARPETA_DATOS)) stop("No se encontró app/data/.")
+source(MOTOR)
+tema_figuras <- function() ggplot2::theme_minimal(base_size = LETRA_VALORES_EJES) +
+  ggplot2::theme(plot.title = ggplot2::element_text(size = LETRA_TITULO),
+    axis.title = ggplot2::element_text(size = LETRA_TITULO_EJES),
+    axis.text = ggplot2::element_text(size = LETRA_VALORES_EJES),
+    legend.title = ggplot2::element_text(size = LETRA_LEYENDA),
+    legend.text = ggplot2::element_text(size = LETRA_LEYENDA),
+    strip.text = ggplot2::element_text(size = LETRA_PANELES),
+    plot.subtitle = ggplot2::element_text(size = LETRA_NOTAS + 1),
+    plot.caption = ggplot2::element_text(size = LETRA_NOTAS))
+
+if (is.null(ARCHIVO_EXCEL)) ARCHIVO_EXCEL <- file.path(CARPETA_DATOS, "BD_muestra.xlsx")
+if (!file.exists(ARCHIVO_EXCEL)) stop("No se encontró el Excel: ", ARCHIVO_EXCEL)
+stopifnot(TIPO_DATOS %in% c("abundance", "incidence"),
+          SIGNIFICADO_CONTEOS %in% c("individuos", "detecciones"),
+          length(ORDENES_HILL) > 0,
+          all(ORDENES_HILL %in% c(0, 1, 2)),
+          NBOOT >= 10, NBOOT <= 500,
+          MULTIPLICADOR_EXTRAPOLACION >= 1,
+          MULTIPLICADOR_EXTRAPOLACION <= 2)
+if (TIPO_DATOS == "incidence" && !METRICA_BETA %in% c("jaccard", "sorensen")) {
+  message("Se usará Jaccard para incidencia."); METRICA_BETA <- "jaccard"
+}
+if (TIPO_DATOS == "abundance") METRICA_BETA <- "bray"
+
+set.seed(SEMILLA)
+# Cada ejecución genera una carpeta nueva y evita sobrescribir resultados anteriores.
+CARPETA_SALIDA <- tempfile(
+  pattern = paste0("Diversidad_", gsub("[^A-Za-z0-9]", "_", GRUPO), "_", format(Sys.time(), "%Y%m%d_%H%M%S"), "_"),
+  tmpdir = RAIZ
+)
+dir.create(CARPETA_SALIDA, recursive = TRUE)
+cat("Resultados:", CARPETA_SALIDA, "\n")
+```
+
+## 3. Lectura y validación
+
+La hoja de esfuerzo debe contener **Clase** y las columnas seleccionadas como comunidad y unidad. Una fila repetida con la misma combinación cuenta como una sola muestra. Si una visita no muestreó un grupo, no debe declararse como muestra de ese grupo.
+
+```{r lectura}
+hojas <- readxl::excel_sheets(ARCHIVO_EXCEL)
+if (!HOJA_REGISTROS %in% hojas) stop("La hoja de registros no existe. Disponibles: ", paste(hojas, collapse = ", "))
+registros_todos <- prepare_records(readxl::read_excel(ARCHIVO_EXCEL, sheet = HOJA_REGISTROS))
+cat("Grupos disponibles:", paste(sort(unique(registros_todos$Clase)), collapse = ", "), "\n")
+registros <- registros_todos[registros_todos$Clase == GRUPO, , drop = FALSE]
+if (!nrow(registros)) stop("No hay registros de ", GRUPO, ". Revisa la columna Clase y la configuración.")
+
+esfuerzo <- NULL
+if (HOJA_ESFUERZO %in% hojas) {
+  esfuerzo <- as.data.frame(readxl::read_excel(ARCHIVO_EXCEL, sheet = HOJA_ESFUERZO), check.names = FALSE)
+  if (!"Clase" %in% names(esfuerzo)) stop("La hoja Esfuerzo requiere la columna Clase.")
+  if (!nrow(esfuerzo)) {
+    esfuerzo <- NULL
+  } else {
+    esfuerzo <- esfuerzo[clean_text(esfuerzo$Clase) == GRUPO, , drop = FALSE]
+    if (!nrow(esfuerzo)) stop("Esfuerzo no contiene muestras del grupo seleccionado.")
+  }
+}
+if (TIPO_DATOS == "incidence" && (is.null(esfuerzo) || !ESFUERZO_COMPLETO)) {
+  stop("Incidencia requiere la hoja Esfuerzo y ESFUERZO_COMPLETO <- TRUE tras verificar su completitud.")
+}
+if (SIGNIFICADO_CONTEOS == "detecciones") {
+  warning("Los resultados sobre conteos describen detecciones/eventos, no abundancias poblacionales de individuos.")
+}
+head(registros)
+```
+
+## 4. Matrices internas
+
+La matriz de abundancia suma los conteos por especie y comunidad. Las matrices de incidencia conservan especies en filas y muestras en columnas. Las muestras sin detecciones tienen columnas de ceros.
+
+```{r matrices}
+matrices <- build_matrices(registros, esfuerzo, COMUNIDADES, UNIDADES)
+cat(matrices$note, "\n")
+cat("Registros:", nrow(registros), "| Especies:", length(unique(registros$Especie)),
+    "| Comunidades:", nrow(matrices$abundance), "\n")
+matrices$abundance
+```
+
+## 5. Índices clásicos y frecuencias
+
+Los índices clásicos de este bloque se calculan sobre **conteos**, también cuando se selecciona Hill por incidencia. Shannon usa logaritmos naturales. Se distinguen concentración de Simpson y 1 menos concentración. Las frecuencias de incidencia son proporciones de muestras con presencia; sin esfuerzo independiente son provisionales.
+
+```{r clasicos_frecuencias}
+indices_clasicos <- classic_indices(matrices$abundance)
+frecuencias <- frequency_table(matrices)
+indices_clasicos
+head(frecuencias, 30)
+```
+
+## 6. Hill y representatividad
+
+**q = 0**: riqueza; **q = 1**: diversidad efectiva de Shannon; **q = 2**: diversidad efectiva de Simpson. Las curvas incluyen intervalos bootstrap al 95%. iNEXT 3.0.2 emplea internamente 100 remuestreos en sus estimaciones asintóticas; NBOOT configura las curvas.
+
+```{r hill}
+hill <- hill_analysis(matrices, TIPO_DATOS, ORDENES_HILL, NBOOT, MULTIPLICADOR_EXTRAPOLACION)
+if (length(hill$omitted)) cat("Comunidades omitidas:", paste(hill$omitted, collapse = ", "), "\n")
+if (length(hill$warnings)) cat(paste(hill$warnings, collapse = "\n"), "\n")
+if (!is.null(hill$out)) {
+  print(hill$out$DataInfo)
+  print(hill$out$AsyEst)
+} else {
+  message("Hill no estimable para estos datos. Se conservan los demás análisis.")
+}
+```
+
+```{r figuras_hill, fig.width=11, fig.height=7}
+figuras_hill <- list()
+if (!is.null(hill$out)) {
+  for (tipo in 1:3) {
+    grafico <- iNEXT::ggiNEXT(hill$out, type = tipo, facet.var = "Order.q", color.var = "Assemblage") +
+      tema_figuras() +
+      ggplot2::labs(
+        x = if (tipo == 3) "Cobertura del muestreo" else if (TIPO_DATOS == "abundance") "Número de individuos o detecciones" else "Número de unidades de muestreo",
+        y = if (tipo == 2) "Cobertura del muestreo" else "Diversidad (número efectivo de especies)",
+        color = "Comunidad", fill = "Comunidad", linetype = "Método", shape = "Método",
+        caption = "Intervalos bootstrap al 95%; verificar diseño, esfuerzo y naturaleza de los conteos.")
+    figuras_hill[[as.character(tipo)]] <- grafico
+    print(grafico)
+  }
+}
+```
+
+Los tres gráficos corresponden a diversidad por tamaño de muestra, completitud del muestreo y diversidad por cobertura del muestreo. Comparar coberturas equivalentes no corrige por sí solo diferencias de detectabilidad o de métodos.
+
+## 7. Acumulación de especies
+
+Se utiliza la incidencia por muestra y órdenes aleatorios. La banda es ±1 desviación estándar entre permutaciones, **no un intervalo de confianza**. Si no hay Esfuerzo, faltarán las muestras sin detecciones.
+
+```{r acumulacion, fig.width=11, fig.height=7}
+acumulacion <- accumulation_analysis(matrices, PERMUTACIONES_ACUMULACION)
+figura_acumulacion <- NULL
+if (nrow(acumulacion)) {
+  figura_acumulacion <- ggplot2::ggplot(acumulacion,
+    ggplot2::aes(Muestras, Riqueza, color = Comunidad, fill = Comunidad)) +
+    ggplot2::geom_ribbon(ggplot2::aes(ymin = pmax(0, Riqueza - SD_permutaciones),
+                                    ymax = Riqueza + SD_permutaciones), alpha = 0.12, color = NA) +
+    ggplot2::geom_line(linewidth = 0.8) + tema_figuras() +
+    ggplot2::labs(x = "Número de muestras", y = "Riqueza observada", color = "Comunidad", fill = "Comunidad", subtitle = "Banda: ±1 SD entre órdenes aleatorios")
+  print(figura_acumulacion)
+} else {
+  message("Acumulación no disponible: se necesitan al menos dos muestras y alguna detección.")
+}
+```
+
+## 8. Diversidad beta
+
+Jaccard y Sørensen utilizan composición binaria por comunidad; Bray–Curtis utiliza conteos. Son disimilitudes observadas, sin corrección por completitud. Las comunidades completamente vacías se omiten y se reportan.
+
+```{r beta, fig.width=10, fig.height=8}
+beta <- beta_analysis(matrices, TIPO_DATOS, METRICA_BETA)
+cat(beta$note, "\n")
+if (length(beta$removed)) cat("Comunidades vacías omitidas:", paste(beta$removed, collapse = ", "), "\n")
+figura_beta <- NULL
+if (!is.null(beta$matrix)) {
+  print(beta$matrix)
+  tabla_beta_grafico <- as.data.frame(as.table(beta$matrix))
+  names(tabla_beta_grafico) <- c("Comunidad1", "Comunidad2", "Disimilitud")
+  figura_beta <- ggplot2::ggplot(tabla_beta_grafico,
+    ggplot2::aes(Comunidad1, Comunidad2, fill = Disimilitud)) +
+    ggplot2::geom_tile() + ggplot2::coord_equal() +
+    ggplot2::scale_fill_gradient(low = "#f0f5e9", high = "#1c6249", limits = c(0, 1)) +
+    tema_figuras() +
+    ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 45, hjust = 1)) +
+    ggplot2::labs(x = "Comunidad", y = "Comunidad", fill = "Disimilitud", title = paste("Diversidad beta ·", beta$metric))
+  print(figura_beta)
+}
+```
+
+## 9. Catálogos y especies amenazadas
+
+Se utilizan los catálogos versionados del proyecto, sin consulta automática de sus versiones vigentes. El cruce conserva el nombre original, aplica equivalencias explícitas de sinonimos.csv y no asigna categorías cuando hay ambigüedad. Los candidatos de endemismo y las anotaciones CITES requieren revisión.
+
+```{r catalogos}
+catálogos <- read_catalogs(CARPETA_DATOS)
+especies_catalogos <- enrich_species(registros, catálogos)
+especies_amenazadas <- especies_catalogos[
+  especies_catalogos$IUCN %in% c("VU", "EN", "CR") |
+  especies_catalogos$MADS %in% c("VU", "EN", "CR"), , drop = FALSE]
+especies_catalogos
+especies_amenazadas
+```
+
+## 10. Tablas ANLA
+
+Se generan tablas no espaciales. Puntos, transectos y relaciones se incorporan posteriormente. Las categorías no encontradas no se convierten automáticamente a LC, NE o No aplica. ABUND_REL es un porcentaje por cobertura dentro del grupo seleccionado.
+
+```{r anla}
+anla <- read_anla(CARPETA_DATOS)
+salida_anla <- anla_tables(registros, especies_catalogos,
+  list(proyecto = PROYECTO, expediente = EXPEDIENTE, conteos = SIGNIFICADO_CONTEOS), anla)
+salida_anla$issues
+head(salida_anla$tables$MuestreoFaunaResultadosTB)
+cat("Pendientes ANLA:", nrow(salida_anla$issues), "\n")
+```
+
+## 11. Exportar resultados
+
+Se guardan tablas Excel, CSV, matrices de incidencia, gráficos PNG/PDF, parámetros, versiones y un objeto RDS que conserva los resultados de la ejecución. La sección siguiente permite añadir una GDB desde R.
+
+```{r exportacion}
+wb <- openxlsx::createWorkbook()
+agregar_hoja <- function(nombre, tabla) {
+  if (is.null(tabla)) return(invisible(NULL))
+  tabla <- as.data.frame(tabla, check.names = FALSE)
+  openxlsx::addWorksheet(wb, nombre)
+  openxlsx::writeData(wb, nombre, tabla)
+  if (ncol(tabla)) {
+    estilo <- openxlsx::createStyle(fgFill = "#163E32", fontColour = "white", textDecoration = "bold")
+    openxlsx::addStyle(wb, nombre, estilo, rows = 1, cols = seq_len(ncol(tabla)), gridExpand = TRUE)
+    openxlsx::freezePane(wb, nombre, firstRow = TRUE)
+    openxlsx::setColWidths(wb, nombre, cols = seq_len(ncol(tabla)), widths = "auto")
+  }
+}
+agregar_hoja("Clasicos", indices_clasicos)
+agregar_hoja("Frecuencias", frecuencias)
+agregar_hoja("Especies_catalogos", especies_catalogos)
+agregar_hoja("Amenazadas", especies_amenazadas)
+agregar_hoja("Pendientes_ANLA", salida_anla$issues)
+for (n in names(salida_anla$tables)) agregar_hoja(n, salida_anla$tables[[n]])
+agregar_hoja("Abundancias", data.frame(Comunidad = rownames(matrices$abundance), matrices$abundance, check.names = FALSE))
+if (!is.null(hill$out)) {
+  agregar_hoja("Hill_DataInfo", hill$out$DataInfo)
+  agregar_hoja("Hill_Asintoticos", hill$out$AsyEst)
+  for (n in names(hill$out$iNextEst)) agregar_hoja(paste0("Hill_", n), hill$out$iNextEst[[n]])
+}
+if (!is.null(beta$matrix)) agregar_hoja("Beta", data.frame(Comunidad = rownames(beta$matrix), beta$matrix, check.names = FALSE))
+agregar_hoja("Acumulacion", acumulacion)
+openxlsx::saveWorkbook(wb, file.path(CARPETA_SALIDA, "Resultados.xlsx"), overwrite = FALSE)
+
+csv <- function(objeto, nombre) write.csv(objeto, file.path(CARPETA_SALIDA, nombre), row.names = FALSE, na = "")
+csv(registros, "Registros_preparados.csv")
+csv(matrices$effort, "Muestras_utilizadas.csv")
+csv(indices_clasicos, "Clasicos.csv")
+csv(frecuencias, "Frecuencias.csv")
+csv(especies_catalogos, "Especies_catalogos.csv")
+csv(especies_amenazadas, "Especies_amenazadas.csv")
+csv(salida_anla$issues, "Validacion_ANLA.csv")
+for (n in names(salida_anla$tables)) csv(salida_anla$tables[[n]], paste0(n, ".csv"))
+for (i in seq_along(matrices$incidence)) {
+  m <- matrices$incidence[[i]]
+  csv(data.frame(Especie = rownames(m), m, check.names = FALSE), paste0("Incidencia_", i, ".csv"))
+  csv(matrices$units[[i]], paste0("Unidades_", i, ".csv"))
+}
+if (nrow(acumulacion)) csv(acumulacion, "Acumulacion.csv")
+if (!is.null(beta$matrix)) write.csv(beta$matrix, file.path(CARPETA_SALIDA, "Beta.csv"))
+
+guardar_figura <- function(figura, nombre, ancho = ANCHO_FIGURA, alto = ALTO_FIGURA) {
+  if (is.null(figura)) return(invisible(NULL))
+  for (ext in c("png", "pdf")) ggplot2::ggsave(file.path(CARPETA_SALIDA, paste0(nombre, ".", ext)),
+    plot = figura, width = ancho, height = alto, dpi = DPI_PNG)
+}
+for (n in names(figuras_hill)) guardar_figura(figuras_hill[[n]], paste0("Hill_", n))
+guardar_figura(figura_acumulacion, "Acumulacion")
+guardar_figura(figura_beta, "Beta")
+
+parametros <- list(grupo = GRUPO, comunidades = COMUNIDADES, muestras = UNIDADES,
+  tipo = TIPO_DATOS, conteos = SIGNIFICADO_CONTEOS, q = ORDENES_HILL, nboot = NBOOT,
+  extrapolacion = MULTIPLICADOR_EXTRAPOLACION, permutaciones_acumulacion = PERMUTACIONES_ACUMULACION,
+  estilo_grafico = list(titulo = LETRA_TITULO, ejes = LETRA_TITULO_EJES, valores = LETRA_VALORES_EJES, leyenda = LETRA_LEYENDA, paneles = LETRA_PANELES, notas = LETRA_NOTAS, ancho = ANCHO_FIGURA, alto = ALTO_FIGURA, dpi = DPI_PNG),
+  semilla = SEMILLA, esfuerzo_confirmado = ESFUERZO_COMPLETO, proyecto = PROYECTO, expediente = EXPEDIENTE,
+  R = R.version.string, iNEXT = as.character(utils::packageVersion("iNEXT")),
+  vegan = as.character(utils::packageVersion("vegan")),
+  catalogos_md5 = as.list(tools::md5sum(list.files(CARPETA_DATOS, pattern = "\\.(csv|json)$", full.names = TRUE))))
+jsonlite::write_json(parametros, file.path(CARPETA_SALIDA, "parametros.json"), pretty = TRUE, auto_unbox = TRUE)
+writeLines(capture.output(sessionInfo()), file.path(CARPETA_SALIDA, "sessionInfo.txt"))
+writeLines(c(matrices$note, hill$warnings,
+  "Hill: intervalos bootstrap 95%; acumulación: banda ±1 SD entre órdenes aleatorios.",
+  "Beta observada sin corrección por completitud o detectabilidad.",
+  "ANLA: revisar Validacion_ANLA.csv. Geometrías y relaciones pendientes."), file.path(CARPETA_SALIDA, "LEEME.txt"))
+saveRDS(list(parametros = parametros, matrices = matrices, clasicos = indices_clasicos,
+  frecuencias = frecuencias, hill = hill, beta = beta, acumulacion = acumulacion,
+  especies = especies_catalogos, anla = salida_anla), file.path(CARPETA_SALIDA, "Resultados_completos.rds"))
+ARCHIVO_ZIP <- paste0(CARPETA_SALIDA, ".zip")
+zip::zipr(ARCHIVO_ZIP, files = list.files(CARPETA_SALIDA, full.names = TRUE), root = CARPETA_SALIDA)
+cat("Carpeta de resultados:", CARPETA_SALIDA, "\nZIP:", ARCHIVO_ZIP, "\n")
+```
+
+## 12. Exportación opcional de File Geodatabase, desde R
+
+Para activarla configura **EXPORTAR_GDB <- TRUE**. Usa `sf`, que llama a GDAL, sin Python. La plantilla incluida conserva los tipos de campo y dominios ANLA: se añaden registros a sus tablas sin recrearlas. Se necesita GDAL con escritura OpenFileGDB (>= 3.6). El GDAL enlazado a `sf` puede ser distinto del de QGIS Flatpak.
+
+Si hay pendientes, la exportación se detiene salvo que configures explícitamente **PERMITIR_BORRADOR_GDB <- TRUE**. La GDB no incluye geometrías de puntos/transectos ni certifica una entrega ANLA completa.
+
+```{r convertir_gdb}
+if (EXPORTAR_GDB) {
+  source(file.path(RAIZ, "tools", "export_gdb.R"))
+  GDB_SALIDA <- file.path(CARPETA_SALIDA, paste0(GRUPO, ".gdb"))
+  export_anla_gdb_R(salida_anla$tables, salida_anla$issues, GDB_SALIDA,
+    file.path(CARPETA_DATOS, "anla_template.gdb.zip"), permitir_borrador = PERMITIR_BORRADOR_GDB)
+  # Actualizar el ZIP para incluir la GDB y su validación.
+  unlink(ARCHIVO_ZIP)
+  zip::zipr(ARCHIVO_ZIP, files = list.files(CARPETA_SALIDA, full.names = TRUE), root = CARPETA_SALIDA)
+  cat("GDB:", GDB_SALIDA, "\n")
+}
+```
+
+## 13. Abrir la interfaz local opcionalmente
+
+Este bloque es opcional y abre la misma aplicación Shiny del proyecto. No lo ejecutes al generar el informe: permanece activo hasta detener la aplicación.
+
+```{r interfaz_local, eval=FALSE}
+if (!requireNamespace("shiny", quietly = TRUE)) install.packages("shiny", repos = "https://cloud.r-project.org")
+shiny::runApp(file.path(RAIZ, "app"))
+```
+
+## Referencias
+
+Chao et al. (2014). Rarefaction and extrapolation with Hill numbers: a framework for sampling and estimation in species diversity studies. *Ecological Monographs*, 84, 45–67. DOI: 10.1890/13-0133.1.
+
+Hsieh, Ma & Chao (2016). iNEXT: an R package for rarefaction and extrapolation of species diversity (Hill numbers). *Methods in Ecology and Evolution*. DOI: 10.1111/2041-210X.12613.
+
+Documentación de iNEXT, vegan y GDAL OpenFileGDB. Esquema ANLA y catálogos versionados suministrados para el proyecto.
+
+## Plantillas de entrada
+
+La plantilla básica utiliza las 17 columnas del Excel suministrado. Las categorías de amenaza se consultan en los catálogos. Para crear la plantilla básica desde R:
+
+```{r generar_plantilla, eval=FALSE}
+source(file.path(RAIZ, "app", "template.R"))
+write_input_template(file.path(RAIZ, "Plantilla_diversidad_basica.xlsx"),
+  include_effort = FALSE, data_path = file.path(CARPETA_DATOS, "BD_muestra.xlsx"))
+# Para Hill por incidencia, usar include_effort = TRUE y completar Esfuerzo.
+```
