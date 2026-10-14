@@ -1,6 +1,8 @@
 # Diversidad de fauna - R
 
 Versión on line: https://vmartinezarias.github.io/analisis_cunaguaro/
+Versión para descarga en pc: https://github.com/vmartinezarias/analisis_cunaguaro/blob/main/diversidad_fauna_metodos_cunaguaro_PC.zip
+
 
 Primera versión para inventarios de aves, mamíferos, anfibios y reptiles. Carga Excel; compara comunidades; define muestras; analiza abundancia e incidencia; genera tablas ANLA y cruces de catálogos.
 
