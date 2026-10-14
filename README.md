@@ -1,16 +1,8 @@
-# Diversidad de fauna — R en GitHub Pages
+# Diversidad de fauna - R
+
+Versión on line: https://vmartinezarias.github.io/analisis_cunaguaro/
 
 Primera versión para inventarios de aves, mamíferos, anfibios y reptiles. Carga Excel; compara comunidades; define muestras; analiza abundancia e incidencia; genera tablas ANLA y cruces de catálogos.
-
-## Publicar en tu repositorio
-
-1. Crear un repositorio en GitHub y subir **el contenido** de esta carpeta, conservando `app/`, `app/data/`, `tests/`, `tools/` y `.github/workflows/pages.yml`. La carpeta oculta `.github` debe incluirse. No subir el ZIP como único archivo.
-2. En **Settings → Pages → Build and deployment → Source**, elegir **GitHub Actions**.
-3. Usar la rama `main`. Si tiene otro nombre, cambiarlo en `pages.yml`.
-4. En **Actions**, ejecutar o revisar «Validar y publicar GitHub Pages». Ejecuta los tests de R antes de exportar con Shinylive y publicar.
-5. La URL será `https://USUARIO.github.io/REPOSITORIO/`.
-
-Esta entrega es código fuente preparado para despliegue; no crea tu repositorio ni publica una página en tu cuenta. Los catálogos ya están incluidos: no hace falta subir los ZIP originales.
 
 ## Carpeta data
 
@@ -78,7 +70,3 @@ Crea **tablas no espaciales** con tipos y dominios; reabre la GDB y comprueba n�
 - Catálogos versionados, no necesariamente vigentes. El usuario debe verificar actualización y permisos de redistribución antes de publicar los catálogos.
 
 Referencias: Chao et al. 2014, Ecological Monographs 84:45–67, doi:10.1890/13-0133.1; Hsieh et al. 2016, Methods in Ecology and Evolution, doi:10.1111/2041-210X.12613; documentación iNEXT, vegan, Shinylive y GDAL OpenFileGDB.
-
-## Actualización v2
-
-Ver LEEME_ACTUALIZACION_V2.md. Incluye notebook de PC enteramente en R, exportación de GDB en R con sf y plantilla de dominios, corrección del renderizado de tablas Shiny y controles de tipografía de gráficos.
