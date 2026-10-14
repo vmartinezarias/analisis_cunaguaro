@@ -6,6 +6,13 @@ library(vegan)
 library(iNEXT)
 library(ggplot2)
 library(zip)
+# Ajuste oficial de Posit para descargas de Shinylive en Chromium.
+# https://shiny.posit.co/r/components/inputs/download-button/
+downloadButton <- function(...) {
+ tag <- shiny::downloadButton(...)
+ tag$attribs$download <- NULL
+ tag
+}
 source("core.R",local=TRUE)
 source("template.R",local=TRUE)
 source("methods.R",local=TRUE)
@@ -16,7 +23,7 @@ css <- "body{background:#f3f6f1;color:#23362d;font-family:system-ui,sans-serif}.
 ui <- fluidPage(tags$head(tags$style(HTML(css))),
  div(class="hero",div(class="brand",tags$img(src="cunaguaro.png",alt="Cunaguaro — Biodiversidad y Cultura")),div(class="eyebrow","Ecología · Inventarios · ANLA"),h1("Diversidad de fauna"),p("De los registros de campo a resultados reproducibles. Compara comunidades, define tus muestras y exporta análisis y tablas por grupo taxonómico.")),
  sidebarLayout(sidebarPanel(width=3,
-  h3("1 · Datos"),fileInput("file","Cargar Excel",accept=c(".xlsx")),checkboxInput("example","Usar ejemplo incluido",TRUE),uiOutput("sheet_ui"),
+  h3("1 · Datos"),fileInput("file","Cargar Excel",accept=c(".xlsx")),checkboxInput("example","Usar ejemplo ficticio (Narnia y Matrix)",TRUE),uiOutput("sheet_ui"),
   downloadButton("template","Plantilla básica"),tags$br(),tags$br(),downloadButton("template_effort","Plantilla con esfuerzo"),tags$hr(),uiOutput("classes_ui"),
   h3("2 · Diseño"),uiOutput("group_ui"),uiOutput("units_ui"),
   selectInput("kind","Tipo de datos",c("Abundancias / conteos"="abundance","Incidencias por muestra"="incidence")),
